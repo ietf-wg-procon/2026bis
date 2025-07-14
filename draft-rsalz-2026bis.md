@@ -50,8 +50,8 @@ process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
 This document obsoletes RFC2026, RFC6410, RFC7100, RFC7127, RFC8789, and
-RFC9282.  It updates RFC5657.  It also includes the changes from
-RFC7475, and with {{bis2418}}, obsoletes it.
+RFC9282.  It updates RFC5657.  This also includes the changes from
+RFC7475, and together with {{bis2418}}, markes RFC 7475 as obsolete.
 
 
 --- middle
@@ -101,8 +101,6 @@ description of the IESG responsibilities related to those streams.
 
 
 ## Terminology
-
-{::boilerplate bcp14info}
 
 The following terms are used throughout this document.
 For more details about the organizations related to the IETF, see
@@ -361,7 +359,7 @@ is published as part of the "Request for Comments" (RFC) document
 series. This archival series is the official publication channel for
 Internet standards documents and other publications of the IESG, IAB,
 and the Internet community. RFCs can be obtained from a number of
-Interenet hosts using standard Internet applications such as the WWW.
+Internet hosts using standard Internet applications such as the WWW.
 
 The RFC series of documents on networking began in 1969 as part of
 the original ARPA wide-area networking (ARPANET) project.
@@ -394,10 +392,10 @@ RFC repository.
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF process function. These RFCs form
-the specification has been adopted as a Best Current Practice (BCP)
-, it is given the
-additional label "BCPxxx", but it keeps its RFC number and its place
-in the RFC series. (see {{sec5}})
+the specification has been adopted as a Best Current Practice (BCP),
+it is given the
+additional label "BCP xxx", but it keeps its RFC number and its place
+in the RFC series (see {{sec5}}).
 
 Not all specifications of protocols or services for the Internet
 should or will become Internet Standards or BCPs. Such non-standards
@@ -405,14 +403,9 @@ track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
 directly as "Experimental" or "Informational" RFCs at the discretion
 of the RFC Editor in consultation with the IESG (see {{sec42}}).
-
-        It is important to remember that not all RFCs
-        are standards track documents, and that not all
-        standards track documents reach the level of
-        Internet Standard. In the same way, not all RFCs
-        which describe current practices have been given
-        the review and approval to become BCPs. See
-        {{!RFC1796} for further information.
+Similarly, not all RFCs which
+describe current practices have been given the review and approval
+to become BCPs. See {{!RFC1796}} for further information.
 
 ## Internet-Drafts {#sec22}
 
@@ -658,7 +651,7 @@ community and as an archival record of the work, subject only to
 editorial considerations and to verification that there has been
 adequate coordination with the standards process (see below). An
 Experimental specification may be the output of an organized Internet
-research effort (e.g., a Research Group of the Internet Research Task Force)
+research effort (e.g., a Research Group of the Internet Research Task Force),
 an IETF Working
 Group, or it may be an individual contribution.
 
@@ -675,7 +668,7 @@ that there has been adequate coordination with the standards process
 
 Specifications that have been prepared outside of the Internet
 community and are not incorporated into the Internet Standards
-Process or do not meet the legal requirements {#ipr-requirements}
+Process or do not meet the legal requirements of {{ipr-requirements}}
 may be published as
 Informational RFCs, with the permission of the owner and the
 concurrence of the RFC Editor.
