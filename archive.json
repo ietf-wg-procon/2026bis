@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-10T00:49:36.162793+00:00",
+  "timestamp": "2025-07-15T00:58:22.938935+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -127,6 +127,54 @@
       "body": "See https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/. He has a message that talks about 2026bis and 2418bis.\n",
       "createdAt": "2025-04-09T19:05:41Z",
       "updatedAt": "2025-04-09T19:05:41Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 20,
+      "id": "I_kwDOMZ1wVs7Ad9k0",
+      "title": "rfc 3669",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/20",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "What shoudl be done about this, if anything?  See https://mailarchive.ietf.org/arch/msg/procon/D_wZGrV73Xud4YylRcU_MLCBMZo/ and the thread.",
+      "createdAt": "2025-07-14T15:01:49Z",
+      "updatedAt": "2025-07-14T15:01:49Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 21,
+      "id": "I_kwDOMZ1wVs7AeJEw",
+      "title": "RFC 5657",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/21",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Should RFC 5667 be obsoleted by this draft? See thread starting at https://mailarchive.ietf.org/arch/msg/procon/D_wZGrV73Xud4YylRcU_MLCBMZo/",
+      "createdAt": "2025-07-14T15:17:56Z",
+      "updatedAt": "2025-07-14T15:17:56Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 22,
+      "id": "I_kwDOMZ1wVs7AeKO5",
+      "title": "informational document section 6.2.2",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/22",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Non=compliant documents (e.g., giving rights to the Trust) should not be in the IETF stream. This needs to be fixed.  See the thread starting at https://mailarchive.ietf.org/arch/msg/procon/D_wZGrV73Xud4YylRcU_MLCBMZo/",
+      "createdAt": "2025-07-14T15:19:41Z",
+      "updatedAt": "2025-07-14T15:19:41Z",
       "closedAt": null,
       "comments": []
     }
@@ -534,6 +582,32 @@
       "mergeCommit": {
         "oid": "e33169433b9647e46e2d531a742c2b20c3de2dc0"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 23,
+      "id": "PR_kwDOMZ1wVs6e3Lhq",
+      "title": "Changes from Jari's review",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/23",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-14T19:59:42Z",
+      "updatedAt": "2025-07-14T19:59:42Z",
+      "baseRepository": "richsalz/draft-rsalz-2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "040551e6c2e751d30e25bf819aeddf6fa2ae7d92",
+      "headRepository": "richsalz/draft-rsalz-2026bis",
+      "headRefName": "jari-first-review",
+      "headRefOid": "44c8e603d2823178cd644490c9b7d3bd26ed34d3",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
