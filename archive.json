@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-27T01:03:30.431831+00:00",
+  "timestamp": "2025-08-28T00:50:11.623117+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -175,6 +175,22 @@
       "body": "Non=compliant documents (e.g., giving rights to the Trust) should not be in the IETF stream. This needs to be fixed.  See the thread starting at https://mailarchive.ietf.org/arch/msg/procon/D_wZGrV73Xud4YylRcU_MLCBMZo/",
       "createdAt": "2025-07-14T15:19:41Z",
       "updatedAt": "2025-07-14T15:19:41Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 24,
+      "id": "I_kwDOMZ1wVs7ITSPo",
+      "title": "record keeping and appeals",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/24",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
+      "createdAt": "2025-08-27T18:47:26Z",
+      "updatedAt": "2025-08-27T18:47:26Z",
       "closedAt": null,
       "comments": []
     }
