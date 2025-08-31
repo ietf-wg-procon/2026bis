@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-28T00:50:11.623117+00:00",
+  "timestamp": "2025-08-31T00:54:18.232510+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -119,16 +119,24 @@
       "id": "I_kwDOMZ1wVs6x1xyK",
       "title": "Michael Richardson's comments",
       "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/19",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "See https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/. He has a message that talks about 2026bis and 2418bis.\n",
       "createdAt": "2025-04-09T19:05:41Z",
-      "updatedAt": "2025-04-09T19:05:41Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2025-08-29T17:33:44Z",
+      "closedAt": "2025-08-29T17:33:44Z",
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "Thanks @mcr, closing this!",
+          "createdAt": "2025-08-29T17:33:44Z",
+          "updatedAt": "2025-08-29T17:33:44Z"
+        }
+      ]
     },
     {
       "number": 20,
@@ -191,6 +199,92 @@
       "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
       "createdAt": "2025-08-27T18:47:26Z",
       "updatedAt": "2025-08-27T18:47:26Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 25,
+      "id": "I_kwDOMZ1wVs7IkpjN",
+      "title": "should we still have two documents",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/25",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "On the whole, my question is are there things we can remove from the\ndocument, leaving to wiki, changing culture or other mechanism.\nI also think we should ask if two documents are the right number here.\nIt would be good to ask a few relative newcomers to the IETF about this.\n \n\nreplacing #19.\n",
+      "createdAt": "2025-08-29T00:32:41Z",
+      "updatedAt": "2025-08-29T00:32:41Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 26,
+      "id": "I_kwDOMZ1wVs7IkqSf",
+      "title": "should process documents go into a new category",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/26",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "} \"   Although this document is not an IETF Standards Track publication, \"\n\nI kinda did a double take on that.  It's true though.\nThat it defines the IETF Standards Track ... and yet, it's not a part of it.\n(Something about the set of all sets...)\nThe substantial comment however, is that maybe we ought to have a series\n(other than BCPs) about processes.  I dunno.  This is the document to make\nthat change.\n\nreplaces #19 \n",
+      "createdAt": "2025-08-29T00:34:36Z",
+      "updatedAt": "2025-08-29T20:51:07Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "I'm convinced that we should _not_ invent a new class of documents. Quoting RFC2026, \"The BCP subseries of the RFC series is designed to be a way to standardize practices and the results of community deliberations...\" Process documents clearly fit that perfectly. I don't see why it's a problem. I doubt if there is any process RFC whose title doesn't make it clear that it's a process RFC.\n\n\"Although this document is not an IETF Standards Track publication\" would be factually wrong if the document were published as a BCP. RFC 2026 was approved by the predecessor of the process that it describes. RFC 2026bis will be approved by the process that RFC 2026 describes. What's the problem with this?",
+          "createdAt": "2025-08-29T07:30:36Z",
+          "updatedAt": "2025-08-29T07:30:36Z"
+        },
+        {
+          "author": "mcr",
+          "authorAssociation": "NONE",
+          "body": "If you are saying that BCPs are also standards documents, just not standards\ntrack documents, then I'm okay with that.\n",
+          "createdAt": "2025-08-29T19:56:57Z",
+          "updatedAt": "2025-08-29T19:56:57Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "I think 2026 is slightly ambiguous on that, which is perhaps a new non-editorial issue in itself.",
+          "createdAt": "2025-08-29T20:51:07Z",
+          "updatedAt": "2025-08-29T20:51:07Z"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "id": "I_kwDOMZ1wVs7Iksk1",
+      "title": "do virtual side meetings count as BOFs",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/27",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think some clarification would be useful as to whether virtual interim (side)meetings count as BOFs.\n\n2418 speaks about 1 BOF, with 2 being an exception.\n2 BOFs is now very common, with one or more side meetings even occuring.\nBOF organizers/proponents often (particularly pandemic) have weekly to monthly organizing meetings.\nThis is done using ad-hoc meeting technology, which often results in problems accessing for some, lack of good records.  Many would prefer to use meetecho for this, but then there was push back that said if it used the official tool, then it would be a BOF.\nIf the reason to limit BOFs to <= 2 is due to time constraints for plenary week, then any time elsewhere (elsewhen?) should not count.\nIf there are other reasons to limit BOF, then they should be enumerated.\n\nThere is also now an IAB involvement in bringing new work.\n\nreplacing #19, and this issue should move to other repo.\n",
+      "createdAt": "2025-08-29T00:42:21Z",
+      "updatedAt": "2025-08-29T00:42:21Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 28,
+      "id": "I_kwDOMZ1wVs7IkviN",
+      "title": "Contributions need explicit section, not just a definition",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/28",
+      "state": "OPEN",
+      "author": "mcr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "from https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/ and replacing #19 \n\n* I think that Contribution in the terminlogy section deserves its own section.\nThe bullet points under it need to be reference-able sections.\n\n",
+      "createdAt": "2025-08-29T00:51:56Z",
+      "updatedAt": "2025-08-29T00:51:56Z",
       "closedAt": null,
       "comments": []
     }
