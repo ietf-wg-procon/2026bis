@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-31T00:54:18.232510+00:00",
+  "timestamp": "2025-09-14T00:52:34.945891+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -198,9 +198,17 @@
       "labels": [],
       "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
       "createdAt": "2025-08-27T18:47:26Z",
-      "updatedAt": "2025-08-27T18:47:26Z",
+      "updatedAt": "2025-09-12T21:06:00Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "Appeals are not the only private discussions",
+          "createdAt": "2025-09-12T21:06:00Z",
+          "updatedAt": "2025-09-12T21:06:00Z"
+        }
+      ]
     },
     {
       "number": 25,
