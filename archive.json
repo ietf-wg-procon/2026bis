@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-14T00:52:34.945891+00:00",
+  "timestamp": "2025-09-25T00:49:43.076365+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -293,6 +293,22 @@
       "body": "from https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/ and replacing #19 \n\n* I think that Contribution in the terminlogy section deserves its own section.\nThe bullet points under it need to be reference-able sections.\n\n",
       "createdAt": "2025-08-29T00:51:56Z",
       "updatedAt": "2025-08-29T00:51:56Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 29,
+      "id": "I_kwDOMZ1wVs7NZNMS",
+      "title": "documents in \"draft standard\" status",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/29",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "From the mailing list, Pete Resnick:\n> Glad to put this in a GitHub issue or write a PR if needed.\n>\n> 2026bis didn't incorporate the bits from RFC 6410, there are still\n> a bunch of documents sitting at DRAFT standard. 6410 did say that\n> documents could be advanced to Internet Standard if they met the\n> new requirements or if the IESG decided to do so. I think it's\n> simple enough to add something like: \"There is a legacy status that\n> came between Proposed Standard and Internet Standard called 'Draft\n> Standard'. As of the writing of this document, there still exist\n> some RFCs at that status. Documents at Draft Standard may be\n> advanced to Internet Standard, either via the procedure described\n> in 8.1 and 8.2 if they meet the requirements of section 6.1.2 or\n> with the consent of the IESG.\"\n>\n> pr\n",
+      "createdAt": "2025-09-23T16:24:31Z",
+      "updatedAt": "2025-09-23T16:24:31Z",
       "closedAt": null,
       "comments": []
     }
