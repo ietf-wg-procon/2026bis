@@ -1,12 +1,12 @@
 ---
 title: "The Internet Standards Process"
 abbrev: "process"
-docname: draft-rsalz-2026bis-latest
+docname: draft-ietf-procon-2026bis-latest
 submissiontype: IETF
 category: bcp
 ipr: trust200902
 area: General
-workgroup: xxxxxxx
+workgroup: procon
 keyword: process
 stand_alone: yes
 smart_quotes: no
@@ -27,12 +27,12 @@ author:
     email: sob@sobco.com
 
 venue:
- repo: https://github.com/richsalz/draft-rsalz-2026bis
+ repo: https://github.com/ietf-wg-procon/draft-ietf-procon-2026bis
 
 normative:
 
 informative:
-    bis2418: I-D.draft-rsalz-2418bis
+    bis2418: I-D.draft-ietf-procon-2418bis
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
