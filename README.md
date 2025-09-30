@@ -2,19 +2,19 @@
 
 This is the working area for the individual Internet-Draft, "The Iternet Standards Process".
 
-* [Editor's Copy](https://richsalz.github.io/draft-rsalz-2026bis/#go.draft-rsalz-2026bis.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-rsalz-2026bis)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-rsalz-2026bis)
-* [Compare Editor's Copy to Individual Draft](https://richsalz.github.io/draft-rsalz-2026bis/#go.draft-rsalz-2026bis.diff)
+* [Editor's Copy](https://ietf-wg-procon.github.io/draft-ietf-wg-procon-2026bis/#go.draft-ietf-wg-procon-2026bis.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-wg-procon-2026bis)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-wg-procon-2026bis)
+* [Compare Editor's Copy to Individual Draft](https://ietf-wg-procon.github.io/draft-ietf-wg-procon-2026bis/#go.draft-ietf-wg-procon-2026bis.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/richsalz/draft-rsalz-2026bis/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ietf-wg-procon/draft-ietf-wg-procon-2026bis/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
-The GitHub interface supports creating pull requests using the Edit (✏) button.
+The GitHub interface supports creating pull requests using the Edit (â) button.
 
 
 ## Command Line Usage
