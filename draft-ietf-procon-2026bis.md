@@ -49,12 +49,12 @@ document between stages and the types of documents used during this
 process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
-This document obsoletes RFC2026, RFC5657, RFC6410, RFC7100, RFC7127,
-RFC8789, and
-RFC9282.  It also includes the changes from
-RFC7475.
+This document obsoletes RFC 2026, RFC 5657, RFC 6410, RFC 7100, RFC 7127,
+RFC 8789, and
+RFC 9282.  It also includes the changes from
+RFC 7475.
 If this document and {{2418bis}} are published as RFCs, then
-taken together the two of them make RFC7475 obsolete.
+taken together the two of them make RFC 7475 obsolete.
 
 --- middle
 
@@ -1356,7 +1356,7 @@ the "rfcindex.txt" file.
 - Draft 8: Incorporate RFC 7127.
 
 - Draft 9: Incorporate RFC 8789.
-Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
+Updates (not obsoletes) RFC 5378, RFC 5657, and RFC 7475.
 
 - Draft 10: Incorporate RFC 8179.
 
