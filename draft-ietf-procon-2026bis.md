@@ -32,7 +32,7 @@ venue:
 normative:
 
 informative:
-    bis2418: I-D.draft-ietf-procon-2418bis
+    2418bis: I-D.draft-ietf-procon-2418bis
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -51,8 +51,9 @@ copyright issues associated with the standards process.
 
 This document obsoletes RFC2026, RFC6410, RFC7100, RFC7127, RFC8789, and
 RFC9282.  It updates RFC5657.  It also includes the changes from
-RFC7475, and with {{bis2418}}, obsoletes it.
-
+RFC7475.
+If this document and {{2418bis}} are published as RFCs, then
+taken together the two of them make RFC7475 obsolete.
 
 --- middle
 
