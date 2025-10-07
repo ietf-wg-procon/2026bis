@@ -10,8 +10,8 @@ workgroup: procon
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2026, 6410, 7100, 7127, 8789, 9282
-updates: 5657, 7475
+obsoletes: 2026, 5657, 6410, 7100, 7127, 8789, 9282
+updates: 7475
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -49,8 +49,9 @@ document between stages and the types of documents used during this
 process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
-This document obsoletes RFC2026, RFC6410, RFC7100, RFC7127, RFC8789, and
-RFC9282.  It updates RFC5657.  It also includes the changes from
+This document obsoletes RFC2026, RFC5657, RFC6410, RFC7100, RFC7127,
+RFC8789, and
+RFC9282.  It also includes the changes from
 RFC7475.
 If this document and {{2418bis}} are published as RFCs, then
 taken together the two of them make RFC7475 obsolete.
@@ -1373,6 +1374,8 @@ editorial, although it seems to be a semantic change but one that
 properly reflects consensus. The following errata were closed by the
 conversion to markdown and associated tooling, as they do the right thing:
 6658, 6659, 6661, 6671, and 6669.
+
+- Draft 13: Address some pre-adoption issues raised on the WG mailing list.
 
 --- back
 
