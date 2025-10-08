@@ -654,9 +654,7 @@ are not Internet Standards in any sense.
 The "Experimental" designation typically denotes a specification that
 is part of some research or development effort. Such a specification
 is published for the general information of the Internet technical
-community and as an archival record of the work, subject only to
-editorial considerations and to verification that there has been
-adequate coordination with the standards process (see below). An
+community and as an archival record of the work. An
 Experimental specification may be the output of an organized Internet
 research effort (e.g., a Research Group of the Internet Research Task Force)
 an IETF Working
@@ -665,13 +663,10 @@ Group, or it may be an individual contribution.
 ### Informational
 
 An "Informational" specification is published for the general
-information of the Internet community, and does not represent an
-Internet community consensus or recommendation. The Informational
+information of the Internet community. The Informational
 designation is intended to provide for the timely publication of a
 very broad range of responsible informational documents from many
-sources, subject only to editorial considerations and to verification
-that there has been adequate coordination with the standards process
-(see {{sec423}}).
+sources.
 
 Specifications that have been prepared outside of the Internet
 community and are not incorporated into the Internet Standards
