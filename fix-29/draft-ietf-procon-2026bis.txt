@@ -623,7 +623,7 @@ Table of Contents
    specifications move along the standards track is described in
    Section 8.
 
-   There is a legacy status that came between Proposed Standard and
+   There used to be a status that came between Proposed Standard and
    Internet Standard called "Draft Standard."  As of the writing of this
    document, there still exist some RFCs at that status.  Documents at
    Draft Standard may be advanced to Internet Standard, either via the
