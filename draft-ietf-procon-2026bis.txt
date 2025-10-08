@@ -2,17 +2,17 @@
 
 
 
-xxxxxxx                                                          R. Salz
+procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 6410, 7100, 7127, 8789, 9282                 S. Bradner
            (if approved)                                           SOBCO
-Updates: 5657, 7475 (if approved)                       30 December 2024
+Updates: 5657, 7475 (if approved)                         8 October 2025
 Intended status: Best Current Practice                                  
-Expires: 3 July 2025
+Expires: 11 April 2026
 
 
                      The Internet Standards Process
-                       draft-rsalz-2026bis-latest
+                    draft-ietf-procon-2026bis-latest
 
 Abstract
 
@@ -32,10 +32,10 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-rsalz-2026bis/.
+   https://datatracker.ietf.org/doc/draft-ietf-procon-2026bis/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/richsalz/draft-rsalz-2026bis.
+   https://github.com/ietf-wg-procon/draft-ietf-procon-2026bis.
 
 Status of This Memo
 
@@ -52,11 +52,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 July 2025.
+   This Internet-Draft will expire on 11 April 2026.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -1492,9 +1492,9 @@ Table of Contents
 
    [bis2418]  Salz, R. and S. O. Bradner, "IETF Working Group Guidelines
               and Procedures", Work in Progress, Internet-Draft, draft-
-              rsalz-2418bis-06, 10 October 2024,
-              <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2418bis-06>.
+              ietf-procon-2418bis-00, 30 September 2025,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
+              2418bis-00>.
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
