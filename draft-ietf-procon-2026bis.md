@@ -10,8 +10,8 @@ workgroup: procon
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2026, 6410, 7100, 7127, 8789, 9282
-updates: 5657, 7475
+obsoletes: 2026, 5657, 6410, 7100, 7127, 8789, 9282
+updates: 7475
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -32,7 +32,7 @@ venue:
 normative:
 
 informative:
-    bis2418: I-D.draft-ietf-procon-2418bis
+    2418bis: I-D.draft-ietf-procon-2418bis
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -49,10 +49,12 @@ document between stages and the types of documents used during this
 process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
-This document obsoletes RFC2026, RFC6410, RFC7100, RFC7127, RFC8789, and
-RFC9282.  It updates RFC5657.  It also includes the changes from
-RFC7475, and with {{bis2418}}, obsoletes it.
-
+This document obsoletes RFC 2026, RFC 5657, RFC 6410, RFC 7100, RFC 7127,
+RFC 8789, and
+RFC 9282.  It also includes the changes from
+RFC 7475.
+If this document and {{2418bis}} are published as RFCs, then
+taken together the two of them make RFC 7475 obsolete.
 
 --- middle
 
@@ -101,8 +103,6 @@ description of the IESG responsibilities related to those streams.
 
 
 ## Terminology
-
-{::boilerplate bcp14info}
 
 The following terms are used throughout this document.
 For more details about the organizations related to the IETF, see
@@ -361,7 +361,7 @@ is published as part of the "Request for Comments" (RFC) document
 series. This archival series is the official publication channel for
 Internet standards documents and other publications of the IESG, IAB,
 and the Internet community. RFCs can be obtained from a number of
-Interenet hosts using standard Internet applications such as the WWW.
+Internet hosts using standard Internet applications such as the WWW.
 
 The RFC series of documents on networking began in 1969 as part of
 the original ARPA wide-area networking (ARPANET) project.
@@ -406,13 +406,10 @@ standardization. Non-standards track specifications may be published
 directly as "Experimental" or "Informational" RFCs at the discretion
 of the RFC Editor in consultation with the IESG (see {{sec42}}).
 
-        It is important to remember that not all RFCs
-        are standards track documents, and that not all
-        standards track documents reach the level of
-        Internet Standard. In the same way, not all RFCs
-        which describe current practices have been given
-        the review and approval to become BCPs. See
-        {{!RFC1796} for further information.
+In addition, not all RFCs are standards track documents, and not all
+standards track documents reach the level of Internet Standard. In the same
+way, not all RFCs which describe current practices have been given the review
+and approval to become BCPs. See {{!RFC1796}} for further information.
 
 ## Internet-Drafts {#sec22}
 
@@ -658,7 +655,7 @@ community and as an archival record of the work, subject only to
 editorial considerations and to verification that there has been
 adequate coordination with the standards process (see below). An
 Experimental specification may be the output of an organized Internet
-research effort (e.g., a Research Group of the Internet Research Task Force)
+research effort (e.g., a Research Group of the Internet Research Task Force),
 an IETF Working
 Group, or it may be an individual contribution.
 
@@ -1359,7 +1356,7 @@ the "rfcindex.txt" file.
 - Draft 8: Incorporate RFC 7127.
 
 - Draft 9: Incorporate RFC 8789.
-Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
+Updates (not obsoletes) RFC 5378, RFC 5657, and RFC 7475.
 
 - Draft 10: Incorporate RFC 8179.
 
@@ -1372,6 +1369,8 @@ editorial, although it seems to be a semantic change but one that
 properly reflects consensus. The following errata were closed by the
 conversion to markdown and associated tooling, as they do the right thing:
 6658, 6659, 6661, 6671, and 6669.
+
+- Draft 13: Address some pre-adoption issues raised on the WG mailing list.
 
 --- back
 
