@@ -2,17 +2,17 @@
 
 
 
-xxxxxxx                                                          R. Salz
+procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 6410, 7100, 7127, 8789, 9282                 S. Bradner
            (if approved)                                           SOBCO
-Updates: 5657, 7475 (if approved)                           14 July 2025
+Updates: 5657, 7475 (if approved)                         8 October 2025
 Intended status: Best Current Practice                                  
-Expires: 15 January 2026
+Expires: 11 April 2026
 
 
                      The Internet Standards Process
-                       draft-rsalz-2026bis-latest
+                    draft-ietf-procon-2026bis-latest
 
 Abstract
 
@@ -23,20 +23,19 @@ Abstract
    process.  It also addresses the intellectual property rights and
    copyright issues associated with the standards process.
 
-   This document obsoletes RFC 2026, RFC 6410, RFC 7100, RFC 7127, RFC
-   8789, and RFC 9282.  It updates RFC 5657.  This document also
-   includes the changes from RFC 7475, and together with [bis2418],
-   marks RFC 7475 as obsolete.
+   This document obsoletes RFC2026, RFC6410, RFC7100, RFC7127, RFC8789,
+   and RFC9282.  It updates RFC5657.  It also includes the changes from
+   RFC7475, and with [bis2418], obsoletes it.
 
 About This Document
 
    This note is to be removed before publishing as an RFC.
 
    Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-rsalz-2026bis/.
+   https://datatracker.ietf.org/doc/draft-ietf-procon-2026bis/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/richsalz/draft-rsalz-2026bis.
+   https://github.com/ietf-wg-procon/draft-ietf-procon-2026bis.
 
 Status of This Memo
 
@@ -53,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 January 2026.
+   This Internet-Draft will expire on 11 April 2026.
 
 Copyright Notice
 
@@ -169,6 +168,15 @@ Table of Contents
    description of the IESG responsibilities related to those streams.
 
 1.1.  Terminology
+
+   Although this document is not an IETF Standards Track publication, it
+   adopts the conventions for normative language to provide clarity of
+   instructions to the implementer.  The key words "MUST", "MUST NOT",
+   "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
+   "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
+   document are to be interpreted as described in BCP 14 [RFC2119]
+   [RFC8174] when, and only when, they appear in all capitals, as shown
+   here.
 
    The following terms are used throughout this document.  For more
    details about the organizations related to the IETF, see [RFC9281],
@@ -419,7 +427,7 @@ Table of Contents
    series.  This archival series is the official publication channel for
    Internet standards documents and other publications of the IESG, IAB,
    and the Internet community.  RFCs can be obtained from a number of
-   Internet hosts using standard Internet applications such as the WWW.
+   Interenet hosts using standard Internet applications such as the WWW.
 
    The RFC series of documents on networking began in 1969 as part of
    the original ARPA wide-area networking (ARPANET) project.  RFCs cover
@@ -450,9 +458,9 @@ Table of Contents
    Some RFCs standardize the results of community deliberations about
    statements of principle or conclusions about what is the best way to
    perform some operations or IETF process function.  These RFCs form
-   the specification has been adopted as a Best Current Practice (BCP),
-   it is given the additional label "BCP xxx", but it keeps its RFC
-   number and its place in the RFC series (see Section 7).
+   the specification has been adopted as a Best Current Practice (BCP) ,
+   it is given the additional label "BCPxxx", but it keeps its RFC
+   number and its place in the RFC series. (see Section 7)
 
    Not all specifications of protocols or services for the Internet
    should or will become Internet Standards or BCPs.  Such non-standards
@@ -460,9 +468,14 @@ Table of Contents
    standardization.  Non-standards track specifications may be published
    directly as "Experimental" or "Informational" RFCs at the discretion
    of the RFC Editor in consultation with the IESG (see Section 6.2).
-   Similarly, not all RFCs which describe current practices have been
-   given the review and approval to become BCPs.  See [RFC1796] for
-   further information.
+
+       It is important to remember that not all RFCs
+       are standards track documents, and that not all
+       standards track documents reach the level of
+       Internet Standard. In the same way, not all RFCs
+       which describe current practices have been given
+       the review and approval to become BCPs. See
+       {{!RFC1796} for further information.
 
 4.2.  Internet-Drafts
 
@@ -706,7 +719,7 @@ Table of Contents
    adequate coordination with the standards process (see below).  An
    Experimental specification may be the output of an organized Internet
    research effort (e.g., a Research Group of the Internet Research Task
-   Force), an IETF Working Group, or it may be an individual
+   Force) an IETF Working Group, or it may be an individual
    contribution.
 
 6.2.2.  Informational
@@ -722,9 +735,9 @@ Table of Contents
 
    Specifications that have been prepared outside of the Internet
    community and are not incorporated into the Internet Standards
-   Process or do not meet the legal requirements of Section 2.1 may be
-   published as Informational RFCs, with the permission of the owner and
-   the concurrence of the RFC Editor.
+   Process or do not meet the legal requirements {#ipr-requirements} may
+   be published as Informational RFCs, with the permission of the owner
+   and the concurrence of the RFC Editor.
 
 6.2.3.  Procedures for Experimental and Informational RFCs
 
@@ -1396,8 +1409,8 @@ Table of Contents
 
    *  Draft 8: Incorporate RFC 7127.
 
-   *  Draft 9: Incorporate RFC 8789.  Updates (not obsoletes) RFC 5378,
-      RFC 5657, and RFC 7475.
+   *  Draft 9: Incorporate RFC 8789.  Updates (not obsoletes) RFC5378,
+      RFC5657, and RFC7475.
 
    *  Draft 10: Incorporate RFC 8179.
 
@@ -1434,13 +1447,18 @@ Table of Contents
               DOI 10.17487/RFC8179, May 2017,
               <https://www.rfc-editor.org/info/rfc8179>.
 
-   [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
-              Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
-              <https://www.rfc-editor.org/rfc/rfc1796>.
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <https://www.rfc-editor.org/rfc/rfc2119>.
 
    [RFC7322]  Flanagan, H. and S. Ginoza, "RFC Style Guide", RFC 7322,
               DOI 10.17487/RFC7322, September 2014,
               <https://www.rfc-editor.org/rfc/rfc7322>.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
    [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
               Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
@@ -1474,9 +1492,9 @@ Table of Contents
 
    [bis2418]  Salz, R. and S. O. Bradner, "IETF Working Group Guidelines
               and Procedures", Work in Progress, Internet-Draft, draft-
-              rsalz-2418bis-07, 7 April 2025,
-              <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2418bis-07>.
+              ietf-procon-2418bis-00, 30 September 2025,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
+              2418bis-00>.
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
