@@ -561,7 +561,7 @@ are defined and discussed in {{sec41}}. The way in
 which specifications move along the standards track is described in
 {{sec6}}.
 
-There is a legacy status that came between Proposed Standard and Internet
+There used to be a status that came between Proposed Standard and Internet
 Standard called "Draft Standard." As of the writing of this document, there
 still exist some RFCs at that status. Documents at Draft Standard may be
 advanced to Internet Standard, either via the procedure described in {{sec6}}
