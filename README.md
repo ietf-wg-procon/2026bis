@@ -1,21 +1,22 @@
+<!-- regenerate: on (set to off if you edit this file) -->
+
 # The Internet Standards Process
 
-This is the working area for the individual Internet-Draft, "The Iternet Standards Process".
+This is the working area for the IETF [PROCON Working Group](https://datatracker.ietf.org/group/procon/documents/) Internet-Draft, "The Internet Standards Process".
 
-* [Editor's Copy](https://ietf-wg-procon.github.io/draft-ietf-wg-procon-2026bis/#go.draft-ietf-wg-procon-2026bis.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-wg-procon-2026bis)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-wg-procon-2026bis)
-* [Compare Editor's Copy to Individual Draft](https://ietf-wg-procon.github.io/draft-ietf-wg-procon-2026bis/#go.draft-ietf-wg-procon-2026bis.diff)
+* [Editor's Copy](https://ietf-wg-procon.github.io/2026bis/#go.draft-ietf-procon-2026bis.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-procon-2026bis)
+* [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-procon-2026bis)
+* [Compare Editor's Copy to Working Group Draft](https://ietf-wg-procon.github.io/2026bis/#go.draft-ietf-procon-2026bis.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/ietf-wg-procon/draft-ietf-wg-procon-2026bis/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ietf-wg-procon/2026bis/blob/main/CONTRIBUTING.md).
 
-Contributions can be made by creating pull requests.
-The GitHub interface supports creating pull requests using the Edit (â) button.
-
+The contributing file also has tips on how to make contributions, if you
+don't already know how to do that.
 
 ## Command Line Usage
 
