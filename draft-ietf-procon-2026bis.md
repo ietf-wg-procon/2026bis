@@ -567,7 +567,7 @@ still exist some RFCs at that status. Documents at Draft Standard may be
 advanced to Internet Standard, either via the procedure described in {{sec6}}
 (if they meet the requirements of {{propstd}}) or with the consent of the
 IESG. The IESG may also decide to remove the Draft Standard status from a
-document.
+document and mark it as either Historic or Proposed Standard.
 
 Even after a specification has been adopted as an Internet Standard,
 further evolution often occurs based on experience and the
