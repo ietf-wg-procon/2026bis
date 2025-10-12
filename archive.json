@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-09T00:49:39.540133+00:00",
+  "timestamp": "2025-10-12T00:52:05.877608+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -226,16 +226,24 @@
       "id": "I_kwDOMZ1wVs7IkpjN",
       "title": "should we still have two documents",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/25",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "On the whole, my question is are there things we can remove from the\ndocument, leaving to wiki, changing culture or other mechanism.\nI also think we should ask if two documents are the right number here.\nIt would be good to ask a few relative newcomers to the IETF about this.\n \n\nreplacing #19.\n",
       "createdAt": "2025-08-29T00:32:41Z",
-      "updatedAt": "2025-08-29T00:32:41Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2025-10-11T16:31:21Z",
+      "closedAt": "2025-10-11T16:31:21Z",
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I am going to close this.  Our charter says to take the 2026 and 2418 and incorporate all changes needed to reflect reality.  \"Should we still have two documents\" is a question not for *this* draft, but for a larger dicussion.",
+          "createdAt": "2025-10-11T16:31:21Z",
+          "updatedAt": "2025-10-11T16:31:21Z"
+        }
+      ]
     },
     {
       "number": 26,
