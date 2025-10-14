@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-12T00:52:05.877608+00:00",
+  "timestamp": "2025-10-14T00:49:06.602115+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -350,6 +350,51 @@
           "body": "Draft 9 has the integration of RFC 8789.  So the fix for this I propose is to just delete the second paragraph.",
           "createdAt": "2025-10-08T12:36:43Z",
           "updatedAt": "2025-10-08T12:36:43Z"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "id": "I_kwDOMZ1wVs7RPzOa",
+      "title": "ASCII is not the definitive version",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/35",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "bug",
+        "editorial"
+      ],
+      "body": "XML is.  Don't know where or when we made that change, but it's true.",
+      "createdAt": "2025-10-13T15:52:57Z",
+      "updatedAt": "2025-10-13T16:05:40Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 37,
+      "id": "I_kwDOMZ1wVs7RQfRK",
+      "title": "references to internet-drafts",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/37",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "discuss"
+      ],
+      "body": "Section 4.2 says this:\n```\n    Under no circumstances should an Internet-Draft\n    be referenced by any paper, report, or Request-\n    for-Proposal, nor should a vendor claim compliance\n    with an Internet-Draft.\n```\n\nIs that still true when some WGs allow I-D's to be used as a reference for IANA registries?",
+      "createdAt": "2025-10-13T16:53:55Z",
+      "updatedAt": "2025-10-13T21:54:54Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yeah this statement is definitely no longer true. While we're at it, this section also incorrectly states:\n> An Internet-Draft that is published as an RFC, or that has remained unchanged in the Internet-Drafts directory for more than six months without being recommended by the IESG for publication as an RFC, is simply removed from the Internet-Drafts directory.\n\nSince the datatracker now keeps archives of all drafts in perpetuity, I would be inclined to just remove the various obsolete sentences.",
+          "createdAt": "2025-10-13T21:54:54Z",
+          "updatedAt": "2025-10-13T21:54:54Z"
         }
       ]
     }
@@ -806,13 +851,13 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-10-07T14:17:46Z",
-      "updatedAt": "2025-10-08T23:16:11Z",
+      "updatedAt": "2025-10-13T16:55:18Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "3e73bd7c0f941a0e36a34aec3b4fdc7dd4a643b5",
+      "baseRefOid": "32a8f46ad8b2a4c769b15c3cc72de9b58b0adab5",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-20",
-      "headRefOid": "ba13a37bd312eb19ef6882171b0535298c9d9915",
+      "headRefOid": "8440e516b539a43f096fe35a847526405c120673",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -837,14 +882,14 @@
         {
           "id": "PRR_kwDOMZ1wVs7FsgmY",
           "commit": {
-            "abbreviatedOid": "ba13a37"
+            "abbreviatedOid": "8440e51"
           },
           "author": "DavidSchinazi",
           "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "",
           "createdAt": "2025-10-08T23:16:11Z",
-          "updatedAt": "2025-10-08T23:16:11Z",
+          "updatedAt": "2025-10-13T16:55:17Z",
           "comments": []
         }
       ]
@@ -990,6 +1035,32 @@
           ]
         }
       ]
+    },
+    {
+      "number": 36,
+      "id": "PR_kwDOMZ1wVs6tfnBj",
+      "title": "Mention RFCXML and output formats",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/36",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes: #35",
+      "createdAt": "2025-10-13T16:06:21Z",
+      "updatedAt": "2025-10-13T16:06:21Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "32a8f46ad8b2a4c769b15c3cc72de9b58b0adab5",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-35",
+      "headRefOid": "f896c37170ffcc0878106c1c88fd9c12c7adff9d",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
