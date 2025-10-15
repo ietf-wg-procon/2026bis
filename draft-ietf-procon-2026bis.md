@@ -33,6 +33,12 @@ normative:
 
 informative:
     2418bis: I-D.draft-ietf-procon-2418bis
+    RFCXML:
+      title: RFCXML overview and background
+      target: https://authors.ietf.org/rfcxml-overview
+    RFCPAGE:
+      title: About RFCs
+      target: https://www.ietf.org/process/rfcs/
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -370,17 +376,9 @@ topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
 For information about RFC publication, see {{?RFC9280}}.
 
-The rules for formatting and submitting an RFC are defined in {{!RFC7322}}.
-Every RFC is available in ASCII text. Some RFCs are also available
-in other formats. The other versions of an RFC may contain material
-(such as diagrams and figures) that is not present in the ASCII
-version, and it may be formatted differently.
-
-        A stricter requirement applies to standards-track
-        specifications: the ASCII text version is the
-        definitive reference, and therefore it must be a
-        complete and accurate specification of the standard,
-        including all necessary diagrams and illustrations.
+The style guide for writing an RFC is defined in {{!RFC7322}}.
+The default input format is {{RFCXML}},
+RFCs are available in multiple formats as described in {{RFCPAGE}}.
 
 Some RFCs document Internet Standards. These RFCs form the 'STD'
 subseries of the RFC series {{?RFC1311}}. When a specification has been
