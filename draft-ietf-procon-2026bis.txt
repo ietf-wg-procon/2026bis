@@ -427,17 +427,9 @@ Table of Contents
    discussion of new research concepts to status memos about the
    Internet.  For information about RFC publication, see [RFC9280].
 
-   The rules for formatting and submitting an RFC are defined in
-   [RFC7322].  Every RFC is available in ASCII text.  Some RFCs are also
-   available in other formats.  The other versions of an RFC may contain
-   material (such as diagrams and figures) that is not present in the
-   ASCII version, and it may be formatted differently.
-
-       A stricter requirement applies to standards-track
-       specifications: the ASCII text version is the
-       definitive reference, and therefore it must be a
-       complete and accurate specification of the standard,
-       including all necessary diagrams and illustrations.
+   The style guide for writing an RFC is defined in [RFC7322].  The
+   default input format is [RFCXML], RFCs are available in multiple
+   formats as described in [RFCPAGE].
 
    Some RFCs document Internet Standards.  These RFCs form the 'STD'
    subseries of the RFC series [RFC1311].  When a specification has been
@@ -1509,6 +1501,11 @@ Table of Contents
    [RFC9280]  Saint-Andre, P., Ed., "RFC Editor Model (Version 3)",
               RFC 9280, DOI 10.17487/RFC9280, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9280>.
+
+   [RFCPAGE]  "About RFCs", n.d., <https://www.ietf.org/process/rfcs/>.
+
+   [RFCXML]   "RFCXML overview and background", n.d.,
+              <https://authors.ietf.org/rfcxml-overview>.
 
    [US-ASCII] ANSI, "Coded Character Set -- 7-Bit American Standard Code
               for Information Interchange", March 1986.  ANSI X3.4-1986
