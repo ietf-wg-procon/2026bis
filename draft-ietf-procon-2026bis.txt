@@ -613,6 +613,15 @@ Table of Contents
    specifications move along the standards track is described in
    Section 8.
 
+   There used to be a status that came between Proposed Standard and
+   Internet Standard called "Draft Standard."  As of the writing of this
+   document, there still exist some RFCs at that status.  Documents at
+   Draft Standard may be advanced to Internet Standard, either via the
+   procedure described in Section 8 (if they meet the requirements of
+   Section 6.1.1) or with the consent of the IESG.  The IESG may also
+   decide to remove the Draft Standard status from a document and mark
+   it as either Historic or Proposed Standard.
+
    Even after a specification has been adopted as an Internet Standard,
    further evolution often occurs based on experience and the
    recognition of new requirements.  The nomenclature and procedures of
