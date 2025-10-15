@@ -66,14 +66,6 @@ taken together the two of them make RFC 7475 obsolete.
 
 # Introduction
 
-       NOTE: This document started with the raw text of RFC 2026, and
-       subsequent drafts each incorporated the text of RFC 6410, RFC
-       7100, RFC 7127, RFC 7475, RFC 8789, and RFC 9282.  (RFC 3932 was
-       obsoleted by RFC 5742; RFC 3978 was obsoleted by RFC 8179; RFC
-       5657 became not relevant because of RFC 6410 and RFC 7127).
-       A final update addressed all the errata. We have submitted
-       this to the GENDISPATCH working group to determine the next steps.
-
 This memo documents the process currently used by the Internet
 community for the standardization of protocols and procedures. The
 Internet Standards process is an activity of the Internet Society (ISOC)
@@ -1318,6 +1310,18 @@ Security issues are not discussed in this memo.
 This document has no IANA actions.
 
 # Change Log
+
+## Working group draft
+
+- Draft 0: Adopted by PROCON WG.
+
+- Draft 1: Various GitHub fixes. Improve 7475 obsolescence text. Add wording
+about RFC style, output formats, default input; remove text about standards
+requiring ASCII. Unindent or remove text blocks. Discuss legacy "Draft
+Standard" documents. Tighten IPR requirements on Informational.  Add WG
+changelog section.
+
+## Individual draft
 
 - Draft 0: Translated the nroff source of RFC 2026 into markdown.
 The notices in the document at section 12.4 were prefaced with "THIS TEXT
