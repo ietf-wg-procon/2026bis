@@ -671,13 +671,6 @@ designation is intended to provide for the timely publication of a
 very broad range of responsible informational documents from many
 sources.
 
-Specifications that have been prepared outside of the Internet
-community and are not incorporated into the Internet Standards
-Process or do not meet the legal requirements {#ipr-requirements}
-may be published as
-Informational RFCs, with the permission of the owner and the
-concurrence of the RFC Editor.
-
 ### Procedures for Experimental and Informational RFCs {#sec423}
 
 Unless they are the result of IETF Working Group action, documents
