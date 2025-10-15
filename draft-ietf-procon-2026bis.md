@@ -558,6 +558,14 @@ are defined and discussed in {{sec41}}. The way in
 which specifications move along the standards track is described in
 {{sec6}}.
 
+There used to be a status that came between Proposed Standard and Internet
+Standard called "Draft Standard." As of the writing of this document, there
+still exist some RFCs at that status. Documents at Draft Standard may be
+advanced to Internet Standard, either via the procedure described in {{sec6}}
+(if they meet the requirements of {{propstd}}) or with the consent of the
+IESG. The IESG may also decide to remove the Draft Standard status from a
+document and mark it as either Historic or Proposed Standard.
+
 Even after a specification has been adopted as an Internet Standard,
 further evolution often occurs based on experience and the
 recognition of new requirements. The nomenclature and procedures of
@@ -581,7 +589,7 @@ are formally labeled "maturity levels".
 This section describes the maturity levels and the expected
 characteristics of specifications at each level.
 
-### Proposed Standard
+### Proposed Standard {#propstd}
 
 The entry-level maturity for the standards track is "Proposed
 Standard".  A specific action by the IESG is required to move a
