@@ -1316,6 +1316,8 @@ Table of Contents
       blocks.  Discuss legacy "Draft Standard" documents.  Tighten IPR
       requirements on Informational.  Add WG changelog section.
 
+   *  Draft 2: Refer to BCP78 for definition of "Contribution"
+
 14.2.  Individual draft
 
    *  Draft 0: Translated the nroff source of RFC 2026 into markdown.
