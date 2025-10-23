@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-16T00:50:58.271573+00:00",
+  "timestamp": "2025-10-23T00:51:24.464557+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -199,10 +199,13 @@
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "reality",
+        "discuss"
+      ],
       "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
       "createdAt": "2025-08-27T18:47:26Z",
-      "updatedAt": "2025-10-02T16:01:43Z",
+      "updatedAt": "2025-10-22T19:34:52Z",
       "closedAt": null,
       "comments": [
         {
@@ -218,6 +221,13 @@
           "body": "See also the IESG statement https://datatracker.ietf.org/doc/statement-iesg-statement-on-the-conflict-resolution-and-appeals-processes/",
           "createdAt": "2025-10-02T16:01:43Z",
           "updatedAt": "2025-10-02T16:01:43Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "sec 10 and maybe other parts.",
+          "createdAt": "2025-10-22T19:34:41Z",
+          "updatedAt": "2025-10-22T19:34:41Z"
         }
       ]
     },
@@ -294,12 +304,22 @@
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "discuss"
+      ],
       "body": "from https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/ and replacing #19 \n\n* I think that Contribution in the terminlogy section deserves its own section.\nThe bullet points under it need to be reference-able sections.\n\n",
       "createdAt": "2025-08-29T00:51:56Z",
-      "updatedAt": "2025-08-29T00:51:56Z",
+      "updatedAt": "2025-10-22T16:50:22Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Should it instead point to RFC 5378?",
+          "createdAt": "2025-10-22T13:04:52Z",
+          "updatedAt": "2025-10-22T13:04:52Z"
+        }
+      ]
     },
     {
       "number": 29,
@@ -418,6 +438,52 @@
           "updatedAt": "2025-10-14T20:56:28Z"
         }
       ]
+    },
+    {
+      "number": 39,
+      "id": "I_kwDOMZ1wVs7TGHXM",
+      "title": "IETF Trust is now IETF Intellectual Property Management Corporation,",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/39",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "And in Delware.",
+      "createdAt": "2025-10-22T16:46:57Z",
+      "updatedAt": "2025-10-22T17:54:33Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The IPMC transition is still in-progress (not just draft-bradner-gen-ipmc-contributor-rights, my understanding is that they're also haven't finalized the non-IETF legal paperwork to complete the transition) - though it will probably be done by the time 2026bis is published.\n\nBut regardless, it might be best to punt the definition to BCP 78. Ideally all that we would have here is a name (which might still be Trust?) and then a pointer to BCP 78. Then we just use the name when talking about appeals chains etc.",
+          "createdAt": "2025-10-22T17:54:33Z",
+          "updatedAt": "2025-10-22T17:54:33Z"
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "id": "I_kwDOMZ1wVs7TILH0",
+      "title": "mailing lists and archives",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/41",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "bug",
+        "editorial",
+        "discuss"
+      ],
+      "body": "Sec 10 says \"each IETF Working Group is expected to maintain their own email list archive and must make a best effort to ensure that all traffic is captured and included in the archives.\"  This is now the responsibility of the LLC",
+      "createdAt": "2025-10-22T19:33:08Z",
+      "updatedAt": "2025-10-22T19:33:20Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -1131,6 +1197,46 @@
           "body": "",
           "createdAt": "2025-10-15T17:44:42Z",
           "updatedAt": "2025-10-15T17:44:42Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "id": "PR_kwDOMZ1wVs6vG58h",
+      "title": "Contribution is now defined in BCP78",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/40",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "It was cut-pasted copy of the same words, now just point to it.\r\n\r\nFixes: #28\r\n\r\nDraft until WG discusses this.",
+      "createdAt": "2025-10-22T16:49:41Z",
+      "updatedAt": "2025-10-22T19:25:43Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "88337ae0385bd4900200df0ca8ba550c560db79e",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-28",
+      "headRefOid": "df5a0daf7d480b4284f9321e19dce75cd1c85816",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMZ1wVs7ItCSh",
+          "commit": {
+            "abbreviatedOid": "df5a0da"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-10-22T19:25:43Z",
+          "updatedAt": "2025-10-22T19:25:43Z",
           "comments": []
         }
       ]
