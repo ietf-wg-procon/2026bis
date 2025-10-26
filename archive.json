@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-23T00:51:24.464557+00:00",
+  "timestamp": "2025-10-26T00:54:53.677204+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -406,7 +406,7 @@
       ],
       "body": "Section 4.2 says this:\n```\n    Under no circumstances should an Internet-Draft\n    be referenced by any paper, report, or Request-\n    for-Proposal, nor should a vendor claim compliance\n    with an Internet-Draft.\n```\n\nIs that still true when some WGs allow I-D's to be used as a reference for IANA registries?",
       "createdAt": "2025-10-13T16:53:55Z",
-      "updatedAt": "2025-10-14T20:56:28Z",
+      "updatedAt": "2025-10-24T20:31:02Z",
       "closedAt": null,
       "comments": [
         {
@@ -436,6 +436,13 @@
           "body": "That text looks good.",
           "createdAt": "2025-10-14T20:56:28Z",
           "updatedAt": "2025-10-14T20:56:28Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Also the first paragraph talks about a directory, should mention the datatracker instead.",
+          "createdAt": "2025-10-24T20:31:02Z",
+          "updatedAt": "2025-10-24T20:31:02Z"
         }
       ]
     },
@@ -484,6 +491,161 @@
       "updatedAt": "2025-10-22T19:33:20Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 42,
+      "id": "I_kwDOMZ1wVs7TprVf",
+      "title": "RFC Editor and non-standards-track",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/42",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "reality"
+      ],
+      "body": "Sec 4.1, penultimate paragraph:\n\". Non-standards track specifications may be published directly as \"Experimental\" or \"Informational\" RFCs at the discretion of the RFC Editor in consultation with the IESG (see [Section 6.2](https://ietf-wg-procon.github.io/2026bis/draft-ietf-procon-2026bis.html#sec42)).\"\n\nShouyld just be at the discretion of the IESG.\n",
+      "createdAt": "2025-10-24T20:28:25Z",
+      "updatedAt": "2025-10-24T20:28:25Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 43,
+      "id": "I_kwDOMZ1wVs7TpsNa",
+      "title": "Misc editorial nits",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/43",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "Should be a space before the `xxx`",
+      "createdAt": "2025-10-24T20:29:24Z",
+      "updatedAt": "2025-10-24T20:42:15Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "BCPxxx and STDxxx",
+          "createdAt": "2025-10-24T20:31:56Z",
+          "updatedAt": "2025-10-24T20:31:56Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "5.1 and 5.2 don't need the (TS) etc.",
+          "createdAt": "2025-10-24T20:32:10Z",
+          "updatedAt": "2025-10-24T20:32:10Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Sec 6.2 shouldn't be \"maturity levels\" but something else; maybe \"categories\" ?",
+          "createdAt": "2025-10-24T20:38:11Z",
+          "updatedAt": "2025-10-24T20:38:11Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "IESG definition should say \"include\" not \"comprised\"",
+          "createdAt": "2025-10-24T20:42:15Z",
+          "updatedAt": "2025-10-24T20:42:15Z"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "id": "I_kwDOMZ1wVs7Tpvtl",
+      "title": "Can a standards-track doc refer to non-standards track?",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/44",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "bug",
+        "discuss"
+      ],
+      "body": "Sec 5.1: \"(which might or might not be Internet Standards).\"\n\nBrings to mind a larger question: should we use standards-track doc instead of Internet Standard?\n\n",
+      "createdAt": "2025-10-24T20:34:01Z",
+      "updatedAt": "2025-10-24T20:35:46Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Is AS still useful?  IS the separation of TS and AS still useful?\n",
+          "createdAt": "2025-10-24T20:35:37Z",
+          "updatedAt": "2025-10-24T20:35:37Z"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "id": "I_kwDOMZ1wVs7TpzIv",
+      "title": "Sec 6.2.3, processes for informational and experimental are wrong",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/45",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "reality",
+        "discuss"
+      ],
+      "body": "",
+      "createdAt": "2025-10-24T20:39:39Z",
+      "updatedAt": "2025-10-24T20:39:39Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 46,
+      "id": "I_kwDOMZ1wVs7Tp15H",
+      "title": "BCP and Experimental -- usually assigned during IESG review?",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/46",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "reality"
+      ],
+      "body": "",
+      "createdAt": "2025-10-24T20:44:11Z",
+      "updatedAt": "2025-10-24T20:44:22Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 47,
+      "id": "I_kwDOMZ1wVs7Tp2rX",
+      "title": "8.5.1: appeals; ADs can divide/delegate",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/47",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "discuss"
+      ],
+      "body": "Working groups typically have a responsible AD.  Appeals are first handled by that AD, right?  Then the IESG",
+      "createdAt": "2025-10-24T20:45:26Z",
+      "updatedAt": "2025-10-24T20:46:02Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Is adding \"Responsible Area Director\" sufficient?\n",
+          "createdAt": "2025-10-24T20:46:02Z",
+          "updatedAt": "2025-10-24T20:46:02Z"
+        }
+      ]
     }
   ],
   "pulls": [
