@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-26T00:54:53.677204+00:00",
+  "timestamp": "2025-11-02T00:55:55.679613+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -617,9 +617,17 @@
       ],
       "body": "",
       "createdAt": "2025-10-24T20:44:11Z",
-      "updatedAt": "2025-10-24T20:44:22Z",
+      "updatedAt": "2025-10-30T20:43:01Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "duplicate of #42",
+          "createdAt": "2025-10-30T20:43:01Z",
+          "updatedAt": "2025-10-30T20:43:01Z"
+        }
+      ]
     },
     {
       "number": 47,
