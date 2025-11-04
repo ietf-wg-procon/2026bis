@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-02T00:55:55.679613+00:00",
+  "timestamp": "2025-11-04T00:52:28.657029+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -269,7 +269,7 @@
       ],
       "body": "} \"   Although this document is not an IETF Standards Track publication, \"\n\nI kinda did a double take on that.  It's true though.\nThat it defines the IETF Standards Track ... and yet, it's not a part of it.\n(Something about the set of all sets...)\nThe substantial comment however, is that maybe we ought to have a series\n(other than BCPs) about processes.  I dunno.  This is the document to make\nthat change.\n\nreplaces #19 \n",
       "createdAt": "2025-08-29T00:34:36Z",
-      "updatedAt": "2025-10-07T16:02:06Z",
+      "updatedAt": "2025-11-03T19:26:52Z",
       "closedAt": null,
       "comments": [
         {
@@ -292,6 +292,13 @@
           "body": "I think 2026 is slightly ambiguous on that, which is perhaps a new non-editorial issue in itself.",
           "createdAt": "2025-08-29T20:51:07Z",
           "updatedAt": "2025-08-29T20:51:07Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I agree with Brian here, and I think we should avoid inventing a new category. And if we do, it would not be just reality alignment but new process development. And I don't know what we would do with existing process documents.",
+          "createdAt": "2025-11-03T19:26:52Z",
+          "updatedAt": "2025-11-03T19:26:52Z"
         }
       ]
     },
@@ -309,7 +316,7 @@
       ],
       "body": "from https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/ and replacing #19 \n\n* I think that Contribution in the terminlogy section deserves its own section.\nThe bullet points under it need to be reference-able sections.\n\n",
       "createdAt": "2025-08-29T00:51:56Z",
-      "updatedAt": "2025-10-22T16:50:22Z",
+      "updatedAt": "2025-11-03T19:22:21Z",
       "closedAt": null,
       "comments": [
         {
@@ -318,6 +325,13 @@
           "body": "Should it instead point to RFC 5378?",
           "createdAt": "2025-10-22T13:04:52Z",
           "updatedAt": "2025-10-22T13:04:52Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Agree that we should point to the RFC",
+          "createdAt": "2025-11-03T19:22:21Z",
+          "updatedAt": "2025-11-03T19:22:21Z"
         }
       ]
     },
@@ -402,11 +416,12 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
+        "reality",
         "discuss"
       ],
       "body": "Section 4.2 says this:\n```\n    Under no circumstances should an Internet-Draft\n    be referenced by any paper, report, or Request-\n    for-Proposal, nor should a vendor claim compliance\n    with an Internet-Draft.\n```\n\nIs that still true when some WGs allow I-D's to be used as a reference for IANA registries?",
       "createdAt": "2025-10-13T16:53:55Z",
-      "updatedAt": "2025-10-24T20:31:02Z",
+      "updatedAt": "2025-11-03T19:35:34Z",
       "closedAt": null,
       "comments": [
         {
@@ -443,6 +458,20 @@
           "body": "Also the first paragraph talks about a directory, should mention the datatracker instead.",
           "createdAt": "2025-10-24T20:31:02Z",
           "updatedAt": "2025-10-24T20:31:02Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Good issue. Another one that should be marked as reality-alignment, to make sure we have full traceability of our changes to 2026. \n\nActually, now that I'm on it, going forward it would perhaps be good if we had a list of all changes in the draft and the source of that changes (rfc xxx, alignment to current reality, editorial).",
+          "createdAt": "2025-11-03T19:22:00Z",
+          "updatedAt": "2025-11-03T19:22:00Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> Actually, now that I'm on it, going forward it would perhaps be good if we had a list of all changes in the draft and the source of that changes (rfc xxx, alignment to current reality, editorial).\n\nEach git commit should have a `Fixes: #nn` issue, but you should probably also get in the habit of putting the issue number in the change log summary.",
+          "createdAt": "2025-11-03T19:35:34Z",
+          "updatedAt": "2025-11-03T19:35:34Z"
         }
       ]
     },
@@ -484,13 +513,29 @@
       "labels": [
         "bug",
         "editorial",
+        "reality",
         "discuss"
       ],
       "body": "Sec 10 says \"each IETF Working Group is expected to maintain their own email list archive and must make a best effort to ensure that all traffic is captured and included in the archives.\"  This is now the responsibility of the LLC",
       "createdAt": "2025-10-22T19:33:08Z",
-      "updatedAt": "2025-10-22T19:33:20Z",
+      "updatedAt": "2025-11-03T19:33:20Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "We should mark this as reality-alignment (or is that change specified in some RFC\u2026 I forget)",
+          "createdAt": "2025-11-03T19:17:54Z",
+          "updatedAt": "2025-11-03T19:17:54Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I probably confused bug/reality a couple of times :)",
+          "createdAt": "2025-11-03T19:33:20Z",
+          "updatedAt": "2025-11-03T19:33:20Z"
+        }
+      ]
     },
     {
       "number": 42,
@@ -572,7 +617,7 @@
       ],
       "body": "Sec 5.1: \"(which might or might not be Internet Standards).\"\n\nBrings to mind a larger question: should we use standards-track doc instead of Internet Standard?\n\n",
       "createdAt": "2025-10-24T20:34:01Z",
-      "updatedAt": "2025-10-24T20:35:46Z",
+      "updatedAt": "2025-11-03T19:44:29Z",
       "closedAt": null,
       "comments": [
         {
@@ -581,6 +626,13 @@
           "body": "Is AS still useful?  IS the separation of TS and AS still useful?\n",
           "createdAt": "2025-10-24T20:35:37Z",
           "updatedAt": "2025-10-24T20:35:37Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "IIRC, we've had both separate docs and inside-the-document ASes.\n\nAnd I think in all of S5 we seem to be confusing Internet Standard (which is a specific category of a standards track specification) to standards track specification. We should be able to have a TS (or even AS) at Proposed Standard level, no? ",
+          "createdAt": "2025-11-03T19:44:28Z",
+          "updatedAt": "2025-11-03T19:44:28Z"
         }
       ]
     },
@@ -599,9 +651,24 @@
       ],
       "body": "",
       "createdAt": "2025-10-24T20:39:39Z",
-      "updatedAt": "2025-10-24T20:39:39Z",
+      "updatedAt": "2025-11-03T19:49:12Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Can you expand on this?",
+          "createdAt": "2025-11-03T19:39:15Z",
+          "updatedAt": "2025-11-03T19:39:15Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Section 6.2.3, says non-IETF WG documents should be submitted to the RFC Editor for experimental or informational. \"The RFC Editor is expected to exercise his or her judgment concerning the editorial suitability of a document for publication with Experimental or Informational status\" For the IETF stream, Experimental or Informational status is set when the IESG approves publication and the RFC editor (now RPC) has no say in the matter.\n\nThe second paragraph says the RFC Editor (again, now the RPC) can send things back to the IESG. I believe that's mostly subsumed by the \"Conflict review\" for the IRTF stream.\n\nThe third paragraphs says the IESG can ask for the IETF stream but authors can refuse. If that's even possible, it can go via the ISE stream and the ISE editor cannot do STD sub-series.\n",
+          "createdAt": "2025-11-03T19:49:12Z",
+          "updatedAt": "2025-11-03T19:49:12Z"
+        }
+      ]
     },
     {
       "number": 46,
@@ -643,7 +710,7 @@
       ],
       "body": "Working groups typically have a responsible AD.  Appeals are first handled by that AD, right?  Then the IESG",
       "createdAt": "2025-10-24T20:45:26Z",
-      "updatedAt": "2025-10-24T20:46:02Z",
+      "updatedAt": "2025-11-03T19:54:55Z",
       "closedAt": null,
       "comments": [
         {
@@ -652,6 +719,20 @@
           "body": "Is adding \"Responsible Area Director\" sufficient?\n",
           "createdAt": "2025-10-24T20:46:02Z",
           "updatedAt": "2025-10-24T20:46:02Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I suspect the current text may actually be correct. There might be reasons why a particular issue is handled by your co-AD even if you are the responsible AD. For instance, you're handling the WG but on one topic the main proponents are from your company, so you hand the treatment of that document and an appeal to your co-AD.\n",
+          "createdAt": "2025-11-03T19:49:33Z",
+          "updatedAt": "2025-11-03T19:49:33Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We have recently had appeals issues because it says \"the ADs\" are the first line of appeal. Something like \"(When there are multiple ADs in an area, they can assign responsibility to one)\" or some such.",
+          "createdAt": "2025-11-03T19:54:55Z",
+          "updatedAt": "2025-11-03T19:54:55Z"
         }
       ]
     }
