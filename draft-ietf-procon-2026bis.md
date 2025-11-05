@@ -27,7 +27,7 @@ author:
     email: sob@sobco.com
 
 venue:
- repo: https://github.com/ietf-wg-procon/draft-ietf-procon-2026bis
+ repo: https://github.com/ietf-wg-procon/2026bis
 
 normative:
 
