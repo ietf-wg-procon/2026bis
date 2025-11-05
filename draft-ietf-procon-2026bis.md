@@ -368,7 +368,7 @@ topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
 For information about RFC publication, see {{?RFC9280}}.
 
-The style guide for writing an RFC is defined in {{!RFC7322}}.
+The style guide for writing an RFC is {{!RFC7322}}.
 The default input format is {{RFCXML}},
 RFCs are available in multiple formats as described in {{RFCPAGE}}.
 
