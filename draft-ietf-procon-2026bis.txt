@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              15 October 2025
+Updates: 7475 (if approved)                              5 November 2025
 Intended status: Best Current Practice                                  
-Expires: 18 April 2026
+Expires: 9 May 2026
 
 
                      The Internet Standards Process
@@ -36,7 +36,7 @@ About This Document
    https://datatracker.ietf.org/doc/draft-ietf-procon-2026bis/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/ietf-wg-procon/draft-ietf-procon-2026bis.
+   https://github.com/ietf-wg-procon/2026bis.
 
 Status of This Memo
 
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 April 2026.
+   This Internet-Draft will expire on 9 May 2026.
 
 Copyright Notice
 
@@ -1510,11 +1510,11 @@ Table of Contents
    [US-ASCII] ANSI, "Coded Character Set -- 7-Bit American Standard Code
               for Information Interchange", March 1986.  ANSI X3.4-1986
 
-   [_2418bis] Salz, R. and S. O. Bradner, "IETF Working Group Guidelines
-              and Procedures", Work in Progress, Internet-Draft, draft-
-              ietf-procon-2418bis-00, 30 September 2025,
-              <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
-              2418bis-00>.
+   [_2418bis] Salz, R., Schinazi, D., and S. O. Bradner, "IETF Working
+              Group Guidelines and Procedures", Work in Progress,
+              Internet-Draft, draft-ietf-procon-2418bis-01, 15 October
+              2025, <https://datatracker.ietf.org/doc/html/draft-ietf-
+              procon-2418bis-01>.
 
 Acknowledgments
 
