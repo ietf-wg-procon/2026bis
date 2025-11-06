@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-04T00:52:28.657029+00:00",
+  "timestamp": "2025-11-06T00:53:04.482501+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -205,7 +205,7 @@
       ],
       "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
       "createdAt": "2025-08-27T18:47:26Z",
-      "updatedAt": "2025-10-22T19:34:52Z",
+      "updatedAt": "2025-11-04T21:11:03Z",
       "closedAt": null,
       "comments": [
         {
@@ -228,6 +228,20 @@
           "body": "sec 10 and maybe other parts.",
           "createdAt": "2025-10-22T19:34:41Z",
           "updatedAt": "2025-10-22T19:34:41Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I guess the record keeping is in Section 10.\n\nBut for reality-alignment I'd support saying somewhere that some discussions such as those pertaining to personnel matters are private or not recorded. I'm a bit torn wrt saying something about appeals here. Maybe the \"such as\" covers that. But appeals indeed have generally been discussed privately. But perhaps that's largely due to those in many cases being entangled in personnel matters.\n\n",
+          "createdAt": "2025-11-04T12:52:25Z",
+          "updatedAt": "2025-11-04T12:52:25Z"
+        },
+        {
+          "author": "alvestrand",
+          "authorAssociation": "NONE",
+          "body": "The classical principle is that decisions are recorded (and public).\nThere should be no requirement that all discussions are recorded - there will always be conversation.\n\nRemember: Until 2014, all IESG telechats were private. Only the decisions were public.\n",
+          "createdAt": "2025-11-04T21:11:03Z",
+          "updatedAt": "2025-11-04T21:11:03Z"
         }
       ]
     },
@@ -551,9 +565,17 @@
       ],
       "body": "Sec 4.1, penultimate paragraph:\n\". Non-standards track specifications may be published directly as \"Experimental\" or \"Informational\" RFCs at the discretion of the RFC Editor in consultation with the IESG (see [Section 6.2](https://ietf-wg-procon.github.io/2026bis/draft-ietf-procon-2026bis.html#sec42)).\"\n\nShouyld just be at the discretion of the IESG.\n",
       "createdAt": "2025-10-24T20:28:25Z",
-      "updatedAt": "2025-10-24T20:28:25Z",
+      "updatedAt": "2025-11-04T13:05:48Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Aren't there two ways for Inf/Exp to come around, either from the regular streams (IETF, IRTF) or via the independent submission channel via the RFC Editor? \n\nAlso, it feels like S6.2.3. should refer to the independent stream in some better way.\n\nThere's RFCs to point to, I believe, at least for the independent stream. Not sure about the Inf/Exp coming out of IETF, but it does happen.",
+          "createdAt": "2025-11-04T13:05:48Z",
+          "updatedAt": "2025-11-04T13:05:48Z"
+        }
+      ]
     },
     {
       "number": 43,
@@ -733,6 +755,30 @@
           "body": "We have recently had appeals issues because it says \"the ADs\" are the first line of appeal. Something like \"(When there are multiple ADs in an area, they can assign responsibility to one)\" or some such.",
           "createdAt": "2025-11-03T19:54:55Z",
           "updatedAt": "2025-11-03T19:54:55Z"
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "id": "I_kwDOMZ1wVs7V1USg",
+      "title": "BCPs published on the IAB stream",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/48",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
+      "createdAt": "2025-11-04T17:19:48Z",
+      "updatedAt": "2025-11-04T17:27:33Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The chat has some of the specifics, starting around here: [#procon > ietf-124 @ \ud83d\udcac](https://zulip.ietf.org/#narrow/channel/414-procon/topic/ietf-124/near/189070)",
+          "createdAt": "2025-11-04T17:27:33Z",
+          "updatedAt": "2025-11-04T17:27:33Z"
         }
       ]
     }
@@ -1488,6 +1534,98 @@
           "body": "",
           "createdAt": "2025-10-22T19:25:43Z",
           "updatedAt": "2025-10-22T19:25:43Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "id": "PR_kwDOMZ1wVs6xhVY0",
+      "title": "The GitHub URL is wrong.",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/49",
+      "state": "MERGED",
+      "author": "sayrer",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-11-05T00:04:59Z",
+      "updatedAt": "2025-11-05T13:51:04Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "88337ae0385bd4900200df0ca8ba550c560db79e",
+      "headRepository": "sayrer/2026bis",
+      "headRefName": "github-url",
+      "headRefOid": "6430eb2261ec53abfa4b4c765f055034c93908be",
+      "closedAt": "2025-11-05T13:50:56Z",
+      "mergedAt": "2025-11-05T13:50:56Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "dbca8721f6484ae6031ca855192b964e916043b0"
+      },
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "thanks!",
+          "createdAt": "2025-11-05T13:51:04Z",
+          "updatedAt": "2025-11-05T13:51:04Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMZ1wVs7L-nb4",
+          "commit": {
+            "abbreviatedOid": "6430eb2"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-11-05T13:50:44Z",
+          "updatedAt": "2025-11-05T13:50:44Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "id": "PR_kwDOMZ1wVs6xrpv7",
+      "title": "Better description of the style guide",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/50",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-11-05T15:28:27Z",
+      "updatedAt": "2025-11-05T15:36:29Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "dbca8721f6484ae6031ca855192b964e916043b0",
+      "headRepository": "paulehoffman/2026bis",
+      "headRefName": "patch-1",
+      "headRefOid": "478e5693e9b67890f4b96718d73914b9aacb62d2",
+      "closedAt": "2025-11-05T15:36:29Z",
+      "mergedAt": "2025-11-05T15:36:29Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "083ecce802439702bd80a86b4bb0ae899d18aa2a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMZ1wVs7MBWUM",
+          "commit": {
+            "abbreviatedOid": "478e569"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "sure.",
+          "createdAt": "2025-11-05T15:36:22Z",
+          "updatedAt": "2025-11-05T15:36:22Z",
           "comments": []
         }
       ]
