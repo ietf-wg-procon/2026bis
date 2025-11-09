@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-06T00:53:04.482501+00:00",
+  "timestamp": "2025-11-09T00:55:50.319081+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -32,6 +32,11 @@
       "name": "wontfix",
       "description": "This will not be worked on",
       "color": "ffffff"
+    },
+    {
+      "name": "policy change",
+      "description": "A change in the current operating policy/procedures.",
+      "color": "6e2030"
     }
   ],
   "issues": [
@@ -770,7 +775,7 @@
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2025-11-04T17:27:33Z",
+      "updatedAt": "2025-11-07T21:28:08Z",
       "closedAt": null,
       "comments": [
         {
@@ -779,8 +784,55 @@
           "body": "The chat has some of the specifics, starting around here: [#procon > ietf-124 @ \ud83d\udcac](https://zulip.ietf.org/#narrow/channel/414-procon/topic/ietf-124/near/189070)",
           "createdAt": "2025-11-04T17:27:33Z",
           "updatedAt": "2025-11-04T17:27:33Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "The Montreal minutes mention this as part of issue https://github.com/ietf-wg-procon/2026bis/issues/42 but that's confusing. Several BCPs were assigned to the IAB stream by the RFC Editor but nothing in RFC 2026 allows the IAB to approve BCP's - it's an IETF consensus process with approval by the IESG. There's no way we should change that. The RFC Editor made a clerical error when the stream metadata was created, and all the \"IAB stream\" BCPs should simply be reassigned to the IETF stream.\n",
+          "createdAt": "2025-11-07T21:28:08Z",
+          "updatedAt": "2025-11-07T21:28:08Z"
         }
       ]
+    },
+    {
+      "number": 51,
+      "id": "I_kwDOMZ1wVs7WsxW8",
+      "title": "IAB \"BCPs\"",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/51",
+      "state": "CLOSED",
+      "author": "becarpenter",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The Montreal minutes mention this as part of issue #42 but that's confusing. Several BCPs were assigned to the IAB stream by the RFC Editor but nothing in RFC 2026 allows the IAB to approve BCP's - it's an IETF consensus process with approval by the IESG. There's no way we should change that. The RFC Editor made a clerical error when the stream metadata was created, and all the \"IAB stream\" BCPs should be reassigned to the IETF stream. ",
+      "createdAt": "2025-11-07T21:19:08Z",
+      "updatedAt": "2025-11-07T21:26:47Z",
+      "closedAt": "2025-11-07T21:26:47Z",
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Sorry, go to #48",
+          "createdAt": "2025-11-07T21:26:42Z",
+          "updatedAt": "2025-11-07T21:26:42Z"
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "id": "I_kwDOMZ1wVs7WszyT",
+      "title": "Reconcile \"Internet-Drafts\" sections",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/52",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Both 2026bis and 2418bis contain \"Internet-Drafts\" sections. They need to be cross-checked for discrepancies and overlaps.",
+      "createdAt": "2025-11-07T21:22:39Z",
+      "updatedAt": "2025-11-07T21:22:39Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
