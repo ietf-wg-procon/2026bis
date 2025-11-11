@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-09T00:55:50.319081+00:00",
+  "timestamp": "2025-11-11T00:54:05.940205+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -775,7 +775,7 @@
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2025-11-07T21:28:08Z",
+      "updatedAt": "2025-11-10T21:14:42Z",
       "closedAt": null,
       "comments": [
         {
@@ -791,6 +791,13 @@
           "body": "The Montreal minutes mention this as part of issue https://github.com/ietf-wg-procon/2026bis/issues/42 but that's confusing. Several BCPs were assigned to the IAB stream by the RFC Editor but nothing in RFC 2026 allows the IAB to approve BCP's - it's an IETF consensus process with approval by the IESG. There's no way we should change that. The RFC Editor made a clerical error when the stream metadata was created, and all the \"IAB stream\" BCPs should simply be reassigned to the IETF stream.\n",
           "createdAt": "2025-11-07T21:28:08Z",
           "updatedAt": "2025-11-07T21:28:08Z"
+        },
+        {
+          "author": "ldaigle",
+          "authorAssociation": "NONE",
+          "body": "I think that something got lost when RFC 7841 obsoleted RFC 5741 and onwards.  In RFC 7841, only IAB Informational RFCs were described.   \n\nBCPs that are ascribed to the IAB pre-date the streams model.    The IAB hasn't, and doesn't actually publish BCPs.\n\nShould a case arise where the IAB wants to edit/author a BCP, it should be shepherded in the IESG for IETF community consensus and published in the IETF stream.  In that light, RFC2026 does not need updating.\n\n(The IAB Charter is published as a BCP.  It was \"recently\" (2022) updated by @becarpenter , perhaps he can share what review process it had?)",
+          "createdAt": "2025-11-10T21:14:42Z",
+          "updatedAt": "2025-11-10T21:14:42Z"
         }
       ]
     },
