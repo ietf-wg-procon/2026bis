@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-11T00:54:05.940205+00:00",
+  "timestamp": "2025-11-13T00:53:35.493214+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -775,7 +775,7 @@
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2025-11-10T21:14:42Z",
+      "updatedAt": "2025-11-11T02:12:32Z",
       "closedAt": null,
       "comments": [
         {
@@ -798,6 +798,13 @@
           "body": "I think that something got lost when RFC 7841 obsoleted RFC 5741 and onwards.  In RFC 7841, only IAB Informational RFCs were described.   \n\nBCPs that are ascribed to the IAB pre-date the streams model.    The IAB hasn't, and doesn't actually publish BCPs.\n\nShould a case arise where the IAB wants to edit/author a BCP, it should be shepherded in the IESG for IETF community consensus and published in the IETF stream.  In that light, RFC2026 does not need updating.\n\n(The IAB Charter is published as a BCP.  It was \"recently\" (2022) updated by @becarpenter , perhaps he can share what review process it had?)",
           "createdAt": "2025-11-10T21:14:42Z",
           "updatedAt": "2025-11-10T21:14:42Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "As you can see at https://datatracker.ietf.org/doc/draft-carpenter-rfced-iab-charter/history/, it went through full IETF processing and IESG approval (as a direct submission to the IESG, since there was no IETF WG). It actually originated in the RFC Editor world, since we noticed that the new RFC Editor model was inconsistent with the IAB charter.\n\nRFC2850 itself was also approved as a BCP by the IESG after an IETF last call. But the notion of streams didn't exist back then. I'm impressed that the tracker even knows that too: https://datatracker.ietf.org/doc/draft-iab-rfc1601bis/history/",
+          "createdAt": "2025-11-11T02:12:31Z",
+          "updatedAt": "2025-11-11T02:12:31Z"
         }
       ]
     },
