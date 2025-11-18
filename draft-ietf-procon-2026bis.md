@@ -983,7 +983,8 @@ much as possible the process is designed so that compromises can be
 made, and genuine consensus achieved, however there are times when
 even the most reasonable and knowledgeable people are unable to
 agree. To achieve the goals of openness and fairness, such conflicts
-must be resolved by a process of open review and discussion. This
+must be resolved by a process of open review and, where appropriate,
+discussion. This
 section specifies the procedures that shall be followed to deal with
 Internet standards issues that cannot be resolved through the normal
 processes whereby IETF Working Groups and other Internet Standards
@@ -1088,6 +1089,8 @@ At all stages of the appeals process, the individuals or bodies
 responsible for making the decisions have the discretion to define
 the specific procedures they will follow in the process of making
 their decision.
+Note that this does not require that all discussions
+be held in public forums.
 
 In all cases a decision concerning the disposition of the dispute,
 and the communication of that decision to the parties involved, must
@@ -1320,6 +1323,9 @@ about RFC style, output formats, default input; remove text about standards
 requiring ASCII. Unindent or remove text blocks. Discuss legacy "Draft
 Standard" documents. Tighten IPR requirements on Informational.  Add WG
 changelog section.
+
+- Draft 2: Fix link to repository, tweak wording about RFC style and
+formats. Clarify that not all discussions must be public.
 
 ## Individual draft
 
