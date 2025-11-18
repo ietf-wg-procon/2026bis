@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              15 October 2025
+Updates: 7475 (if approved)                             18 November 2025
 Intended status: Best Current Practice                                  
-Expires: 18 April 2026
+Expires: 22 May 2026
 
 
                      The Internet Standards Process
@@ -36,7 +36,7 @@ About This Document
    https://datatracker.ietf.org/doc/draft-ietf-procon-2026bis/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/ietf-wg-procon/draft-ietf-procon-2026bis.
+   https://github.com/ietf-wg-procon/2026bis.
 
 Status of This Memo
 
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 April 2026.
+   This Internet-Draft will expire on 22 May 2026.
 
 Copyright Notice
 
@@ -119,6 +119,8 @@ Table of Contents
    12. Security Considerations
    13. IANA Considerations
    14. Change Log
+     14.1.  Working group draft
+     14.2.  Individual draft
    15. References
      15.1.  Normative References
      15.2.  Informative References
@@ -126,14 +128,6 @@ Table of Contents
    Authors' Addresses
 
 1.  Introduction
-
-      NOTE: This document started with the raw text of RFC 2026, and
-      subsequent drafts each incorporated the text of RFC 6410, RFC
-      7100, RFC 7127, RFC 7475, RFC 8789, and RFC 9282.  (RFC 3932 was
-      obsoleted by RFC 5742; RFC 3978 was obsoleted by RFC 8179; RFC
-      5657 became not relevant because of RFC 6410 and RFC 7127).
-      A final update addressed all the errata. We have submitted
-      this to the GENDISPATCH working group to determine the next steps.
 
    This memo documents the process currently used by the Internet
    community for the standardization of protocols and procedures.  The
@@ -427,9 +421,9 @@ Table of Contents
    discussion of new research concepts to status memos about the
    Internet.  For information about RFC publication, see [RFC9280].
 
-   The style guide for writing an RFC is defined in [RFC7322].  The
-   default input format is [RFCXML], RFCs are available in multiple
-   formats as described in [RFCPAGE].
+   The style guide for writing an RFC is [RFC7322].  The default input
+   format is [RFCXML], RFCs are available in multiple formats as
+   described in [RFCPAGE].
 
    Some RFCs document Internet Standards.  These RFCs form the 'STD'
    subseries of the RFC series [RFC1311].  When a specification has been
@@ -716,12 +710,6 @@ Table of Contents
    information of the Internet community.  The Informational designation
    is intended to provide for the timely publication of a very broad
    range of responsible informational documents from many sources.
-
-   Specifications that have been prepared outside of the Internet
-   community and are not incorporated into the Internet Standards
-   Process or do not meet the legal requirements {#ipr-requirements} may
-   be published as Informational RFCs, with the permission of the owner
-   and the concurrence of the RFC Editor.
 
 6.2.3.  Procedures for Experimental and Informational RFCs
 
@@ -1039,11 +1027,12 @@ Table of Contents
    made, and genuine consensus achieved, however there are times when
    even the most reasonable and knowledgeable people are unable to
    agree.  To achieve the goals of openness and fairness, such conflicts
-   must be resolved by a process of open review and discussion.  This
-   section specifies the procedures that shall be followed to deal with
-   Internet standards issues that cannot be resolved through the normal
-   processes whereby IETF Working Groups and other Internet Standards
-   Process participants ordinarily reach consensus.
+   must be resolved by a process of open review and, where appropriate,
+   discussion.  This section specifies the procedures that shall be
+   followed to deal with Internet standards issues that cannot be
+   resolved through the normal processes whereby IETF Working Groups and
+   other Internet Standards Process participants ordinarily reach
+   consensus.
 
 8.5.1.  Working Group Disputes
 
@@ -1142,7 +1131,8 @@ Table of Contents
    At all stages of the appeals process, the individuals or bodies
    responsible for making the decisions have the discretion to define
    the specific procedures they will follow in the process of making
-   their decision.
+   their decision.  Note that this does not require that all discussions
+   be held in public forums.
 
    In all cases a decision concerning the disposition of the dispute,
    and the communication of that decision to the parties involved, must
@@ -1362,6 +1352,21 @@ Table of Contents
 
 14.  Change Log
 
+14.1.  Working group draft
+
+   *  Draft 0: Adopted by PROCON WG.
+
+   *  Draft 1: Various GitHub fixes.  Improve 7475 obsolescence text.
+      Add wording about RFC style, output formats, default input; remove
+      text about standards requiring ASCII.  Unindent or remove text
+      blocks.  Discuss legacy "Draft Standard" documents.  Tighten IPR
+      requirements on Informational.  Add WG changelog section.
+
+   *  Draft 2: Fix link to repository, tweak wording about RFC style and
+      formats.  Clarify that not all discussions must be public.
+
+14.2.  Individual draft
+
    *  Draft 0: Translated the nroff source of RFC 2026 into markdown.
       The notices in the document at section 12.4 were prefaced with
       "THIS TEXT ADDED TO PASS THE IDNITS CHECKS" so that the draft
@@ -1510,11 +1515,11 @@ Table of Contents
    [US-ASCII] ANSI, "Coded Character Set -- 7-Bit American Standard Code
               for Information Interchange", March 1986.  ANSI X3.4-1986
 
-   [_2418bis] Salz, R. and S. O. Bradner, "IETF Working Group Guidelines
-              and Procedures", Work in Progress, Internet-Draft, draft-
-              ietf-procon-2418bis-00, 30 September 2025,
-              <https://datatracker.ietf.org/doc/html/draft-ietf-procon-
-              2418bis-00>.
+   [_2418bis] Salz, R., Schinazi, D., and S. O. Bradner, "IETF Working
+              Group Guidelines and Procedures", Work in Progress,
+              Internet-Draft, draft-ietf-procon-2418bis-01, 15 October
+              2025, <https://datatracker.ietf.org/doc/html/draft-ietf-
+              procon-2418bis-01>.
 
 Acknowledgments
 
