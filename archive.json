@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-13T00:53:35.493214+00:00",
+  "timestamp": "2025-11-20T00:52:18.628601+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1693,6 +1693,201 @@
           "createdAt": "2025-11-05T15:36:22Z",
           "updatedAt": "2025-11-05T15:36:22Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "id": "PR_kwDOMZ1wVs60LovS",
+      "title": "Clarify that discussions need not be public",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/53",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes: #24",
+      "createdAt": "2025-11-18T18:27:02Z",
+      "updatedAt": "2025-11-18T21:36:29Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "083ecce802439702bd80a86b4bb0ae899d18aa2a",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-24",
+      "headRefOid": "726f6e7790643c321faec03e375b59161dfd674d",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "I agree with the clarification. One awkwardness in the text:\r\n`This must be resolved by a process of open review and, where appropriate, discussion.`\r\nThat leaves the type of discussion hanging. Suggest:\r\n`This must be resolved by a process of open review and, where appropriate, open discussion.`\r\nI think the repetition is necessary for clarity.",
+          "createdAt": "2025-11-18T19:29:07Z",
+          "updatedAt": "2025-11-18T19:29:07Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMZ1wVs7PZGGq",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T19:38:00Z",
+          "updatedAt": "2025-11-18T19:38:01Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Annoying English teacher's red pen: \"this\" what?\r\n\r\nHow about \"Not all procedures are required to be public, but the decision must be.\" (If that is what you mean, I can't tell)",
+              "createdAt": "2025-11-18T19:38:01Z",
+              "updatedAt": "2025-11-18T19:38:01Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7PZQQ0",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T19:51:46Z",
+          "updatedAt": "2025-11-18T19:51:46Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "The antecedent for \"this\" was intended to be the previous sentence without adding too many more words. Given the recent activity around appeals, I had wanted to highlight discussion, but yes procedure is also good.    How about\r\n```\r\nthe specific procedures they will follow in the process of making\r\ntheir decision, as long as their decisions are part of the public\r\nrecord.\r\n```\r\n",
+              "createdAt": "2025-11-18T19:51:46Z",
+              "updatedAt": "2025-11-18T19:51:47Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7PZQ9d",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T19:52:41Z",
+          "updatedAt": "2025-11-18T19:52:41Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "@becarpenter , I am about to push a commit with your wording suggestion.",
+              "createdAt": "2025-11-18T19:52:41Z",
+              "updatedAt": "2025-11-18T19:52:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7PZx3D",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T20:17:58Z",
+          "updatedAt": "2025-11-18T20:17:58Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Oh, you're going to get the Latin police here, too. \"forums\" vs \"fora\"",
+              "createdAt": "2025-11-18T20:17:58Z",
+              "updatedAt": "2025-11-18T20:17:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7PZ3dh",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T20:24:42Z",
+          "updatedAt": "2025-11-18T20:24:42Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "I looked it up before I wrote it, and unless you're writing academic or legal treatises, in `forums` is prefered :)",
+              "createdAt": "2025-11-18T20:24:42Z",
+              "updatedAt": "2025-11-18T20:24:42Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7PaUUq",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T21:28:23Z",
+          "updatedAt": "2025-11-18T21:28:24Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Oh, well, I happen to agree. But the modpod document does not. So maybe take this to the RPC style guide?",
+              "createdAt": "2025-11-18T21:28:23Z",
+              "updatedAt": "2025-11-18T21:30:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7PaUxR",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T21:30:18Z",
+          "updatedAt": "2025-11-18T21:30:18Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "If the RPC wants to change it, I won't stop them.",
+              "createdAt": "2025-11-18T21:30:18Z",
+              "updatedAt": "2025-11-18T21:30:18Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7PaWSf",
+          "commit": {
+            "abbreviatedOid": "0bbd092"
+          },
+          "author": "sayrer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-11-18T21:36:28Z",
+          "updatedAt": "2025-11-18T21:36:29Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "https://mailarchive.ietf.org/arch/msg/rswg/ZdA-B4B99AzC7JkXxEF5msluL6o/",
+              "createdAt": "2025-11-18T21:36:29Z",
+              "updatedAt": "2025-11-18T21:36:29Z"
+            }
+          ]
         }
       ]
     }
