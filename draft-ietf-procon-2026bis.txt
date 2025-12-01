@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              5 November 2025
+Updates: 7475 (if approved)                              1 December 2025
 Intended status: Best Current Practice                                  
-Expires: 9 May 2026
+Expires: 4 June 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 May 2026.
+   This Internet-Draft will expire on 4 June 2026.
 
 Copyright Notice
 
@@ -1027,11 +1027,12 @@ Table of Contents
    made, and genuine consensus achieved, however there are times when
    even the most reasonable and knowledgeable people are unable to
    agree.  To achieve the goals of openness and fairness, such conflicts
-   must be resolved by a process of open review and discussion.  This
-   section specifies the procedures that shall be followed to deal with
-   Internet standards issues that cannot be resolved through the normal
-   processes whereby IETF Working Groups and other Internet Standards
-   Process participants ordinarily reach consensus.
+   must be resolved by a process of open review and, where appropriate,
+   open discussion.  This section specifies the procedures that shall be
+   followed to deal with Internet standards issues that cannot be
+   resolved through the normal processes whereby IETF Working Groups and
+   other Internet Standards Process participants ordinarily reach
+   consensus.
 
 8.5.1.  Working Group Disputes
 
@@ -1130,7 +1131,8 @@ Table of Contents
    At all stages of the appeals process, the individuals or bodies
    responsible for making the decisions have the discretion to define
    the specific procedures they will follow in the process of making
-   their decision.
+   their decision.  Note that this does not require that all discussions
+   be held in public forums.
 
    In all cases a decision concerning the disposition of the dispute,
    and the communication of that decision to the parties involved, must
@@ -1359,6 +1361,9 @@ Table of Contents
       text about standards requiring ASCII.  Unindent or remove text
       blocks.  Discuss legacy "Draft Standard" documents.  Tighten IPR
       requirements on Informational.  Add WG changelog section.
+
+   *  Draft 2: Fix link to repository, tweak wording about RFC style and
+      formats.  Clarify that not all discussions must be public.
 
 14.2.  Individual draft
 
