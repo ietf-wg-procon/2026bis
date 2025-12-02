@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-20T00:52:18.628601+00:00",
+  "timestamp": "2025-12-02T00:54:46.696513+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -200,7 +200,7 @@
       "id": "I_kwDOMZ1wVs7ITSPo",
       "title": "record keeping and appeals",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/24",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -210,8 +210,8 @@
       ],
       "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
       "createdAt": "2025-08-27T18:47:26Z",
-      "updatedAt": "2025-11-04T21:11:03Z",
-      "closedAt": null,
+      "updatedAt": "2025-12-01T20:45:26Z",
+      "closedAt": "2025-12-01T20:45:26Z",
       "comments": [
         {
           "author": "richsalz",
@@ -1701,24 +1701,26 @@
       "id": "PR_kwDOMZ1wVs60LovS",
       "title": "Clarify that discussions need not be public",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/53",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes: #24",
       "createdAt": "2025-11-18T18:27:02Z",
-      "updatedAt": "2025-11-18T21:36:29Z",
+      "updatedAt": "2025-12-01T20:45:29Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "083ecce802439702bd80a86b4bb0ae899d18aa2a",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-24",
       "headRefOid": "726f6e7790643c321faec03e375b59161dfd674d",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-12-01T20:45:25Z",
+      "mergedAt": "2025-12-01T20:45:25Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "b66ed2c419de110eacad27a6c6aba7b1c08e9adb"
+      },
       "comments": [
         {
           "author": "becarpenter",
