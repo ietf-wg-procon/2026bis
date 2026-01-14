@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              1 December 2025
+Updates: 7475 (if approved)                              14 January 2026
 Intended status: Best Current Practice                                  
-Expires: 4 June 2026
+Expires: 18 July 2026
 
 
                      The Internet Standards Process
@@ -53,11 +53,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 June 2026.
+   This Internet-Draft will expire on 18 July 2026.
 
 Copyright Notice
 
-   Copyright (c) 2025 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -178,52 +178,8 @@ Table of Contents
    ARPA  Advanced Research Projects Agency; an agency of the US
       Department of Defense.
 
-   Contribution  Any submission to the IETF intended by the Contributor
-      for publication as all or part of an Internet-Draft or RFC and any
-      statement made within the context of an IETF activity, in each
-      case that is intended to affect the IETF Standards Process or that
-      is related to the activity of an Alternate Stream that has adopted
-      this policy.
-
-   Such statements include oral statements, as well as written and
-   electronic communications, which are addressed to:
-
-   *  Any IETF plenary session,
-
-   *  Any IETF Working Group (WG; see [BCP25]) or portion thereof or any
-      WG chair on behalf of the relevant WG,
-
-   *  Any IETF "birds of a feather" (BOF) session or portion thereof,
-
-   *  WG design teams (see [BCP25]) and other design teams that intend
-      to deliver an output to IETF, or portions thereof,
-
-   *  The IESG, or any member thereof on behalf of the IESG,
-
-   *  The IAB, or any member thereof on behalf of the IAB,
-
-   *  Any IETF mailing list, web site, chat room, or discussion board
-      operated by or under the auspices of the IETF, including the IETF
-      list itself,
-
-   *  The RFC Editor or the Internet-Drafts function.
-
-   Statements made outside of an IETF session, mailing list, or other
-   function, or that are clearly not intended to be input to an IETF
-   activity, group, or function, are not Contributions in the context of
-   this document.  And while the IETF's IPR rules apply in all cases,
-   not all presentations represent a Contribution.  For example, many
-   invited plenary, area-meeting, or research group presentations will
-   cover useful background material, such as general discussions of
-   existing Internet technology and products, and will not be a
-   Contribution.  (Some such presentations can represent a Contribution
-   as well, of course).  Throughout this document, the term "written
-   Contribution" is used.  For purposes of this document, "written"
-   means reduced to a written or visual form in any language and any
-   media, permanent or temporary, including but not limited to
-   traditional documents, email messages, discussion board postings,
-   slide presentations, text messages, instant messages, and
-   transcriptions of oral statements.
+   Contribution  A large category of oral, written, or electronic
+      submissions to the IETF.  See [BCP78] for the full definition.
 
    Copyright  The legal right granted to an author in a document or
       other work of authorship under applicable law.  A "copyright" is
@@ -1365,6 +1321,8 @@ Table of Contents
    *  Draft 2: Fix link to repository, tweak wording about RFC style and
       formats.  Clarify that not all discussions must be public.
 
+   *  Draft 3: Refer to BCP78 for definition of "Contribution"
+
 14.2.  Individual draft
 
    *  Draft 0: Translated the nroff source of RFC 2026 into markdown.
@@ -1452,30 +1410,6 @@ Table of Contents
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 15.2.  Informative References
-
-   [BCP25]    Best Current Practice 25,
-              <https://www.rfc-editor.org/info/bcp25>.
-              At the time of writing, this BCP comprises the following:
-
-              Bradner, S., "IETF Working Group Guidelines and
-              Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
-              September 1998, <https://www.rfc-editor.org/info/rfc2418>.
-
-              Wasserman, M., "Updates to RFC 2418 Regarding the
-              Management of IETF Mailing Lists", BCP 25, RFC 3934,
-              DOI 10.17487/RFC3934, October 2004,
-              <https://www.rfc-editor.org/info/rfc3934>.
-
-              Resnick, P. and A. Farrel, "IETF Anti-Harassment
-              Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
-              2016, <https://www.rfc-editor.org/info/rfc7776>.
-
-              Resnick, P. and A. Farrel, "Update to the IETF Anti-
-              Harassment Procedures for the Replacement of the IETF
-              Administrative Oversight Committee (IAOC) with the IETF
-              Administration LLC", BCP 25, RFC 8716,
-              DOI 10.17487/RFC8716, February 2020,
-              <https://www.rfc-editor.org/info/rfc8716>.
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
