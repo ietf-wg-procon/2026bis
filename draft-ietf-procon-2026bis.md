@@ -27,7 +27,7 @@ author:
     email: sob@sobco.com
 
 venue:
- repo: https://github.com/ietf-wg-procon/draft-ietf-procon-2026bis
+ repo: https://github.com/ietf-wg-procon/2026bis
 
 normative:
 
@@ -327,7 +327,7 @@ topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
 For information about RFC publication, see {{?RFC9280}}.
 
-The style guide for writing an RFC is defined in {{!RFC7322}}.
+The style guide for writing an RFC is {{!RFC7322}}.
 The default input format is {{RFCXML}},
 RFCs are available in multiple formats as described in {{RFCPAGE}}.
 
@@ -942,7 +942,8 @@ much as possible the process is designed so that compromises can be
 made, and genuine consensus achieved, however there are times when
 even the most reasonable and knowledgeable people are unable to
 agree. To achieve the goals of openness and fairness, such conflicts
-must be resolved by a process of open review and discussion. This
+must be resolved by a process of open review and, where appropriate,
+open discussion. This
 section specifies the procedures that shall be followed to deal with
 Internet standards issues that cannot be resolved through the normal
 processes whereby IETF Working Groups and other Internet Standards
@@ -1047,6 +1048,8 @@ At all stages of the appeals process, the individuals or bodies
 responsible for making the decisions have the discretion to define
 the specific procedures they will follow in the process of making
 their decision.
+Note that this does not require that all discussions
+be held in public forums.
 
 In all cases a decision concerning the disposition of the dispute,
 and the communication of that decision to the parties involved, must
@@ -1280,7 +1283,10 @@ requiring ASCII. Unindent or remove text blocks. Discuss legacy "Draft
 Standard" documents. Tighten IPR requirements on Informational.  Add WG
 changelog section.
 
-- Draft 2: Refer to BCP78 for definition of "Contribution"
+- Draft 2: Fix link to repository, tweak wording about RFC style and
+formats. Clarify that not all discussions must be public.
+
+- Draft 3: Refer to BCP78 for definition of "Contribution"
 
 ## Individual draft
 
