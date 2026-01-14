@@ -167,10 +167,9 @@ are not directed toward the development of IETF standards or
 specifications, such as the development and publication of Informational
 and Experimental documents (see {{sec4}}).
 
-IETF Trust
-: A trust established under the laws of the Commonwealth of Virginia, USA, in
-order to hold and administer intellectual property rights for the benefit of
-the IETF.
+IETF Intellectual Property Management Corporation
+: A iegal entity to hold and administer intellectual property rights for the
+benefit of the IETF. The successor to the IETF Trust.
 
 Implementing Technology
 : A technology that implements an IETF specification or standard.
@@ -1286,7 +1285,8 @@ changelog section.
 - Draft 2: Fix link to repository, tweak wording about RFC style and
 formats. Clarify that not all discussions must be public.
 
-- Draft 3: Refer to BCP78 for definition of "Contribution"
+- Draft 3: Refer to BCP78 for definition of "Contribution."
+Renamed IETF Trust to IETF Intellectual Property Management Corporation.
 
 ## Individual draft
 
