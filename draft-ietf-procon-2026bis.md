@@ -119,49 +119,8 @@ ARPA
 Department of Defense.
 
 Contribution
-: Any submission to the IETF intended by the Contributor for publication as
-all or part of an Internet-Draft or RFC and any statement made within the
-context of an IETF activity, in each case that is intended to affect the IETF
-Standards Process or that is related to the activity of an Alternate Stream
-that has adopted this policy.
-
-Such statements include oral statements, as well as written and electronic
-communications, which are addressed to:
-
-- Any IETF plenary session,
-
-- Any IETF Working Group (WG; see {{?BCP25}}) or portion thereof or
-any WG chair on behalf of the relevant WG,
-
-- Any IETF "birds of a feather" (BOF) session or portion thereof,
-
-- WG design teams (see {{BCP25}}) and other design teams that intend
-to deliver an output to IETF, or portions thereof,
-
-- The IESG, or any member thereof on behalf of the IESG,
-
-- The IAB, or any member thereof on behalf of the IAB,
-
-- Any IETF mailing list, web site, chat room, or discussion board
-operated by or under the auspices of the IETF, including the
-IETF list itself,
-
-- The RFC Editor or the Internet-Drafts function.
-
-Statements made outside of an IETF session, mailing list, or other function,
-or that are clearly not intended to be input to an IETF activity, group, or
-function, are not Contributions in the context of this document.  And while
-the IETF's IPR rules apply in all cases, not all presentations represent a
-Contribution.  For example, many invited plenary, area-meeting, or research
-group presentations will cover useful background material, such as general
-discussions of existing Internet technology and products, and will not be a
-Contribution.  (Some such presentations can represent a Contribution as well,
-of course).  Throughout this document, the term "written Contribution" is
-used.  For purposes of this document, "written" means reduced to a written or
-visual form in any language and any media, permanent or temporary, including
-but not limited to traditional documents, email messages, discussion board
-postings, slide presentations, text messages, instant messages, and
-transcriptions of oral statements.
+: A large category of oral, written, or electronic submissions to the
+IETF. See {{!BCP78}} for the full definition.
 
 Copyright
 : The legal right granted to an author in a document or other work of
@@ -1326,6 +1285,8 @@ changelog section.
 
 - Draft 2: Fix link to repository, tweak wording about RFC style and
 formats. Clarify that not all discussions must be public.
+
+- Draft 3: Refer to BCP78 for definition of "Contribution"
 
 ## Individual draft
 
