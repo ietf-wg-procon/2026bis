@@ -334,7 +334,7 @@ RFCs are available in multiple formats as described in {{RFCPAGE}}.
 Some RFCs document Internet Standards. These RFCs form the 'STD'
 subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
-"STDxxx", but it keeps its RFC number and its place in the RFC
+"STD xxx", but it keeps its RFC number and its place in the RFC
 series (see {{sec413}}).
 The status of Internet protocol and service specifications is available
 from the [RFC Index](https://www.rfc-editor.org/rfc-index.txt) in the
@@ -343,9 +343,9 @@ RFC repository.
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF process function. These RFCs form
-the specification has been adopted as a Best Current Practice (BCP)
-, it is given the
-additional label "BCPxxx", but it keeps its RFC number and its place
+the specification has been adopted as a Best Current Practice (BCP);
+it is given the
+additional label "BCP xxx", but it keeps its RFC number and its place
 in the RFC series. (see {{sec5}})
 
 Not all specifications of protocols or services for the Internet
@@ -400,7 +400,7 @@ Specifications subject to the Internet Standards Process fall into
 one of two categories: Technical Specification (TS) and
 Applicability Statement (AS).
 
-## Technical Specification (TS)
+## Technical Specification
 
 A Technical Specification is any description of a protocol, service,
 procedure, convention, or format. It may completely describe all of
@@ -418,7 +418,7 @@ within the Internet; these requirements, which depend on the
 particular context in which the TS is incorporated by different
 system configurations, are defined by an Applicability Statement.
 
-## Applicability Statement (AS) {#sec32}
+## Applicability Statement {#sec32}
 
 An Applicability Statement specifies how, and under what
 circumstances, one or more TSs may be applied to support a particular
@@ -1286,7 +1286,8 @@ changelog section.
 - Draft 2: Fix link to repository, tweak wording about RFC style and
 formats. Clarify that not all discussions must be public.
 
-- Draft 3: Refer to BCP78 for definition of "Contribution"
+- Draft 3: Refer to BCP78 for definition of "Contribution."
+Various minor editorial/wording changes.
 
 ## Individual draft
 
