@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              14 January 2026
+Updates: 7475 (if approved)                              15 January 2026
 Intended status: Best Current Practice                                  
-Expires: 18 July 2026
+Expires: 19 July 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 July 2026.
+   This Internet-Draft will expire on 19 July 2026.
 
 Copyright Notice
 
@@ -1207,13 +1207,12 @@ Table of Contents
 
    As a practical matter, the formal record of all Internet Standards
    Process activities is maintained by the IETF LLC or its designees.
-   Also, the Working Group chair is responsible for providing the IETF
-   Secretariat with complete and accurate minutes of all Working Group
-   meetings.  Internet-Drafts that have been removed (for any reason)
-   from the Internet-Drafts directories shall be archived for the sole
-   purpose of preserving an historical record of Internet standards
-   activity and thus are not retrievable except in special
-   circumstances.
+   Also, the Working Group chair is responsible for providing complete
+   and accurate minutes of all Working Group meetings.  Internet-Drafts
+   that have been removed (for any reason) from the Internet-Drafts
+   directories shall be archived for the sole purpose of preserving an
+   historical record of Internet standards activity and thus are not
+   retrievable except in special circumstances.
 
 11.  Varying the Process
 
