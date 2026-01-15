@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              14 January 2026
+Updates: 7475 (if approved)                              15 January 2026
 Intended status: Best Current Practice                                  
-Expires: 18 July 2026
+Expires: 19 July 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 July 2026.
+   This Internet-Draft will expire on 19 July 2026.
 
 Copyright Notice
 
@@ -490,9 +490,8 @@ Table of Contents
    commonly called a "requirements document", for a particular class of
    Internet systems, such as Internet routers or Internet hosts.
 
-   An AS may not have a higher standardization level in the standards
-   track than any standards-track TS on which the AS relies (see
-   Section 6.1).
+   An AS may not have a higher maturity level in the standards track
+   than any standards-track TS on which the AS relies (see Section 6.1).
 
 5.3.  Requirement Levels
 
