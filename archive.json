@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-12-02T00:54:46.696513+00:00",
+  "timestamp": "2026-01-15T00:56:40.395733+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -284,11 +284,12 @@
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [
-        "discuss"
+        "hold",
+        "policy change"
       ],
       "body": "} \"   Although this document is not an IETF Standards Track publication, \"\n\nI kinda did a double take on that.  It's true though.\nThat it defines the IETF Standards Track ... and yet, it's not a part of it.\n(Something about the set of all sets...)\nThe substantial comment however, is that maybe we ought to have a series\n(other than BCPs) about processes.  I dunno.  This is the document to make\nthat change.\n\nreplaces #19 \n",
       "createdAt": "2025-08-29T00:34:36Z",
-      "updatedAt": "2025-11-03T19:26:52Z",
+      "updatedAt": "2026-01-14T21:26:00Z",
       "closedAt": null,
       "comments": [
         {
@@ -318,6 +319,20 @@
           "body": "I agree with Brian here, and I think we should avoid inventing a new category. And if we do, it would not be just reality alignment but new process development. And I don't know what we would do with existing process documents.",
           "createdAt": "2025-11-03T19:26:52Z",
           "updatedAt": "2025-11-03T19:26:52Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "In the meeting we said this seems like a policy change. Can we label this as a policy change, remove the discuss label, and close the issue? Possibly to be looked at a later time, of course.",
+          "createdAt": "2026-01-14T00:09:04Z",
+          "updatedAt": "2026-01-14T00:09:04Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Changed labels.  Would rather not close -- you can do so if you disagree -- but it's explicitly marked `hold` no. I  also created https://github.com/ietf-github-services/activity-summary/pull/136 so that issues with `hold` label do not get included in the summary emails.",
+          "createdAt": "2026-01-14T21:26:00Z",
+          "updatedAt": "2026-01-14T21:26:00Z"
         }
       ]
     },
@@ -326,7 +341,7 @@
       "id": "I_kwDOMZ1wVs7IkviN",
       "title": "Contributions need explicit section, not just a definition",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/28",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mcr",
       "authorAssociation": "NONE",
       "assignees": [],
@@ -335,8 +350,8 @@
       ],
       "body": "from https://mailarchive.ietf.org/arch/msg/procon/X1qRYD6Vc4zHdQ6ZGg-Aps_o0_E/ and replacing #19 \n\n* I think that Contribution in the terminlogy section deserves its own section.\nThe bullet points under it need to be reference-able sections.\n\n",
       "createdAt": "2025-08-29T00:51:56Z",
-      "updatedAt": "2025-11-03T19:22:21Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-14T21:29:04Z",
+      "closedAt": "2026-01-14T21:29:04Z",
       "comments": [
         {
           "author": "richsalz",
@@ -351,6 +366,13 @@
           "body": "Agree that we should point to the RFC",
           "createdAt": "2025-11-03T19:22:21Z",
           "updatedAt": "2025-11-03T19:22:21Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "You indicated that you have a PR for this and at the meeting no one objected to the resolution of referring to BCP78. I looked at the PR at https://github.com/ietf-wg-procon/2026bis/commit/df5a0daf7d480b4284f9321e19dce75cd1c85816 and it seemed fine to me. Do people want to review the PR? Or are we ready to fold this into the next draft version and close the issue? For reference, the PR replaces the current text with just:\n\n\"Contribution: A large category of oral, written, or electronic submissions to the IETF. See {{!BCP78}} for the full definition.\"",
+          "createdAt": "2026-01-14T00:09:41Z",
+          "updatedAt": "2026-01-14T00:09:41Z"
         }
       ]
     },
@@ -440,7 +462,7 @@
       ],
       "body": "Section 4.2 says this:\n```\n    Under no circumstances should an Internet-Draft\n    be referenced by any paper, report, or Request-\n    for-Proposal, nor should a vendor claim compliance\n    with an Internet-Draft.\n```\n\nIs that still true when some WGs allow I-D's to be used as a reference for IANA registries?",
       "createdAt": "2025-10-13T16:53:55Z",
-      "updatedAt": "2025-11-03T19:35:34Z",
+      "updatedAt": "2026-01-14T00:10:20Z",
       "closedAt": null,
       "comments": [
         {
@@ -491,6 +513,13 @@
           "body": "> Actually, now that I'm on it, going forward it would perhaps be good if we had a list of all changes in the draft and the source of that changes (rfc xxx, alignment to current reality, editorial).\n\nEach git commit should have a `Fixes: #nn` issue, but you should probably also get in the habit of putting the issue number in the change log summary.",
           "createdAt": "2025-11-03T19:35:34Z",
           "updatedAt": "2025-11-03T19:35:34Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "We discussed this in the meeting, and at first you proposed that you'd craft text and circulate it on the list. But the feedback from the participants was that we\u2019d prefer saying very little about operational aspects in these fundamental documents. But I think that still counts as you needing to craft a proposal for what the document would say, and what gets deleted. Do you agree?\n\nAI notes on this said: Strong consensus to remove non-conceptual, operational details. Principles include: remove text if nothing breaks, point to existing external documents (e.g., RFC 5378 for contributions), or move to informational documents/web pages if specific operational guidance is needed. The goal is to make the standards-track document timeless and conceptual.",
+          "createdAt": "2026-01-14T00:10:19Z",
+          "updatedAt": "2026-01-14T00:10:19Z"
         }
       ]
     },
@@ -508,7 +537,7 @@
       ],
       "body": "And in Delware.",
       "createdAt": "2025-10-22T16:46:57Z",
-      "updatedAt": "2025-10-22T17:54:33Z",
+      "updatedAt": "2026-01-14T00:10:37Z",
       "closedAt": null,
       "comments": [
         {
@@ -517,6 +546,13 @@
           "body": "The IPMC transition is still in-progress (not just draft-bradner-gen-ipmc-contributor-rights, my understanding is that they're also haven't finalized the non-IETF legal paperwork to complete the transition) - though it will probably be done by the time 2026bis is published.\n\nBut regardless, it might be best to punt the definition to BCP 78. Ideally all that we would have here is a name (which might still be Trust?) and then a pointer to BCP 78. Then we just use the name when talking about appeals chains etc.",
           "createdAt": "2025-10-22T17:54:33Z",
           "updatedAt": "2025-10-22T17:54:33Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Seems like a no-brainer, maybe fold to the next version?",
+          "createdAt": "2026-01-14T00:10:37Z",
+          "updatedAt": "2026-01-14T00:10:37Z"
         }
       ]
     },
@@ -537,7 +573,7 @@
       ],
       "body": "Sec 10 says \"each IETF Working Group is expected to maintain their own email list archive and must make a best effort to ensure that all traffic is captured and included in the archives.\"  This is now the responsibility of the LLC",
       "createdAt": "2025-10-22T19:33:08Z",
-      "updatedAt": "2025-11-03T19:33:20Z",
+      "updatedAt": "2026-01-14T23:20:08Z",
       "closedAt": null,
       "comments": [
         {
@@ -553,6 +589,20 @@
           "body": "I probably confused bug/reality a couple of times :)",
           "createdAt": "2025-11-03T19:33:20Z",
           "updatedAt": "2025-11-03T19:33:20Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "This seemed clear, we are waiting I think for a text proposal, this isn\u2019t yet changed in the current document. Can you make a proposal? \n\nOr maybe I can start, how about:\n\nOLD: Except that each IETF Working Group is expected to maintain their own email list archive and must make a best effort to ensure that all traffic is captured and included in the archives.\nNEW:Mailing list archives for each IETF Working Group are hosted by the IETF Secretariat. A best effort is made to ensure that all traffic is captured and included in the archives.\n\n(But I don\u2019t know if there\u2019s a more global change s/Secretariat/IETF LLC/.)",
+          "createdAt": "2026-01-14T00:10:58Z",
+          "updatedAt": "2026-01-14T00:10:58Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I have a PR (#56) that addresses this. I used slightly different wording, putting the emphasis all on the IETF LLC.",
+          "createdAt": "2026-01-14T23:20:08Z",
+          "updatedAt": "2026-01-14T23:20:08Z"
         }
       ]
     },
@@ -570,7 +620,7 @@
       ],
       "body": "Sec 4.1, penultimate paragraph:\n\". Non-standards track specifications may be published directly as \"Experimental\" or \"Informational\" RFCs at the discretion of the RFC Editor in consultation with the IESG (see [Section 6.2](https://ietf-wg-procon.github.io/2026bis/draft-ietf-procon-2026bis.html#sec42)).\"\n\nShouyld just be at the discretion of the IESG.\n",
       "createdAt": "2025-10-24T20:28:25Z",
-      "updatedAt": "2025-11-04T13:05:48Z",
+      "updatedAt": "2026-01-14T00:11:20Z",
       "closedAt": null,
       "comments": [
         {
@@ -579,6 +629,13 @@
           "body": "Aren't there two ways for Inf/Exp to come around, either from the regular streams (IETF, IRTF) or via the independent submission channel via the RFC Editor? \n\nAlso, it feels like S6.2.3. should refer to the independent stream in some better way.\n\nThere's RFCs to point to, I believe, at least for the independent stream. Not sure about the Inf/Exp coming out of IETF, but it does happen.",
           "createdAt": "2025-11-04T13:05:48Z",
           "updatedAt": "2025-11-04T13:05:48Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "This seemed clear in the meeting, the IETF working group charters, the working groups, and ultimately the IESG decide the Exp/Inf designation.\n\nBut we also need to separately address #48.",
+          "createdAt": "2026-01-14T00:11:20Z",
+          "updatedAt": "2026-01-14T00:11:20Z"
         }
       ]
     },
@@ -596,7 +653,7 @@
       ],
       "body": "Should be a space before the `xxx`",
       "createdAt": "2025-10-24T20:29:24Z",
-      "updatedAt": "2025-10-24T20:42:15Z",
+      "updatedAt": "2026-01-14T00:11:39Z",
       "closedAt": null,
       "comments": [
         {
@@ -626,6 +683,13 @@
           "body": "IESG definition should say \"include\" not \"comprised\"",
           "createdAt": "2025-10-24T20:42:15Z",
           "updatedAt": "2025-10-24T20:42:15Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Was there something unclear here? If not, maybe just adopt the changes in the next draft?",
+          "createdAt": "2026-01-14T00:11:39Z",
+          "updatedAt": "2026-01-14T00:11:39Z"
         }
       ]
     },
@@ -644,7 +708,7 @@
       ],
       "body": "Sec 5.1: \"(which might or might not be Internet Standards).\"\n\nBrings to mind a larger question: should we use standards-track doc instead of Internet Standard?\n\n",
       "createdAt": "2025-10-24T20:34:01Z",
-      "updatedAt": "2025-11-03T19:44:29Z",
+      "updatedAt": "2026-01-14T00:12:04Z",
       "closedAt": null,
       "comments": [
         {
@@ -660,6 +724,13 @@
           "body": "IIRC, we've had both separate docs and inside-the-document ASes.\n\nAnd I think in all of S5 we seem to be confusing Internet Standard (which is a specific category of a standards track specification) to standards track specification. We should be able to have a TS (or even AS) at Proposed Standard level, no? ",
           "createdAt": "2025-11-03T19:44:28Z",
           "updatedAt": "2025-11-03T19:44:28Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "This issue is possibly conflating several issues. The actual issue text talks about RFC 2026 referring to the Internet Standards (see https://github.com/ietf-wg-procon/2026bis/issues/44), specifically this text in S3.1 of RFC 2026:\n\n\"A TS may be completely self-\n   contained, or it may incorporate material from other specifications\n   by reference to other documents (which might or might not be Internet\n   Standards).\"\n\nBut you also raised another question about what levels of specifications may refer to other levels. Did I understand this correctly? Would it be reasonable to open a new issue for the second issue?\n\nWhen it comes to the former issue, I think it is somewhat loose language in the original RFC that causes a misunderstanding. For context RFC 2026 had three separate concepts: 1/ Internet Standard Specifications (S3), Internet Standards Track (S4), and Internet Standard (S4.1.3). I suspect the S3.1 text tried to refer to the first concept but because of a missing last word we interpret it as a reference to the third concept. But I could be wrong. Thoughts?\n\nThe meeting suggested that we could classify this issue as an editorial one. That\u2019s certainly the case if my interpretation from above is right. \n\nCould you suggest a resolution, and do other people have comments?",
+          "createdAt": "2026-01-14T00:12:04Z",
+          "updatedAt": "2026-01-14T00:12:04Z"
         }
       ]
     },
@@ -678,7 +749,7 @@
       ],
       "body": "",
       "createdAt": "2025-10-24T20:39:39Z",
-      "updatedAt": "2025-11-03T19:49:12Z",
+      "updatedAt": "2026-01-14T00:12:24Z",
       "closedAt": null,
       "comments": [
         {
@@ -694,6 +765,13 @@
           "body": "Section 6.2.3, says non-IETF WG documents should be submitted to the RFC Editor for experimental or informational. \"The RFC Editor is expected to exercise his or her judgment concerning the editorial suitability of a document for publication with Experimental or Informational status\" For the IETF stream, Experimental or Informational status is set when the IESG approves publication and the RFC editor (now RPC) has no say in the matter.\n\nThe second paragraph says the RFC Editor (again, now the RPC) can send things back to the IESG. I believe that's mostly subsumed by the \"Conflict review\" for the IRTF stream.\n\nThe third paragraphs says the IESG can ask for the IETF stream but authors can refuse. If that's even possible, it can go via the ISE stream and the ISE editor cannot do STD sub-series.\n",
           "createdAt": "2025-11-03T19:49:12Z",
           "updatedAt": "2025-11-03T19:49:12Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Maybe a text proposal is needed?",
+          "createdAt": "2026-01-14T00:12:24Z",
+          "updatedAt": "2026-01-14T00:12:24Z"
         }
       ]
     },
@@ -702,7 +780,7 @@
       "id": "I_kwDOMZ1wVs7Tp15H",
       "title": "BCP and Experimental -- usually assigned during IESG review?",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/46",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -711,8 +789,8 @@
       ],
       "body": "",
       "createdAt": "2025-10-24T20:44:11Z",
-      "updatedAt": "2025-10-30T20:43:01Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-14T22:51:16Z",
+      "closedAt": "2026-01-14T22:51:16Z",
       "comments": [
         {
           "author": "richsalz",
@@ -720,6 +798,20 @@
           "body": "duplicate of #42",
           "createdAt": "2025-10-30T20:43:01Z",
           "updatedAt": "2025-10-30T20:43:01Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Given that it is a duplicate, could we close this?",
+          "createdAt": "2026-01-14T00:12:56Z",
+          "updatedAt": "2026-01-14T00:12:56Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Should have been closed yup.",
+          "createdAt": "2026-01-14T22:51:16Z",
+          "updatedAt": "2026-01-14T22:51:16Z"
         }
       ]
     },
@@ -737,7 +829,7 @@
       ],
       "body": "Working groups typically have a responsible AD.  Appeals are first handled by that AD, right?  Then the IESG",
       "createdAt": "2025-10-24T20:45:26Z",
-      "updatedAt": "2025-11-03T19:54:55Z",
+      "updatedAt": "2026-01-14T00:13:30Z",
       "closedAt": null,
       "comments": [
         {
@@ -760,6 +852,13 @@
           "body": "We have recently had appeals issues because it says \"the ADs\" are the first line of appeal. Something like \"(When there are multiple ADs in an area, they can assign responsibility to one)\" or some such.",
           "createdAt": "2025-11-03T19:54:55Z",
           "updatedAt": "2025-11-03T19:54:55Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "AI summary seemed correct: Clarify that Area Directors (ADs) can delegate or assign an individual AD to handle the first level of an appeal, addressing confusion where appellants expect all ADs to respond. Proposed text will be needed.\n\nMaybe add label reality.\n\nMaybe:\n\nOLD: If the disagreement cannot be resolved in this way, any of the parties involved may bring it to the attention of the Area Director(s) for the area in which the Working Group is chartered. The Area Director(s) shall attempt to resolve the dispute.\n\nNEW: If the disagreement cannot be resolved in this way, any of the parties involved may bring it to the attention of the Area Director(s) for the area in which the Working Group is chartered. The treatment of any particular disagreement may also be delegated to other Area Director(s) in this or other areas where necessary. The Area Director(s) shall attempt to resolve the dispute.",
+          "createdAt": "2026-01-14T00:13:29Z",
+          "updatedAt": "2026-01-14T00:13:29Z"
         }
       ]
     },
@@ -775,7 +874,7 @@
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2025-11-11T02:12:32Z",
+      "updatedAt": "2026-01-14T00:14:01Z",
       "closedAt": null,
       "comments": [
         {
@@ -805,6 +904,13 @@
           "body": "As you can see at https://datatracker.ietf.org/doc/draft-carpenter-rfced-iab-charter/history/, it went through full IETF processing and IESG approval (as a direct submission to the IESG, since there was no IETF WG). It actually originated in the RFC Editor world, since we noticed that the new RFC Editor model was inconsistent with the IAB charter.\n\nRFC2850 itself was also approved as a BCP by the IESG after an IETF last call. But the notion of streams didn't exist back then. I'm impressed that the tracker even knows that too: https://datatracker.ietf.org/doc/draft-iab-rfc1601bis/history/",
           "createdAt": "2025-11-11T02:12:31Z",
           "updatedAt": "2025-11-11T02:12:31Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "This was a new issue brought up by Mirja in the meeting. My interoperation was that we will need to distinguish past practice from current one. And even in the current one there may be two categories, one where document is published on the IETF stream even if it came originally from the IAB (e.g., Sec Cons RFC) and another one where document should be in the IAB stream (e.g., liaison-related RFCs). But in both cases BCP designation requires that the IETF consensus process is followed.\n\nWhat is the next step? Is there a proposal from someone on how to correctly describe this in 2026bis? Mirja, would you be willing to suggest something?",
+          "createdAt": "2026-01-14T00:14:01Z",
+          "updatedAt": "2026-01-14T00:14:01Z"
         }
       ]
     },
@@ -844,9 +950,24 @@
       "labels": [],
       "body": "Both 2026bis and 2418bis contain \"Internet-Drafts\" sections. They need to be cross-checked for discrepancies and overlaps.",
       "createdAt": "2025-11-07T21:22:39Z",
-      "updatedAt": "2025-11-07T21:22:39Z",
+      "updatedAt": "2026-01-14T01:27:29Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Agree. Volunteers?",
+          "createdAt": "2026-01-14T00:14:18Z",
+          "updatedAt": "2026-01-14T00:14:18Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "I'll try.\r\n\r\n(via tiny screen & keyboard)\r\nRegards,\r\n        Brian Carpenter\r\n\r\nOn Wed, 14 Jan 2026, 13:14 Jari Arkko, ***@***.***> wrote:\r\n\r\n> *jariarkko* left a comment (ietf-wg-procon/2026bis#52)\r\n> <https://github.com/ietf-wg-procon/2026bis/issues/52#issuecomment-3747108022>\r\n>\r\n> Agree. Volunteers?\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/ietf-wg-procon/2026bis/issues/52#issuecomment-3747108022>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/ABMKETZNZDOV6T72HGTDGD34GWC7BAVCNFSM6AAAAACLPQCX26VHI2DSMVQWIX3LMV43OSLTON2WKQ3PNVWWK3TUHMZTONBXGEYDQMBSGI>\r\n> .\r\n> You are receiving this because you authored the thread.Message ID:\r\n> ***@***.***>\r\n>\r\n",
+          "createdAt": "2026-01-14T01:27:29Z",
+          "updatedAt": "2026-01-14T01:27:29Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -1569,24 +1690,26 @@
       "id": "PR_kwDOMZ1wVs6vG58h",
       "title": "Contribution is now defined in BCP78",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/40",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "It was cut-pasted copy of the same words, now just point to it.\r\n\r\nFixes: #28\r\n\r\nDraft until WG discusses this.",
       "createdAt": "2025-10-22T16:49:41Z",
-      "updatedAt": "2025-10-22T19:25:43Z",
+      "updatedAt": "2026-01-14T21:29:08Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "88337ae0385bd4900200df0ca8ba550c560db79e",
+      "baseRefOid": "b66ed2c419de110eacad27a6c6aba7b1c08e9adb",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-28",
-      "headRefOid": "df5a0daf7d480b4284f9321e19dce75cd1c85816",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "5aa07215344e71f4dee636065fbb4b1d36a5b97d",
+      "closedAt": "2026-01-14T21:29:03Z",
+      "mergedAt": "2026-01-14T21:29:03Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "13a948fffa545158a188ea8914df260e8a6e4e38"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1892,6 +2015,84 @@
           ]
         }
       ]
+    },
+    {
+      "number": 54,
+      "id": "PR_kwDOMZ1wVs69Q3CV",
+      "title": "IETF Trust -> IETF IPMC",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/54",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-01-14T22:56:48Z",
+      "updatedAt": "2026-01-14T22:57:05Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-39",
+      "headRefOid": "930cb637e9a0cf78354ebfe2fbb138d531d79c51",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 55,
+      "id": "PR_kwDOMZ1wVs69Q5ck",
+      "title": "Various minor wording changes.",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/55",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes: #43",
+      "createdAt": "2026-01-14T23:00:58Z",
+      "updatedAt": "2026-01-14T23:00:58Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-43",
+      "headRefOid": "0250a0e212ec11d8d2376c79d5b3910ad9fe030e",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 56,
+      "id": "PR_kwDOMZ1wVs69RCtp",
+      "title": "The IETF LLC maintains the mailing lists, etc.",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/56",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on wording suggestion from Jari.\r\n\r\nFixes: #41",
+      "createdAt": "2026-01-14T23:18:31Z",
+      "updatedAt": "2026-01-15T00:02:56Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-41",
+      "headRefOid": "88cfaf75ea663722b121ef451e45f00a44b6ead4",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
