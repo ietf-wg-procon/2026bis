@@ -970,6 +970,8 @@ Group as a whole) in the discussion.
 If the disagreement cannot be resolved in this way, any of the
 parties involved may bring it to the attention of the Area
 Director(s) for the area in which the Working Group is chartered.
+The treatment of any particular disagreement may be delegated to
+one of more Area Director(s) in this or other areas where necessary.
 The Area Director(s) shall attempt to resolve the dispute.
 
 If the disagreement cannot be resolved by the Area Director(s) any of
@@ -1286,7 +1288,8 @@ changelog section.
 - Draft 2: Fix link to repository, tweak wording about RFC style and
 formats. Clarify that not all discussions must be public.
 
-- Draft 3: Refer to BCP78 for definition of "Contribution"
+- Draft 3: Refer to BCP78 for definition of "Contribution."
+Clarify ADs can delegate handlling an appeal.
 
 ## Individual draft
 
