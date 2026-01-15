@@ -224,9 +224,10 @@ Table of Contents
       development and publication of Informational and Experimental
       documents (see Section 6).
 
-   IETF Intellectual Property Management Corporation  A iegal entity to
-      hold and administer intellectual property rights for the benefit
-      of the IETF.  The successor to the IETF Trust.
+   IETF Intellectual Property Management Corporation (IETF IPMC)  A
+      legal entity that holds and administers intellectual property
+      rights for the benefit of the IETF.  It is the successor to the
+      IETF Trust.
 
    Implementing Technology  A technology that implements an IETF
       specification or standard.
