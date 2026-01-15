@@ -1321,8 +1321,8 @@ Table of Contents
    *  Draft 2: Fix link to repository, tweak wording about RFC style and
       formats.  Clarify that not all discussions must be public.
 
-   *  Draft 3: Refer to BCP78 for definition of "Contribution" Various
-      minor wording changes.
+   *  Draft 3: Refer to BCP78 for definition of "Contribution."  Various
+      minor editorial/wording changes.
 
 14.2.  Individual draft
 
