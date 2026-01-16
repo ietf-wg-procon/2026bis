@@ -807,17 +807,17 @@ maturity level to which the specification is recommended.
 
 The IESG is not bound by the action recommended when the
 specification was submitted. For example, the IESG may decide to
-consider the specification for publication in a different category
+consider the specification for publication in a different maturity level
 than that requested. If the IESG determines this before the Last-
 Call is issued then the Last-Call should reflect the IESG's view.
-The IESG could also decide to change the publication category based
+The IESG could also decide to change the publication maturity level based
 on the response to a Last-Call. If this decision would result in a
 specification being published at a "higher" level than the original
 Last-Call was for, a new Last-Call should be issued indicating the
-IESG recommendation. In addition, the IESG may decide to recommend
-the formation of a new Working Group in the case of significant
-controversy in response to a Last-Call for specification not
-originating from an IETF Working Group.
+IESG recommendation. In addition, in case of significant controvery
+in response to the Last-Call, The IESG may decide refer the document back to
+the Working Group, the authors, or hold the document for the creation
+of a new Working Group.
 
 In order to obtain all of the information necessary to make these
 determinations, particularly when the specification is considered by
