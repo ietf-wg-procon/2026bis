@@ -815,7 +815,7 @@ on the response to a Last-Call. If this decision would result in a
 specification being published at a "higher" level than the original
 Last-Call was for, a new Last-Call should be issued indicating the
 IESG recommendation. In addition, in case of significant controvery
-in response to the Last-Call, The IESG may decide refer the document back to
+in response to the Last-Call, The IESG may decide to refer the document back to
 the Working Group, the authors, or hold the document for the creation
 of a new Working Group.
 
