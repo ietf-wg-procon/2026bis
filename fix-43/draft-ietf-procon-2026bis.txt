@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              16 January 2026
+Updates: 7475 (if approved)                              17 January 2026
 Intended status: Best Current Practice                                  
-Expires: 20 July 2026
+Expires: 21 July 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 July 2026.
+   This Internet-Draft will expire on 21 July 2026.
 
 Copyright Notice
 
@@ -861,8 +861,8 @@ Table of Contents
    the original Last-Call was for, a new Last-Call should be issued
    indicating the IESG recommendation.  In addition, in case of
    significant controvery in response to the Last-Call, The IESG may
-   decide refer the document back to the Working Group, the authors, or
-   hold the document for the creation of a new Working Group.
+   decide to refer the document back to the Working Group, the authors,
+   or hold the document for the creation of a new Working Group.
 
    In order to obtain all of the information necessary to make these
    determinations, particularly when the specification is considered by
