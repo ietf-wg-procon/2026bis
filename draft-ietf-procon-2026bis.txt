@@ -881,11 +881,12 @@ Table of Contents
 
    For a Proposed Standard, the Last-Call period shall be no shorter
    than two weeks except in those cases where the proposed standards
-   action was not initiated by an IETF Working Group, in which case the
-   Last-Call period shall be no shorter than four weeks.  If the IESG
-   believes that the community interest would be served by allowing more
-   time for comment, it may decide on a longer Last-Call period or to
-   explicitly lengthen a current Last-Call period.
+   action was not initiated by an IETF Working Group, such as when an AD
+   sponsors a draft [ADSPONSOR], in which case the Last-Call period
+   shall be no shorter than four weeks.  If the IESG believes that the
+   community interest would be served by allowing more time for comment,
+   it may decide on a longer Last-Call period or to explicitly lengthen
+   a current Last-Call period.
 
    For an Internet Standard, the IESG will perform a review and
    consideration of any errata that have been filed.  If they do not
@@ -1317,10 +1318,11 @@ Table of Contents
    *  Draft 2: Fix link to repository, tweak wording about RFC style and
       formats.  Clarify that not all discussions must be public.
 
-   *  Draft 3: Refer to BCP78 for definition of "Contribution."  IETF
-      LLC maintains mailing lists anad public records.  Renamed IETF
-      Trust to IETF Intellectual Property Management Corporation.
-      Various minor editorial/wording changes.
+   *  Draft 3: Refer to BCP78 for definition of "Contribution."  Add AD
+      sponsor as an example of non-WG initiation.  IETF LLC maintains
+      mailing lists anad public records.  Renamed IETF Trust to IETF
+      Intellectual Property Management Corporation.  Various minor
+      editorial/wording changes.
 
 14.2.  Individual draft
 
@@ -1409,6 +1411,11 @@ Table of Contents
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 15.2.  Informative References
+
+   [ADSPONSOR]
+              "Guidance on Area Director Sponsoring of Documents", n.d.,
+              <https://datatracker.ietf.org/doc/statement-iesg-guidance-
+              on-area-director-sponsoring-of-documents-20070320/>.
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
