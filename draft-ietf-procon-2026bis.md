@@ -605,6 +605,8 @@ one of three "off-track" maturity levels: "Experimental",
 "Informational", or "Historic". The documents bearing these labels
 are not Internet Standards in any sense.
 
+Alternate streams may also use the maturity levels described here.
+
 ### Experimental
 
 The "Experimental" designation typically denotes a specification that
@@ -626,45 +628,14 @@ sources.
 
 ### Procedures for Experimental and Informational RFCs {#sec423}
 
-Unless they are the result of IETF Working Group action, documents
-intended to be published with Experimental or Informational status
-should be submitted directly to the RFC Editor. The RFC Editor will
-publish any such documents as Internet-Drafts which have not already
-been so published. In order to differentiate these Internet-Drafts
-they will be labeled or grouped in the I-D directory so they are
-easily recognizable. The RFC Editor will wait two weeks after this
-publication for comments before proceeding further. The RFC Editor
-is expected to exercise his or her judgment concerning the editorial
-suitability of a document for publication with Experimental or
-Informational status, and may refuse to publish a document which, in
-the expert opinion of the RFC Editor, is unrelated to Internet
-activity or falls below the technical and/or editorial standard for
-RFCs.
-
-To ensure that the non-standards track Experimental and Informational
-designations are not misused to circumvent the Internet Standards
-Process, the IESG and the RFC Editor have agreed that the RFC Editor
-will refer to the IESG any document submitted for Experimental or
-Informational publication which, in the opinion of the RFC Editor,
-may be related to work being done, or expected to be done, within the
-IETF community. The IESG shall review such a referred document
-within a reasonable period of time, and recommend either that it be
-published as originally submitted or referred to the IETF as a
-contribution to the Internet Standards Process.
-
-If (a) the IESG recommends that the document be brought within the
-IETF and progressed within the IETF context, but the author declines
-to do so, or (b) the IESG considers that the document proposes
-something that conflicts with, or is actually inimical to, an
-established IETF effort, the document may still be published as an
-Experimental or Informational RFC. In these cases, however, the IESG
-may insert appropriate "disclaimer" text into the RFC either in or
-immediately following the "Status of this Memo" section in order to
-make the circumstances of its publication clear to readers.
-
+Documents with the Experimental or Informational maturity level
+may be published using the process and workflow described here.
 Documents proposed for Experimental and Informational RFCs by IETF
 Working Groups go through IESG review. The review is initiated using
 the process described in {{sec611}}.
+
+The final assignment of maturity level, as with Internet Standard,
+is determined by the IESG.
 
 ### Historic
 
@@ -1289,6 +1260,7 @@ changelog section.
 formats. Clarify that not all discussions must be public.
 
 - Draft 3: Refer to BCP78 for definition of "Contribution."
+Clearify procedures for Experimental and Informational.
 Clarify ADs can delegate handlling an appeal.
 Add AD sponsor as an example of non-WG initiation.
 IETF LLC maintains mailing lists anad public records.
