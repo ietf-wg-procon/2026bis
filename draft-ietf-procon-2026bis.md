@@ -33,6 +33,9 @@ normative:
 
 informative:
     2418bis: I-D.draft-ietf-procon-2418bis
+    ADSPONSOR:
+      title: Guidance on Area Director Sponsoring of Documents
+      target: https://datatracker.ietf.org/doc/statement-iesg-guidance-on-area-director-sponsoring-of-documents-20070320/
     RFCXML:
       title: RFCXML overview and background
       target: https://authors.ietf.org/rfcxml-overview
@@ -835,7 +838,8 @@ directed in the Last-Call announcement.
 For a Proposed Standard,
 the Last-Call period shall be no shorter than two weeks except in
 those cases where the proposed standards action was not initiated by
-an IETF Working Group, in which case the Last-Call period shall be no
+an IETF Working Group, such as when an AD sponsors a draft {{ADSPONSOR}},
+in which case the Last-Call period shall be no
 shorter than four weeks. If the IESG believes that the community
 interest would be served by allowing more time for comment, it may
 decide on a longer Last-Call period or to explicitly lengthen a
@@ -1283,6 +1287,7 @@ changelog section.
 formats. Clarify that not all discussions must be public.
 
 - Draft 3: Refer to BCP78 for definition of "Contribution."
+Add AD sponsor as an example of non-WG initiation.
 IETF LLC maintains mailing lists anad public records.
 Renamed IETF Trust to IETF Intellectual Property Management Corporation.
 Various minor editorial/wording changes.
