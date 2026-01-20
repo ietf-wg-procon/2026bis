@@ -1171,15 +1171,12 @@ to a charter);
 organization's standards-related activity.
 
 As a practical matter, the formal record of all Internet Standards
-Process activities is maintained by the IETF Secretariat, and is the
-responsibility of the IETF Secretariat except that each IETF Working
-Group is expected to maintain their own email list archive and must
-make a best effort to ensure that all traffic is captured and
-included in the archives. Also, the Working Group chair is
-responsible for providing the IETF Secretariat with complete and
+Process activities is maintained by the IETF LLC or its designees.
+Also, the Working Group chair is
+responsible for providing complete and
 accurate minutes of all Working Group meetings. Internet-Drafts that
 have been removed (for any reason) from the Internet-Drafts
-directories shall be archived by the IETF Secretariat for the sole
+directories shall be archived for the sole
 purpose of preserving an historical record of Internet standards
 activity and thus are not retrievable except in special
 circumstances.
@@ -1286,6 +1283,7 @@ changelog section.
 formats. Clarify that not all discussions must be public.
 
 - Draft 3: Refer to BCP78 for definition of "Contribution."
+IETF LLC maintains mailing lists anad public records.
 Renamed IETF Trust to IETF Intellectual Property Management Corporation.
 Various minor editorial/wording changes.
 
