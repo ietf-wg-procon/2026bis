@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              15 January 2026
+Updates: 7475 (if approved)                              20 January 2026
 Intended status: Best Current Practice                                  
-Expires: 19 July 2026
+Expires: 24 July 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 July 2026.
+   This Internet-Draft will expire on 24 July 2026.
 
 Copyright Notice
 
@@ -80,8 +80,8 @@ Table of Contents
      4.1.  Requests for Comments (RFCs)
      4.2.  Internet-Drafts
    5.  Internet Standard Specifications
-     5.1.  Technical Specification (TS)
-     5.2.  Applicability Statement (AS)
+     5.1.  Technical Specification
+     5.2.  Applicability Statement
      5.3.  Requirement Levels
    6.  The Internet Standards Track
      6.1.  Standards Track Maturity Levels
@@ -224,9 +224,10 @@ Table of Contents
       development and publication of Informational and Experimental
       documents (see Section 6).
 
-   IETF Trust  A trust established under the laws of the Commonwealth of
-      Virginia, USA, in order to hold and administer intellectual
-      property rights for the benefit of the IETF.
+   IETF Intellectual Property Management Corporation (IETF IPMC)  A
+      legal entity that holds and administers intellectual property
+      rights for the benefit of the IETF.  It is the successor to the
+      IETF Trust.
 
    Implementing Technology  A technology that implements an IETF
       specification or standard.
@@ -384,16 +385,16 @@ Table of Contents
    Some RFCs document Internet Standards.  These RFCs form the 'STD'
    subseries of the RFC series [RFC1311].  When a specification has been
    adopted as an Internet Standard, it is given the additional label
-   "STDxxx", but it keeps its RFC number and its place in the RFC series
-   (see Section 6.1.2).  The status of Internet protocol and service
-   specifications is available from the RFC Index (https://www.rfc-
-   editor.org/rfc-index.txt) in the RFC repository.
+   "STD xxx", but it keeps its RFC number and its place in the RFC
+   series (see Section 6.1.2).  The status of Internet protocol and
+   service specifications is available from the RFC Index
+   (https://www.rfc-editor.org/rfc-index.txt) in the RFC repository.
 
    Some RFCs standardize the results of community deliberations about
    statements of principle or conclusions about what is the best way to
    perform some operations or IETF process function.  These RFCs form
-   the specification has been adopted as a Best Current Practice (BCP) ,
-   it is given the additional label "BCPxxx", but it keeps its RFC
+   the specification has been adopted as a Best Current Practice (BCP);
+   it is given the additional label "BCP xxx", but it keeps its RFC
    number and its place in the RFC series. (see Section 7)
 
    Not all specifications of protocols or services for the Internet
@@ -449,7 +450,7 @@ Table of Contents
    one of two categories: Technical Specification (TS) and Applicability
    Statement (AS).
 
-5.1.  Technical Specification (TS)
+5.1.  Technical Specification
 
    A Technical Specification is any description of a protocol, service,
    procedure, convention, or format.  It may completely describe all of
@@ -467,7 +468,7 @@ Table of Contents
    particular context in which the TS is incorporated by different
    system configurations, are defined by an Applicability Statement.
 
-5.2.  Applicability Statement (AS)
+5.2.  Applicability Statement
 
    An Applicability Statement specifies how, and under what
    circumstances, one or more TSs may be applied to support a particular
@@ -852,17 +853,17 @@ Table of Contents
 
    The IESG is not bound by the action recommended when the
    specification was submitted.  For example, the IESG may decide to
-   consider the specification for publication in a different category
-   than that requested.  If the IESG determines this before the Last-
-   Call is issued then the Last-Call should reflect the IESG's view.
-   The IESG could also decide to change the publication category based
-   on the response to a Last-Call.  If this decision would result in a
-   specification being published at a "higher" level than the original
-   Last-Call was for, a new Last-Call should be issued indicating the
-   IESG recommendation.  In addition, the IESG may decide to recommend
-   the formation of a new Working Group in the case of significant
-   controversy in response to a Last-Call for specification not
-   originating from an IETF Working Group.
+   consider the specification for publication in a different maturity
+   level than that requested.  If the IESG determines this before the
+   Last- Call is issued then the Last-Call should reflect the IESG's
+   view.  The IESG could also decide to change the publication maturity
+   level based on the response to a Last-Call.  If this decision would
+   result in a specification being published at a "higher" level than
+   the original Last-Call was for, a new Last-Call should be issued
+   indicating the IESG recommendation.  In addition, in case of
+   significant controvery in response to the Last-Call, The IESG may
+   decide to refer the document back to the Working Group, the authors,
+   or hold the document for the creation of a new Working Group.
 
    In order to obtain all of the information necessary to make these
    determinations, particularly when the specification is considered by
@@ -880,11 +881,12 @@ Table of Contents
 
    For a Proposed Standard, the Last-Call period shall be no shorter
    than two weeks except in those cases where the proposed standards
-   action was not initiated by an IETF Working Group, in which case the
-   Last-Call period shall be no shorter than four weeks.  If the IESG
-   believes that the community interest would be served by allowing more
-   time for comment, it may decide on a longer Last-Call period or to
-   explicitly lengthen a current Last-Call period.
+   action was not initiated by an IETF Working Group, such as when an AD
+   sponsors a draft [ADSPONSOR], in which case the Last-Call period
+   shall be no shorter than four weeks.  If the IESG believes that the
+   community interest would be served by allowing more time for comment,
+   it may decide on a longer Last-Call period or to explicitly lengthen
+   a current Last-Call period.
 
    For an Internet Standard, the IESG will perform a review and
    consideration of any errata that have been filed.  If they do not
@@ -1208,18 +1210,13 @@ Table of Contents
       organization's standards-related activity.
 
    As a practical matter, the formal record of all Internet Standards
-   Process activities is maintained by the IETF Secretariat, and is the
-   responsibility of the IETF Secretariat except that each IETF Working
-   Group is expected to maintain their own email list archive and must
-   make a best effort to ensure that all traffic is captured and
-   included in the archives.  Also, the Working Group chair is
-   responsible for providing the IETF Secretariat with complete and
-   accurate minutes of all Working Group meetings.  Internet-Drafts that
-   have been removed (for any reason) from the Internet-Drafts
-   directories shall be archived by the IETF Secretariat for the sole
-   purpose of preserving an historical record of Internet standards
-   activity and thus are not retrievable except in special
-   circumstances.
+   Process activities is maintained by the IETF LLC or its designees.
+   Also, the Working Group chair is responsible for providing complete
+   and accurate minutes of all Working Group meetings.  Internet-Drafts
+   that have been removed (for any reason) from the Internet-Drafts
+   directories shall be archived for the sole purpose of preserving an
+   historical record of Internet standards activity and thus are not
+   retrievable except in special circumstances.
 
 11.  Varying the Process
 
@@ -1324,7 +1321,11 @@ Table of Contents
       formats.  Clarify that not all discussions must be public.
 
    *  Draft 3: Refer to BCP78 for definition of "Contribution."  Clarify
-      ADs can delegate handlling an appeal.
+      ADs can delegate handlling an appeal.  Add AD sponsor as an
+      example of non-WG initiation.  IETF LLC maintains mailing lists
+      anad public records.  Renamed IETF Trust to IETF Intellectual
+      Property Management Corporation.  Various minor editorial/wording
+      changes.
 
 14.2.  Individual draft
 
@@ -1413,6 +1414,11 @@ Table of Contents
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 15.2.  Informative References
+
+   [ADSPONSOR]
+              "Guidance on Area Director Sponsoring of Documents", n.d.,
+              <https://datatracker.ietf.org/doc/statement-iesg-guidance-
+              on-area-director-sponsoring-of-documents-20070320/>.
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
