@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              15 January 2026
+Updates: 7475 (if approved)                              20 January 2026
 Intended status: Best Current Practice                                  
-Expires: 19 July 2026
+Expires: 24 July 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 July 2026.
+   This Internet-Draft will expire on 24 July 2026.
 
 Copyright Notice
 
@@ -80,8 +80,8 @@ Table of Contents
      4.1.  Requests for Comments (RFCs)
      4.2.  Internet-Drafts
    5.  Internet Standard Specifications
-     5.1.  Technical Specification (TS)
-     5.2.  Applicability Statement (AS)
+     5.1.  Technical Specification
+     5.2.  Applicability Statement
      5.3.  Requirement Levels
    6.  The Internet Standards Track
      6.1.  Standards Track Maturity Levels
@@ -385,16 +385,16 @@ Table of Contents
    Some RFCs document Internet Standards.  These RFCs form the 'STD'
    subseries of the RFC series [RFC1311].  When a specification has been
    adopted as an Internet Standard, it is given the additional label
-   "STDxxx", but it keeps its RFC number and its place in the RFC series
-   (see Section 6.1.2).  The status of Internet protocol and service
-   specifications is available from the RFC Index (https://www.rfc-
-   editor.org/rfc-index.txt) in the RFC repository.
+   "STD xxx", but it keeps its RFC number and its place in the RFC
+   series (see Section 6.1.2).  The status of Internet protocol and
+   service specifications is available from the RFC Index
+   (https://www.rfc-editor.org/rfc-index.txt) in the RFC repository.
 
    Some RFCs standardize the results of community deliberations about
    statements of principle or conclusions about what is the best way to
    perform some operations or IETF process function.  These RFCs form
-   the specification has been adopted as a Best Current Practice (BCP) ,
-   it is given the additional label "BCPxxx", but it keeps its RFC
+   the specification has been adopted as a Best Current Practice (BCP);
+   it is given the additional label "BCP xxx", but it keeps its RFC
    number and its place in the RFC series. (see Section 7)
 
    Not all specifications of protocols or services for the Internet
@@ -450,7 +450,7 @@ Table of Contents
    one of two categories: Technical Specification (TS) and Applicability
    Statement (AS).
 
-5.1.  Technical Specification (TS)
+5.1.  Technical Specification
 
    A Technical Specification is any description of a protocol, service,
    procedure, convention, or format.  It may completely describe all of
@@ -468,7 +468,7 @@ Table of Contents
    particular context in which the TS is incorporated by different
    system configurations, are defined by an Applicability Statement.
 
-5.2.  Applicability Statement (AS)
+5.2.  Applicability Statement
 
    An Applicability Statement specifies how, and under what
    circumstances, one or more TSs may be applied to support a particular
@@ -853,17 +853,17 @@ Table of Contents
 
    The IESG is not bound by the action recommended when the
    specification was submitted.  For example, the IESG may decide to
-   consider the specification for publication in a different category
-   than that requested.  If the IESG determines this before the Last-
-   Call is issued then the Last-Call should reflect the IESG's view.
-   The IESG could also decide to change the publication category based
-   on the response to a Last-Call.  If this decision would result in a
-   specification being published at a "higher" level than the original
-   Last-Call was for, a new Last-Call should be issued indicating the
-   IESG recommendation.  In addition, the IESG may decide to recommend
-   the formation of a new Working Group in the case of significant
-   controversy in response to a Last-Call for specification not
-   originating from an IETF Working Group.
+   consider the specification for publication in a different maturity
+   level than that requested.  If the IESG determines this before the
+   Last- Call is issued then the Last-Call should reflect the IESG's
+   view.  The IESG could also decide to change the publication maturity
+   level based on the response to a Last-Call.  If this decision would
+   result in a specification being published at a "higher" level than
+   the original Last-Call was for, a new Last-Call should be issued
+   indicating the IESG recommendation.  In addition, in case of
+   significant controvery in response to the Last-Call, The IESG may
+   decide to refer the document back to the Working Group, the authors,
+   or hold the document for the creation of a new Working Group.
 
    In order to obtain all of the information necessary to make these
    determinations, particularly when the specification is considered by
@@ -1324,6 +1324,7 @@ Table of Contents
 
    *  Draft 3: Refer to BCP78 for definition of "Contribution."  Renamed
       IETF Trust to IETF Intellectual Property Management Corporation.
+      Various minor editorial/wording changes.
 
 14.2.  Individual draft
 
