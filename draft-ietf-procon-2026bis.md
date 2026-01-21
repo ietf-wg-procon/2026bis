@@ -99,126 +99,9 @@ operational experience, enjoys significant public support, and is
 recognizably useful in some or all parts of the Internet.
 
 The process described here only applies to the IETF RFC stream.  See
-{{?RFC4844}} for the definition of the streams and {{?RFC5742}} for a
+{{?RFC4844}} for the definition of the streams, {{?RFC9281}} for
+a definition of the IESG, and {{?RFC5742}} for a
 description of the IESG responsibilities related to those streams.
-
-
-## Terminology
-
-The following terms are used throughout this document.
-For more details about the organizations related to the IETF, see
-{{!RFC9281, Section 3}}.
-
-Alternate Stream
-:  The IAB Document Stream, the IRTF Document Stream, and the Independent
-Submission Stream, each as defined in {{?RFC8729, Section 5.1}}, along with
-any future non-IETF streams that might be defined.
-
-Area Director
-: The manager of an IETF Area.
-
-ARPA
-: Advanced Research Projects Agency; an agency of the US
-Department of Defense.
-
-Contribution
-: A large category of oral, written, or electronic submissions to the
-IETF. See {{!BCP78}} for the full definition.
-
-Copyright
-: The legal right granted to an author in a document or other work of
-authorship under applicable law.  A "copyright" is not equivalent to a "right
-to copy".  Rather a copyright encompasses all of the exclusive rights that an
-author has in a work, such as the rights to copy, publish, distribute and
-create derivative works of the work.  An author often cedes these rights to
-his or her employer or other parties as a condition of employment or
-compensation.
-
-Covers
-: A valid claim of a patent or a patent application (including a provisional
-patent application) in any jurisdiction, or any other Intellectual Property
-Right, would necessarily be infringed by the exercise of a right (e.g.,
-making, using, selling, importing, distribution, copying, etc.) with respect
-to an Implementing Technology.  For purposes of this definition, "valid
-claim" means a claim of any unexpired patent or patent application which
-shall not have been withdrawn, cancelled, or disclaimed, nor held invalid by
-a court of competent jurisdiction in an unappealed or unappealable decision.
-
-IETF
-: In the context of this document, the IETF includes all individuals who
-participate in meetings, working groups, mailing lists, functions, and other
-activities that are organized or initiated by ISOC,
-the IESG, or the IAB
-under the general designation of the Internet Engineering Task Force (IETF),
-but solely to the extent of such participation.
-
-IETF Area
-: A management division within the IETF. An Area consists
-of Working Groups related to a general topic such as routing. An
-Area is managed by one or more Area Directors.
-
-IETF Documents
-: RFCs and Internet-Drafts that are published as
-part of the IETF Standards Process.  These are also referred to as
-"IETF Stream Documents" as defined in {{RFC8729, Section 5.1.1}}.
-
-IETF Standards Process
-: The activities undertaken by the IETF in any of the settings described
-in the above definition of Contribution.  The IETF Standards Process may
-include participation in activities and publication of documents that
-are not directed toward the development of IETF standards or
-specifications, such as the development and publication of Informational
-and Experimental documents (see {{sec4}}).
-
-IETF Intellectual Property Management Corporation (IETF IPMC)
-: A legal entity that holds and administers intellectual property rights for the
-benefit of the IETF. It is the successor to the IETF Trust.
-
-Implementing Technology
-: A technology that implements an IETF specification or standard.
-
-Internet-Draft
-: A document used in the IETF and RFC Editor
-processes, as described in {{sec2}}.
-
-Internet Engineering Steering Group (IESG)
-: A group comprised of the
-IETF Area Directors and the IETF Chair. The IESG is responsible
-for the management, along with the IAB, of the IETF and is the
-standards approval board for the IETF.
-
-interoperable
-: For the purposes of this document, "interoperable"
-means to be able to interoperate over a data communications path.
-
-IPR or Intellectual Property Rights
-: Means a patent, utility model, or similar right that may Cover an
-Implementing Technology, whether such rights arise from a registration or
-renewal thereof, or an application therefore, in each case anywhere in the
-world.
-See {{ipr-requirements}} for IPR requirements that must be met for
-documents used in the Internet Standards Process.
-
-Last-Call
-: A public comment period used to gauge the level of
-consensus about the reasonableness of a proposed standards action.
-See {{sec612}}.
-
-Participating in an IETF discussion or activity
-: Making a Contribution, as described above, or in any other way acting in
-order to influence the outcome of a discussion relating to the IETF Standards
-Process.  Without limiting the generality of the foregoing, acting as a
-Working Group Chair or Area Director constitutes "Participating" in all
-activities of the relevant working group(s) he or she is responsible for in
-an area.  "Participant" and "IETF Participant" mean any individual
-Participating in an IETF discussion or activity.
-
-RFC
-: The basic publication series for the IETF.
-
-Working Group
-: A group chartered by the IESG and IAB to work on a
-specific specification, set of specifications or topic.
 
 # The Internet Standards Process {#std-process}
 
@@ -319,11 +202,15 @@ Each distinct version of an Internet standards-related specification
 is published as part of the "Request for Comments" (RFC) document
 series. This archival series is the official publication channel for
 Internet standards documents and other publications of the IESG, IAB,
-and the Internet community. RFCs can be obtained from a number of
+and the Internet community (see {{!RFC9281}} for definitions).
+RFCs can be obtained from a number of
 Internet hosts using standard Internet applications such as the WWW.
 
 The RFC series of documents on networking began in 1969 as part of
-the original ARPA wide-area networking (ARPANET) project.
+the original Advanced Research Project Agency (ARPA) wide-area networking
+known as the ARPANET project.
+(ARPA, is an agency of the US Department of Defense and is now known
+as DARPA, where the first letter stands for "Defense.")
 RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
@@ -344,7 +231,8 @@ RFC repository.
 
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
-perform some operations or IETF process function. These RFCs form
+perform some operations or IETF (see {{?RFC9281}})
+process function. These RFCs form
 the specification has been adopted as a Best Current Practice (BCP);
 it is given the
 additional label "BCP xxx", but it keeps its RFC number and its place
@@ -605,7 +493,8 @@ one of three "off-track" maturity levels: "Experimental",
 "Informational", or "Historic". The documents bearing these labels
 are not Internet Standards in any sense.
 
-Alternate streams may also use the maturity levels described here.
+Alternate streams {{?RFC8729, Section 5.1}}
+may also use the maturity levels described here.
 
 ### Experimental
 
@@ -631,7 +520,8 @@ sources.
 Documents with the Experimental or Informational maturity level
 may be published using the process and workflow described here.
 Documents proposed for Experimental and Informational RFCs by IETF
-Working Groups go through IESG review. The review is initiated using
+Working Groups {{?2418bis}} go through IESG review.
+The review is initiated using
 the process described in {{sec611}}.
 
 The final assignment of maturity level, as with Internet Standard,
@@ -680,7 +570,7 @@ the consensus-building machinery of the IETF while gauging the
 community's view of that issue.
 
 Finally, the BCP series may be used to document the operation of the
-IETF itself. For example, this document defines the IETF Standards
+IETF itself. For example, this document defines the Internet Standards
 Process and is published as a BCP.
 
 ## BCP Review Process {#sec51}
@@ -692,7 +582,8 @@ immediate instantiation.
 
 The BCP process is similar to that for proposed standards. The BCP
 is submitted to the IESG for review, (see {{sec611}}) and the
-existing review process applies, including a Last-Call on the IETF
+existing review process applies, including a Last-Call (see {{sec612}})
+on the IETF
 Announce mailing list. However, once the IESG has approved the
 document, the process ends and the document is published. The
 resulting document is viewed as having the technical approval of the
@@ -744,7 +635,8 @@ than two weeks, that permits useful community review, after which a
 recommendation for action may be initiated.
 
 A standards action is initiated by a recommendation by the IETF
-Working group responsible for a specification to its Area Director,
+Working group responsible for a specification to its Area Director
+(see {{?RFC9281}}),
 copied to the IETF Secretariat or, in the case of a specification not
 associated with a Working Group, a recommendation by an individual to
 the IESG.
@@ -755,7 +647,7 @@ been met:
 
 1. There are at least two independent interoperating implementations
 with widespread deployment and successful operational experience.
-Although not required by the IETF Standards Process, {{?RFC5657}}
+Although not required by the Internet Standards Process, {{?RFC5657}}
 can be helpful to conduct interoperability testing.
 
 2. There are no errata against the specification that would cause a
@@ -1266,6 +1158,9 @@ Add AD sponsor as an example of non-WG initiation.
 IETF LLC maintains mailing lists anad public records.
 Renamed IETF Trust to IETF Intellectual Property Management Corporation.
 Various minor editorial/wording changes.
+
+- Draft 4: Remove terminology section; use references on first use when
+needed.
 
 ## Individual draft
 
