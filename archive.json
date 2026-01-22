@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-18T01:03:01.798657+00:00",
+  "timestamp": "2026-01-22T00:59:08.847629+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -528,7 +528,7 @@
       "id": "I_kwDOMZ1wVs7TGHXM",
       "title": "IETF Trust is now IETF Intellectual Property Management Corporation,",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/39",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -537,8 +537,8 @@
       ],
       "body": "And in Delware.",
       "createdAt": "2025-10-22T16:46:57Z",
-      "updatedAt": "2026-01-14T00:10:37Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-20T14:49:37Z",
+      "closedAt": "2026-01-20T14:49:37Z",
       "comments": [
         {
           "author": "DavidSchinazi",
@@ -561,7 +561,7 @@
       "id": "I_kwDOMZ1wVs7TILH0",
       "title": "mailing lists and archives",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/41",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -572,8 +572,8 @@
       ],
       "body": "Sec 10 says \"each IETF Working Group is expected to maintain their own email list archive and must make a best effort to ensure that all traffic is captured and included in the archives.\"  This is now the responsibility of the LLC",
       "createdAt": "2025-10-22T19:33:08Z",
-      "updatedAt": "2026-01-16T20:32:59Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-20T14:51:18Z",
+      "closedAt": "2026-01-20T14:51:18Z",
       "comments": [
         {
           "author": "jariarkko",
@@ -610,7 +610,7 @@
       "id": "I_kwDOMZ1wVs7TprVf",
       "title": "RFC Editor and non-standards-track",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/42",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -619,8 +619,8 @@
       ],
       "body": "Sec 4.1, penultimate paragraph:\n\". Non-standards track specifications may be published directly as \"Experimental\" or \"Informational\" RFCs at the discretion of the RFC Editor in consultation with the IESG (see [Section 6.2](https://ietf-wg-procon.github.io/2026bis/draft-ietf-procon-2026bis.html#sec42)).\"\n\nShouyld just be at the discretion of the IESG.\n",
       "createdAt": "2025-10-24T20:28:25Z",
-      "updatedAt": "2026-01-14T00:11:20Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-20T14:58:16Z",
+      "closedAt": "2026-01-20T14:58:16Z",
       "comments": [
         {
           "author": "jariarkko",
@@ -643,7 +643,7 @@
       "id": "I_kwDOMZ1wVs7TpsNa",
       "title": "Misc editorial nits",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/43",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -652,8 +652,8 @@
       ],
       "body": "Should be a space before the `xxx`",
       "createdAt": "2025-10-24T20:29:24Z",
-      "updatedAt": "2026-01-14T00:11:39Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-20T14:48:03Z",
+      "closedAt": "2026-01-20T14:48:03Z",
       "comments": [
         {
           "author": "richsalz",
@@ -826,7 +826,7 @@
       "id": "I_kwDOMZ1wVs7Tp2rX",
       "title": "8.5.1: appeals; ADs can divide/delegate",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/47",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -835,8 +835,8 @@
       ],
       "body": "Working groups typically have a responsible AD.  Appeals are first handled by that AD, right?  Then the IESG",
       "createdAt": "2025-10-24T20:45:26Z",
-      "updatedAt": "2026-01-15T16:58:38Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-20T14:54:13Z",
+      "closedAt": "2026-01-20T14:54:13Z",
       "comments": [
         {
           "author": "richsalz",
@@ -880,7 +880,7 @@
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2026-01-14T00:14:01Z",
+      "updatedAt": "2026-01-21T21:59:52Z",
       "closedAt": null,
       "comments": [
         {
@@ -917,6 +917,20 @@
           "body": "This was a new issue brought up by Mirja in the meeting. My interoperation was that we will need to distinguish past practice from current one. And even in the current one there may be two categories, one where document is published on the IETF stream even if it came originally from the IAB (e.g., Sec Cons RFC) and another one where document should be in the IAB stream (e.g., liaison-related RFCs). But in both cases BCP designation requires that the IETF consensus process is followed.\n\nWhat is the next step? Is there a proposal from someone on how to correctly describe this in 2026bis? Mirja, would you be willing to suggest something?",
           "createdAt": "2026-01-14T00:14:01Z",
           "updatedAt": "2026-01-14T00:14:01Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Per Roman in the zulip chat:\n```\nAll IAB documents = https://datatracker.ietf.org/stream/iab/\n\nAll IAB RFCs which are BCPs = RFC3677, RFC4052, RFC4053, RFC4333, RFC3552, RFC3172, and RFC2850\n```\n\nI am going to work on a PR for this.  Jari's comment about addressing the past in separate text from what *should* be done going forward is a good way to approach this.",
+          "createdAt": "2026-01-21T21:17:25Z",
+          "updatedAt": "2026-01-21T21:17:25Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "On 22-Jan-26 10:17, Rich Salz wrote:\r\n> *richsalz* left a comment (ietf-wg-procon/2026bis#48) <https://github.com/ietf-wg-procon/2026bis/issues/48#issuecomment-3781209000>\r\n> \r\n> Per Roman in the zulip chat:\r\n> \r\n> |All IAB documents = https://datatracker.ietf.org/stream/iab/ All IAB RFCs which are BCPs = RFC3677, RFC4052, RFC4053, RFC4333, RFC3552, RFC3172, and RFC2850 |\r\n\r\nIMNSHO those are all simply metadata classification errors made years ago by the RFC Editor and should all be changed to IETF stream, which the IESG could request any time they want to.\r\n\r\nThey were all last-called in the IETF and approved by the IESG. The tracker history is incomplete for the older ones, but it is clear enough for all of them that they received IESG approval. For RFC2850 I looked up the email history a while ago and it was definitely last-called.\r\n\r\nThey should clearly have been tagged as IETF Stream all along.\r\n\r\nYou have to look at the tabs for the draft history, like\r\nhttps://datatracker.ietf.org/doc/draft-iab-rfc1601bis/history/\r\n\r\n2850 was draft-iab-rfc1601bis\r\n3172 was draft-iab-arpa\r\n3552 was draft-iab-sec-cons\r\n3677 was draft-iab-isocbot\r\n4052 was draft-iab-liaison-mgt\r\n4053 was draft-baker-liaison-statements\r\n4333 was draft-iab-iesg-iaoc-selection\r\n\r\n     Brian\r\n\r\n\r\n> \r\n> I am going to work on a PR for this. Jari's comment about addressing the past in separate text from what /should/ be done going forward is a good way to approach this.\r\n\r\nI don't see any need to describe a historical clerical error. Just fix it and move on.\r\n\r\n    Brian\r\n\r\n> \r\n> \u2014\r\n> Reply to this email directly, view it on GitHub <https://github.com/ietf-wg-procon/2026bis/issues/48#issuecomment-3781209000>, or unsubscribe <https://github.com/notifications/unsubscribe-auth/ABMKET3Z7XDSJ4LMIXADNXT4H7UHVAVCNFSM6AAAAACLD6DS2SVHI2DSMVQWIX3LMV43OSLTON2WKQ3PNVWWK3TUHMZTOOBRGIYDSMBQGA>.\r\n> You are receiving this because you were mentioned.Message ID: ***@***.***>\r\n> \r\n",
+          "createdAt": "2026-01-21T21:59:52Z",
+          "updatedAt": "2026-01-21T21:59:52Z"
         }
       ]
     },
@@ -987,7 +1001,7 @@
       "id": "I_kwDOMZ1wVs7jniln",
       "title": "AD-sponsored drafts not discussed",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/59",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -996,8 +1010,8 @@
       ],
       "body": "There is no discussion of AD-sponsored drafts.\n\nSee https://datatracker.ietf.org/doc/statement-iesg-guidance-on-area-director-sponsoring-of-documents-20070320/\n",
       "createdAt": "2026-01-15T19:09:21Z",
-      "updatedAt": "2026-01-16T21:49:08Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-20T14:52:57Z",
+      "closedAt": "2026-01-20T14:52:57Z",
       "comments": [
         {
           "author": "jariarkko",
@@ -1028,6 +1042,25 @@
           "updatedAt": "2026-01-16T06:26:20Z"
         }
       ]
+    },
+    {
+      "number": 61,
+      "id": "I_kwDOMZ1wVs7knRGR",
+      "title": "Remove the Terminology section?",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/61",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial",
+        "discuss"
+      ],
+      "body": "From email by Pete Resnick:\n\nThe terms \"Copyright\", \"Covers\", \"IETF Documents\", \"IETF Trust Intellectual Property Management Corporation\", \"IPMC\", \"Implementing Technology\", \"IPR\", \"Intellectual Property Rights\", and \"Participating in an IETF discussion or activity\" are no longer used anywhere in the document.\n\nThe term \"Contribution\" only appears in sections 6.2.1 and 10 and in neither case is used in the BCP 78 sense.\n\nThe term \"IETF Standards Process\" is only used in two places (the last sentence of section 7 and list item 1 in section 8.1.1). In both cases, they should probably be changed there to \"Internet Standards Process\", as is used throughout the remainder of the document.\n\nThe terms \"Alternate Stream\", \"ARPA\", \"Internet-Draft\", \"Last-Call\", and \"RFC\" either are already defined on first use in the document or that can easily be done.\n\nThe terms \"Area Director\", \"IETF\", \"IETF Area\", \"Internet Engineering Steering Group (IESG)\", and \"Working Group\" are all defined in RFC 9281\n and can all have a reference on first use.\n\nI'm not sure the definition of \"interoperable\" is useful enough to keep the section.",
+      "createdAt": "2026-01-20T21:16:48Z",
+      "updatedAt": "2026-01-20T21:16:48Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -2081,24 +2114,26 @@
       "id": "PR_kwDOMZ1wVs69Q3CV",
       "title": "IETF Trust -> IETF IPMC",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/54",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2026-01-14T22:56:48Z",
-      "updatedAt": "2026-01-17T01:47:01Z",
+      "updatedAt": "2026-01-20T14:49:58Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "baseRefOid": "0cab6277ed5025ae64ea51f442ec9454263e5cd1",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-39",
-      "headRefOid": "80c51d6cb3456f64b67e1a2e3b241b2fa6109eaf",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "1c521bced99e499147b54cdb6c6fed32655b6e18",
+      "closedAt": "2026-01-20T14:49:36Z",
+      "mergedAt": "2026-01-20T14:49:36Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "f4260acf21bd07a1dfecd97e96c0ca73d506ae7f"
+      },
       "comments": [],
       "reviews": [
         {
@@ -2141,24 +2176,26 @@
       "id": "PR_kwDOMZ1wVs69Q5ck",
       "title": "Various minor wording changes.",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/55",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes: #43",
       "createdAt": "2026-01-14T23:00:58Z",
-      "updatedAt": "2026-01-17T16:50:01Z",
+      "updatedAt": "2026-01-20T14:48:06Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-43",
       "headRefOid": "4664fcc8c93f05f2fa152dc15f622ae7f3603148",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-01-20T14:48:01Z",
+      "mergedAt": "2026-01-20T14:48:01Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "0cab6277ed5025ae64ea51f442ec9454263e5cd1"
+      },
       "comments": [],
       "reviews": [
         {
@@ -2188,24 +2225,26 @@
       "id": "PR_kwDOMZ1wVs69RCtp",
       "title": "The IETF LLC maintains the mailing lists, etc.",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/56",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Based on wording suggestion from Jari.\r\n\r\nFixes: #41",
       "createdAt": "2026-01-14T23:18:31Z",
-      "updatedAt": "2026-01-15T17:30:49Z",
+      "updatedAt": "2026-01-20T14:51:21Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "baseRefOid": "f4260acf21bd07a1dfecd97e96c0ca73d506ae7f",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-41",
-      "headRefOid": "13645df9475689c4ecdc951baa35ff8131363975",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "411b62f8f5af3e617e7cd045f0999bcc5f9c8539",
+      "closedAt": "2026-01-20T14:51:17Z",
+      "mergedAt": "2026-01-20T14:51:17Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "53fcfb956843d24bf7812da839e9c3bd85a22532"
+      },
       "comments": [],
       "reviews": [
         {
@@ -2228,24 +2267,26 @@
       "id": "PR_kwDOMZ1wVs69bZY8",
       "title": "ADs can delegate/assign appeals",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/57",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Initial wording from Jari.\r\n\r\nFixes: #47",
       "createdAt": "2026-01-15T17:03:17Z",
-      "updatedAt": "2026-01-17T01:46:30Z",
+      "updatedAt": "2026-01-20T14:54:17Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "baseRefOid": "3cc22f95387d56d694037c644905fdb41fc72b9c",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-47",
-      "headRefOid": "fd9e582c20489bbaa84db530fe41ef540a7a1c16",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "bfc58d5fc96467380b94340da887f245ad64ecab",
+      "closedAt": "2026-01-20T14:54:12Z",
+      "mergedAt": "2026-01-20T14:54:12Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "6484695834a1329f007eeb5017f6f2d239502814"
+      },
       "comments": [],
       "reviews": [
         {
@@ -2268,24 +2309,26 @@
       "id": "PR_kwDOMZ1wVs69bpPv",
       "title": "Experimental and info are like std rfcs",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/58",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes: #42",
       "createdAt": "2026-01-15T17:25:51Z",
-      "updatedAt": "2026-01-17T01:43:08Z",
+      "updatedAt": "2026-01-20T14:58:18Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "baseRefOid": "6484695834a1329f007eeb5017f6f2d239502814",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-42",
-      "headRefOid": "e73d7a33bea52e61d710bc9fe986321f7b364e63",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "44a4e2b304a6c5f313425b1bd20c448c9f09e205",
+      "closedAt": "2026-01-20T14:58:15Z",
+      "mergedAt": "2026-01-20T14:58:15Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "4f3ac7ede2636761543dc1ae770858b55f44cfbf"
+      },
       "comments": [
         {
           "author": "richsalz",
@@ -2316,24 +2359,26 @@
       "id": "PR_kwDOMZ1wVs69sgxQ",
       "title": "Add ADSPONSOR as an example.",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/60",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes: #59",
       "createdAt": "2026-01-16T20:05:23Z",
-      "updatedAt": "2026-01-16T21:48:49Z",
+      "updatedAt": "2026-01-20T14:53:03Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "13a948fffa545158a188ea8914df260e8a6e4e38",
+      "baseRefOid": "53fcfb956843d24bf7812da839e9c3bd85a22532",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-59",
-      "headRefOid": "b850fef0562fc036345155fa51cc54ce98a1760b",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "7b08c5735df12e6b3b09bb13154d4bf171cf1e1b",
+      "closedAt": "2026-01-20T14:52:56Z",
+      "mergedAt": "2026-01-20T14:52:56Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "3cc22f95387d56d694037c644905fdb41fc72b9c"
+      },
       "comments": [
         {
           "author": "mcr",
@@ -2351,6 +2396,53 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 62,
+      "id": "PR_kwDOMZ1wVs6-gYqT",
+      "title": "Remove terminology section",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/62",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "For terms that were actually used, do inline references for them.\r\n\r\nFixes: #61",
+      "createdAt": "2026-01-21T17:29:53Z",
+      "updatedAt": "2026-01-21T18:58:01Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "4f3ac7ede2636761543dc1ae770858b55f44cfbf",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-61",
+      "headRefOid": "a9e72165cc6c095554d3997e215972f01405aecb",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMZ1wVs7b4EXY",
+          "commit": {
+            "abbreviatedOid": "a9e7216"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-21T18:58:01Z",
+          "updatedAt": "2026-01-21T18:58:01Z",
+          "comments": [
+            {
+              "originalPosition": 141,
+              "body": "Not fond of this sentence.  Maybe \"as part of a research project run by the US Department of Defense\" ?",
+              "createdAt": "2026-01-21T18:58:01Z",
+              "updatedAt": "2026-01-21T18:58:01Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
