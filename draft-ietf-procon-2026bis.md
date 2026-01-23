@@ -98,10 +98,10 @@ independent, and interoperable implementations with substantial
 operational experience, enjoys significant public support, and is
 recognizably useful in some or all parts of the Internet.
 
-The process described here only applies to the IETF RFC stream.  See
-{{?RFC4844}} for the definition of the streams, {{?RFC9281}} for
-a definition of the IESG, and {{?RFC5742}} for a
-description of the IESG responsibilities related to those streams.
+## Terminology
+
+Readers are expected to be familiar with the various entities
+involved in the Internet Standards Process, as described in {{!RFC9281}}.
 
 # The Internet Standards Process {#std-process}
 
@@ -116,6 +116,10 @@ the interests of all of the affected parties; (3) the importance of
 establishing widespread community consensus; and (4) the difficulty
 of evaluating the utility of a particular specification for the
 Internet community.
+
+The process described here only applies to the IETF RFC stream.  See
+{{?RFC4844}} for the definition of the streams and {{?RFC5742}} for a
+description of the IESG responsibilities related to those streams.
 
 The goals of the Internet Standards Process are:
 
@@ -202,7 +206,7 @@ Each distinct version of an Internet standards-related specification
 is published as part of the "Request for Comments" (RFC) document
 series. This archival series is the official publication channel for
 Internet standards documents and other publications of the IESG, IAB,
-and the Internet community (see {{!RFC9281}} for definitions).
+and the Internet community.
 RFCs can be obtained from a number of
 Internet hosts using standard Internet applications such as the WWW.
 
@@ -226,8 +230,7 @@ RFC repository.
 
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
-perform some operations or IETF (see {{?RFC9281}})
-process function. These RFCs form
+perform some operations or IETF processes. These RFCs form
 the specification has been adopted as a Best Current Practice (BCP);
 it is given the
 additional label "BCP xxx", but it keeps its RFC number and its place
@@ -515,7 +518,7 @@ sources.
 Documents with the Experimental or Informational maturity level
 may be published using the process and workflow described here.
 Documents proposed for Experimental and Informational RFCs by IETF
-Working Groups {{?2418bis}} go through IESG review.
+Working Groups {{2418bis}} go through IESG review.
 The review is initiated using
 the process described in {{sec611}}.
 
@@ -630,8 +633,7 @@ than two weeks, that permits useful community review, after which a
 recommendation for action may be initiated.
 
 A standards action is initiated by a recommendation by the IETF
-Working group responsible for a specification to its Area Director
-(see {{?RFC9281}}),
+Working group responsible for a specification to its Area Director,
 copied to the IETF Secretariat or, in the case of a specification not
 associated with a Working Group, a recommendation by an individual to
 the IESG.
