@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              22 January 2026
+Updates: 7475 (if approved)                              23 January 2026
 Intended status: Best Current Practice                                  
-Expires: 26 July 2026
+Expires: 27 July 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 July 2026.
+   This Internet-Draft will expire on 27 July 2026.
 
 Copyright Notice
 
@@ -266,14 +266,9 @@ Table of Contents
    be obtained from a number of Internet hosts using standard Internet
    applications such as the WWW.
 
-   The RFC series of documents on networking began in 1969 as part of
-   the original Advanced Research Projects Agency (ARPA) wide-area
-   networking known as the ARPANET project.  (ARPA, is an agency of the
-   US Department of Defense and is now known as DARPA, where the first
-   letter stands for "Defense.") RFCs cover a wide range of topics in
-   addition to Internet Standards, from early discussion of new research
-   concepts to status memos about the Internet.  For information about
-   RFC publication, see [RFC9280].
+   RFCs cover a wide range of topics in addition to Internet Standards,
+   from early discussion of new research concepts to status memos about
+   the Internet.  For information about RFC publication, see [RFC9280].
 
    The style guide for writing an RFC is [RFC7322].  The default input
    format is [RFCXML], RFCs are available in multiple formats as
