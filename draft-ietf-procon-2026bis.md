@@ -54,7 +54,7 @@ informative:
 This memo documents the process used by the Internet community for
 the standardization of protocols and procedures. It defines the
 stages in the standardization process, the requirements for moving a
-document between stages and the types of documents used during this
+document between stages, and the types of documents used during this
 process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
@@ -71,10 +71,8 @@ taken together the two of them make RFC 7475 obsolete.
 
 This memo documents the process currently used by the Internet
 community for the standardization of protocols and procedures. The
-Internet Standards process is an activity of the Internet Society (ISOC)
-that is organized and managed on behalf of the Internet community by
-the Internet Architecture Board (IAB) and the Internet Engineering
-Steering Group (IESG).
+Internet Standards process is organized and managed by the IETF,
+an entity of the Internet Society (ISOC).
 
 The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
@@ -311,15 +309,13 @@ Standards Process. {{sec8}} describes the requirements for notices
 and record keeping, and {{sec9}} defines a variance process to allow
 one-time exceptions to some of the requirements in this document.
 
-# Internet Standards-Related Publications {#sec2}
+# Documents related to Internet Standards {#sec2}
 
 ## Requests for Comments (RFCs)
 
-Each distinct version of an Internet standards-related specification
-is published as part of the "Request for Comments" (RFC) document
-series. This archival series is the official publication channel for
-Internet standards documents and other publications of the IESG, IAB,
-and the Internet community. RFCs can be obtained from a number of
+Each distinct version of an Internet Standards specification
+is published as an RFC on the IETF stream.
+RFCs can be obtained from a number of
 Internet hosts using standard Internet applications such as the WWW.
 
 The RFC series of documents on networking began in 1969 as part of
@@ -333,7 +329,7 @@ The style guide for writing an RFC is {{!RFC7322}}.
 The default input format is {{RFCXML}},
 RFCs are available in multiple formats as described in {{RFCPAGE}}.
 
-Some RFCs document Internet Standards. These RFCs form the 'STD'
+Some RFCs document Internet Standards. These RFCs form the "STD"
 subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STD xxx", but it keeps its RFC number and its place in the RFC
@@ -355,7 +351,8 @@ should or will become Internet Standards or BCPs. Such non-standards
 track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
 directly as "Experimental" or "Informational" RFCs at the discretion
-of the RFC Editor in consultation with the IESG (see {{sec42}}).
+of the RFC Publication Center (RPC)
+in consultation with the IESG (see {{sec42}}).
 
 In addition, not all RFCs are standards track documents, and not all
 standards track documents reach the level of Internet Standard. In the same
@@ -526,10 +523,10 @@ indicate the status of "retired" Internet Standards. A set of
 maturity levels is defined in {{sec42}} to cover these and other
 specifications that are not considered to be on the standards track.
 
-Note: Standards track specifications normally must not depend on
+Standards track specifications normally must not depend on either
 other standards track specifications which are at a lower maturity
-level or on non standards track specifications other than referenced
-specifications from other standards bodies. (See {{sec7}}.)
+level, or on non standards track specifications except for referenced
+specifications from other standards bodies (see {{sec7}}).
 
 ## Standards Track Maturity Levels {#sec41}
 
@@ -543,7 +540,7 @@ characteristics of specifications at each level.
 ### Proposed Standard {#propstd}
 
 The entry-level maturity for the standards track is "Proposed
-Standard".  A specific action by the IESG is required to move a
+Standard."  A specific action by the IESG is required to move a
 specification onto the standards track at the "Proposed Standard"
 level.
 
@@ -601,8 +598,8 @@ track. A specification may have been superseded by a more recent
 Internet Standard, or have otherwise fallen into disuse or disfavor.
 
 Specifications that are not on the standards track are labeled with
-one of three "off-track" maturity levels: "Experimental",
-"Informational", or "Historic". The documents bearing these labels
+one of three "off-track" maturity levels: "Experimental,"
+"Informational," or "Historic." The documents bearing these labels
 are not Internet Standards in any sense.
 
 Alternate streams may also use the maturity levels described here.
@@ -655,7 +652,7 @@ community can define and ratify the community's best current thinking
 on a statement of principle or on what is believed to be the best way
 to perform some operations or IETF process function.
 
-Historically Internet standards have generally been concerned with
+Historically Internet Standards have generally been concerned with
 the technical specifications for hardware and software required for
 computer communication across interconnected networks. However,
 since the Internet itself is composed of networks operated by a great
@@ -878,7 +875,7 @@ standards action on the specification will not always be possible or
 desirable; for example, an important typographical error, or a
 technical error that does not represent a change in overall function
 of the specification, may need to be corrected immediately. In such
-cases, the IESG or RFC Editor may be asked to republish the RFC (with
+cases, the IESG or RPC may be asked to republish the RFC (with
 a new number) with corrections, and this will not reset the minimum
 time-at-level clock.
 
@@ -919,7 +916,7 @@ agree. To achieve the goals of openness and fairness, such conflicts
 must be resolved by a process of open review and, where appropriate,
 open discussion. This
 section specifies the procedures that shall be followed to deal with
-Internet standards issues that cannot be resolved through the normal
+Internet Standards Process issues that cannot be resolved through the normal
 processes whereby IETF Working Groups and other Internet Standards
 Process participants ordinarily reach consensus.
 
@@ -959,7 +956,7 @@ decision to the IAB. The IAB shall then review the situation and
 attempt to resolve it in a manner of its own choosing.
 
 The IAB decision is final with respect to the question of whether or
-not the Internet standards procedures have been followed and with
+not the Internet Standards Processes have been followed and with
 respect to all questions of technical merit.
 
 ### Process Failures
@@ -993,7 +990,7 @@ however, pre-empt the role of the IESG by issuing a decision which
 only the IESG is empowered to make.
 
 The IAB decision is final with respect to the question of whether or
-not the Internet standards procedures have been followed.
+not the Internet Standards Processes have been followed.
 
 ### Questions of Applicable Procedure
 
@@ -1131,8 +1128,8 @@ interested parties to effectively participate. The announcement
 shall contain (or provide pointers to) all of the information that
 is necessary to support the participation of any interested
 individual. In the case of a meeting, for example, the
-announcement shall include an agenda that specifies the standards-
-related issues that will be discussed.
+announcement shall include an agenda that specifies the
+standards-related issues that will be discussed.
 
 The formal record of an organization's standards-related activity
 shall include at least the following:
@@ -1154,8 +1151,8 @@ responsible for providing complete and
 accurate minutes of all Working Group meetings. Internet-Drafts that
 have been removed (for any reason) from the Internet-Drafts
 directories shall be archived for the sole
-purpose of preserving an historical record of Internet standards
-activity and thus are not retrievable except in special
+purpose of preserving an historical record of Internet Standards
+Process activity and thus are not retrievable except in special
 circumstances.
 
 # Varying the Process {#sec9}
@@ -1215,7 +1212,7 @@ In a timely fashion after the expiration of the Last-Call period, the
 IESG shall make its final determination of whether or not to approve
 the proposed variance, and shall notify the IETF of its decision via
 electronic mail to the IETF Announce mailing list. If the variance
-is approved it shall be forwarded to the RFC Editor with a request
+is approved it shall be forwarded to the RPC with a request
 that it be published as a BCP.
 
 This variance procedure is for use when a one-time waiver of some
@@ -1266,6 +1263,12 @@ Add AD sponsor as an example of non-WG initiation.
 IETF LLC maintains mailing lists anad public records.
 Renamed IETF Trust to IETF Intellectual Property Management Corporation.
 Various minor editorial/wording changes.
+
+- Draft 4: Consistency around "Internet Standards Process" term
+use and capitalization.
+Change "RFC Editor" to "RFC Publication Center."
+Put punctuation inside the quotation where necessary.
+Avoid "Internet Standards-related" construction
 
 ## Individual draft
 
