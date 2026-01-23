@@ -206,11 +206,6 @@ and the Internet community (see {{!RFC9281}} for definitions).
 RFCs can be obtained from a number of
 Internet hosts using standard Internet applications such as the WWW.
 
-The RFC series of documents on networking began in 1969 as part of
-the original Advanced Research Projects Agency (ARPA) wide-area networking
-known as the ARPANET project.
-(ARPA, is an agency of the US Department of Defense and is now known
-as DARPA, where the first letter stands for "Defense.")
 RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
