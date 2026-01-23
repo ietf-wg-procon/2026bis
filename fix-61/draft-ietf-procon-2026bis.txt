@@ -72,6 +72,7 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
+     1.1.  Terminology
    2.  The Internet Standards Process
      2.1.  Intellectual Property Requirements
    3.  Organization of This Document
@@ -157,10 +158,11 @@ Table of Contents
    operational experience, enjoys significant public support, and is
    recognizably useful in some or all parts of the Internet.
 
-   The process described here only applies to the IETF RFC stream.  See
-   [RFC4844] for the definition of the streams, [RFC9281] for a
-   definition of the IESG, and [RFC5742] for a description of the IESG
-   responsibilities related to those streams.
+1.1.  Terminology
+
+   Readers are expected to be familiar with the various entities
+   involved in the Internet Standards Process, as described in
+   [RFC9281].
 
 2.  The Internet Standards Process
 
@@ -175,6 +177,10 @@ Table of Contents
    establishing widespread community consensus; and (4) the difficulty
    of evaluating the utility of a particular specification for the
    Internet community.
+
+   The process described here only applies to the IETF RFC stream.  See
+   [RFC4844] for the definition of the streams and [RFC5742] for a
+   description of the IESG responsibilities related to those streams.
 
    The goals of the Internet Standards Process are:
 
@@ -262,9 +268,8 @@ Table of Contents
    is published as part of the "Request for Comments" (RFC) document
    series.  This archival series is the official publication channel for
    Internet standards documents and other publications of the IESG, IAB,
-   and the Internet community (see [RFC9281] for definitions).  RFCs can
-   be obtained from a number of Internet hosts using standard Internet
-   applications such as the WWW.
+   and the Internet community.  RFCs can be obtained from a number of
+   Internet hosts using standard Internet applications such as the WWW.
 
    RFCs cover a wide range of topics in addition to Internet Standards,
    from early discussion of new research concepts to status memos about
@@ -284,10 +289,10 @@ Table of Contents
 
    Some RFCs standardize the results of community deliberations about
    statements of principle or conclusions about what is the best way to
-   perform some operations or IETF (see [RFC9281]) process function.
-   These RFCs form the specification has been adopted as a Best Current
-   Practice (BCP); it is given the additional label "BCP xxx", but it
-   keeps its RFC number and its place in the RFC series. (see Section 7)
+   perform some operations or IETF processes.  These RFCs form the
+   specification has been adopted as a Best Current Practice (BCP); it
+   is given the additional label "BCP xxx", but it keeps its RFC number
+   and its place in the RFC series. (see Section 7)
 
    Not all specifications of protocols or services for the Internet
    should or will become Internet Standards or BCPs.  Such non-standards
@@ -681,10 +686,10 @@ Table of Contents
    recommendation for action may be initiated.
 
    A standards action is initiated by a recommendation by the IETF
-   Working group responsible for a specification to its Area Director
-   (see [RFC9281]), copied to the IETF Secretariat or, in the case of a
-   specification not associated with a Working Group, a recommendation
-   by an individual to the IESG.
+   Working group responsible for a specification to its Area Director,
+   copied to the IETF Secretariat or, in the case of a specification not
+   associated with a Working Group, a recommendation by an individual to
+   the IESG.
 
    For classification as an Internet Standard, the request for
    reclassification must include an explanation of how the following
