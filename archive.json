@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-22T00:59:08.847629+00:00",
+  "timestamp": "2026-01-25T01:04:58.683581+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -452,7 +452,7 @@
       "id": "I_kwDOMZ1wVs7RQfRK",
       "title": "references to internet-drafts",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/37",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -462,8 +462,8 @@
       ],
       "body": "Section 4.2 says this:\n```\n    Under no circumstances should an Internet-Draft\n    be referenced by any paper, report, or Request-\n    for-Proposal, nor should a vendor claim compliance\n    with an Internet-Draft.\n```\n\nIs that still true when some WGs allow I-D's to be used as a reference for IANA registries?",
       "createdAt": "2025-10-13T16:53:55Z",
-      "updatedAt": "2026-01-14T00:10:20Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-23T19:53:14Z",
+      "closedAt": "2026-01-23T19:53:14Z",
       "comments": [
         {
           "author": "DavidSchinazi",
@@ -520,6 +520,20 @@
           "body": "We discussed this in the meeting, and at first you proposed that you'd craft text and circulate it on the list. But the feedback from the participants was that we\u2019d prefer saying very little about operational aspects in these fundamental documents. But I think that still counts as you needing to craft a proposal for what the document would say, and what gets deleted. Do you agree?\n\nAI notes on this said: Strong consensus to remove non-conceptual, operational details. Principles include: remove text if nothing breaks, point to existing external documents (e.g., RFC 5378 for contributions), or move to informational documents/web pages if specific operational guidance is needed. The goal is to make the standards-track document timeless and conceptual.",
           "createdAt": "2026-01-14T00:10:19Z",
           "updatedAt": "2026-01-14T00:10:19Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The internet-drafts part of this will be covered by Brian Carpenter.",
+          "createdAt": "2026-01-23T19:52:51Z",
+          "updatedAt": "2026-01-23T19:52:51Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closing this in favor of #52",
+          "createdAt": "2026-01-23T19:53:14Z",
+          "updatedAt": "2026-01-23T19:53:14Z"
         }
       ]
     },
@@ -697,7 +711,7 @@
       "id": "I_kwDOMZ1wVs7Tpvtl",
       "title": "Can a standards-track doc refer to non-standards track?",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/44",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -707,8 +721,8 @@
       ],
       "body": "Sec 5.1: \"(which might or might not be Internet Standards).\"\n\nBrings to mind a larger question: should we use standards-track doc instead of Internet Standard?\n\n",
       "createdAt": "2025-10-24T20:34:01Z",
-      "updatedAt": "2026-01-14T00:12:04Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-23T18:43:55Z",
+      "closedAt": "2026-01-23T18:43:55Z",
       "comments": [
         {
           "author": "richsalz",
@@ -730,6 +744,13 @@
           "body": "This issue is possibly conflating several issues. The actual issue text talks about RFC 2026 referring to the Internet Standards (see https://github.com/ietf-wg-procon/2026bis/issues/44), specifically this text in S3.1 of RFC 2026:\n\n\"A TS may be completely self-\n   contained, or it may incorporate material from other specifications\n   by reference to other documents (which might or might not be Internet\n   Standards).\"\n\nBut you also raised another question about what levels of specifications may refer to other levels. Did I understand this correctly? Would it be reasonable to open a new issue for the second issue?\n\nWhen it comes to the former issue, I think it is somewhat loose language in the original RFC that causes a misunderstanding. For context RFC 2026 had three separate concepts: 1/ Internet Standard Specifications (S3), Internet Standards Track (S4), and Internet Standard (S4.1.3). I suspect the S3.1 text tried to refer to the first concept but because of a missing last word we interpret it as a reference to the third concept. But I could be wrong. Thoughts?\n\nThe meeting suggested that we could classify this issue as an editorial one. That\u2019s certainly the case if my interpretation from above is right. \n\nCould you suggest a resolution, and do other people have comments?",
           "createdAt": "2026-01-14T00:12:04Z",
           "updatedAt": "2026-01-14T00:12:04Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I believe #64 addresses the \"loose language\" issue mentioned above and am closing this as no further action needed. If you disagree, please re-open or (better) open a new issue that's more clear to me :)",
+          "createdAt": "2026-01-23T18:43:55Z",
+          "updatedAt": "2026-01-23T18:43:55Z"
         }
       ]
     },
@@ -880,7 +901,7 @@
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2026-01-21T21:59:52Z",
+      "updatedAt": "2026-01-24T16:50:22Z",
       "closedAt": null,
       "comments": [
         {
@@ -931,6 +952,13 @@
           "body": "On 22-Jan-26 10:17, Rich Salz wrote:\r\n> *richsalz* left a comment (ietf-wg-procon/2026bis#48) <https://github.com/ietf-wg-procon/2026bis/issues/48#issuecomment-3781209000>\r\n> \r\n> Per Roman in the zulip chat:\r\n> \r\n> |All IAB documents = https://datatracker.ietf.org/stream/iab/ All IAB RFCs which are BCPs = RFC3677, RFC4052, RFC4053, RFC4333, RFC3552, RFC3172, and RFC2850 |\r\n\r\nIMNSHO those are all simply metadata classification errors made years ago by the RFC Editor and should all be changed to IETF stream, which the IESG could request any time they want to.\r\n\r\nThey were all last-called in the IETF and approved by the IESG. The tracker history is incomplete for the older ones, but it is clear enough for all of them that they received IESG approval. For RFC2850 I looked up the email history a while ago and it was definitely last-called.\r\n\r\nThey should clearly have been tagged as IETF Stream all along.\r\n\r\nYou have to look at the tabs for the draft history, like\r\nhttps://datatracker.ietf.org/doc/draft-iab-rfc1601bis/history/\r\n\r\n2850 was draft-iab-rfc1601bis\r\n3172 was draft-iab-arpa\r\n3552 was draft-iab-sec-cons\r\n3677 was draft-iab-isocbot\r\n4052 was draft-iab-liaison-mgt\r\n4053 was draft-baker-liaison-statements\r\n4333 was draft-iab-iesg-iaoc-selection\r\n\r\n     Brian\r\n\r\n\r\n> \r\n> I am going to work on a PR for this. Jari's comment about addressing the past in separate text from what /should/ be done going forward is a good way to approach this.\r\n\r\nI don't see any need to describe a historical clerical error. Just fix it and move on.\r\n\r\n    Brian\r\n\r\n> \r\n> \u2014\r\n> Reply to this email directly, view it on GitHub <https://github.com/ietf-wg-procon/2026bis/issues/48#issuecomment-3781209000>, or unsubscribe <https://github.com/notifications/unsubscribe-auth/ABMKET3Z7XDSJ4LMIXADNXT4H7UHVAVCNFSM6AAAAACLD6DS2SVHI2DSMVQWIX3LMV43OSLTON2WKQ3PNVWWK3TUHMZTOOBRGIYDSMBQGA>.\r\n> You are receiving this because you were mentioned.Message ID: ***@***.***>\r\n> \r\n",
           "createdAt": "2026-01-21T21:59:52Z",
           "updatedAt": "2026-01-21T21:59:52Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I agree with @becarpenter.  Pull #65 clarifies the definition of BCP and says this:\n```\nWhile other streams may publish\nBCP RFCs, documents that affect the Internet Standards Process must\nbe published in the IETF stream and follow the review process described\nbelow.\n```\n",
+          "createdAt": "2026-01-24T16:50:21Z",
+          "updatedAt": "2026-01-24T16:50:21Z"
         }
       ]
     },
@@ -1048,7 +1076,7 @@
       "id": "I_kwDOMZ1wVs7knRGR",
       "title": "Remove the Terminology section?",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/61",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -1058,8 +1086,26 @@
       ],
       "body": "From email by Pete Resnick:\n\nThe terms \"Copyright\", \"Covers\", \"IETF Documents\", \"IETF Trust Intellectual Property Management Corporation\", \"IPMC\", \"Implementing Technology\", \"IPR\", \"Intellectual Property Rights\", and \"Participating in an IETF discussion or activity\" are no longer used anywhere in the document.\n\nThe term \"Contribution\" only appears in sections 6.2.1 and 10 and in neither case is used in the BCP 78 sense.\n\nThe term \"IETF Standards Process\" is only used in two places (the last sentence of section 7 and list item 1 in section 8.1.1). In both cases, they should probably be changed there to \"Internet Standards Process\", as is used throughout the remainder of the document.\n\nThe terms \"Alternate Stream\", \"ARPA\", \"Internet-Draft\", \"Last-Call\", and \"RFC\" either are already defined on first use in the document or that can easily be done.\n\nThe terms \"Area Director\", \"IETF\", \"IETF Area\", \"Internet Engineering Steering Group (IESG)\", and \"Working Group\" are all defined in RFC 9281\n and can all have a reference on first use.\n\nI'm not sure the definition of \"interoperable\" is useful enough to keep the section.",
       "createdAt": "2026-01-20T21:16:48Z",
-      "updatedAt": "2026-01-20T21:16:48Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-24T17:07:49Z",
+      "closedAt": "2026-01-24T17:07:49Z",
+      "comments": []
+    },
+    {
+      "number": 63,
+      "id": "I_kwDOMZ1wVs7lZhWB",
+      "title": "More editorial nits",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/63",
+      "state": "CLOSED",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "RFC Editor -> RFC Publication Center\nInternet Standards Process. not procedures, used throughout with proper uppercase\nEtc.",
+      "createdAt": "2026-01-23T18:34:25Z",
+      "updatedAt": "2026-01-24T17:03:34Z",
+      "closedAt": "2026-01-24T17:03:34Z",
       "comments": []
     }
   ],
@@ -2402,24 +2448,26 @@
       "id": "PR_kwDOMZ1wVs6-gYqT",
       "title": "Remove terminology section",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/62",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "For terms that were actually used, do inline references for them.\r\n\r\nFixes: #61",
       "createdAt": "2026-01-21T17:29:53Z",
-      "updatedAt": "2026-01-21T18:58:01Z",
+      "updatedAt": "2026-01-24T17:07:51Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
-      "baseRefOid": "4f3ac7ede2636761543dc1ae770858b55f44cfbf",
+      "baseRefOid": "d47233120b0918db24e4431a1c5bb07d665f5410",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-61",
-      "headRefOid": "a9e72165cc6c095554d3997e215972f01405aecb",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "d5d7df45e10b5b99a4ea4eeca3f0af0bc15d8048",
+      "closedAt": "2026-01-24T17:07:48Z",
+      "mergedAt": "2026-01-24T17:07:47Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "a12434456435c0fc07c24cce0993b1ff759d95c2"
+      },
       "comments": [],
       "reviews": [
         {
@@ -2441,8 +2489,108 @@
               "updatedAt": "2026-01-21T18:58:01Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7cOCGt",
+          "commit": {
+            "abbreviatedOid": "a9e7216"
+          },
+          "author": "copilot-pull-request-reviewer",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "## Pull request overview\n\nThis PR removes the terminology section from the document and replaces it with inline references where specific terms are used. The changes align with issue #61 by eliminating the standalone glossary and instead providing context-appropriate references throughout the document.\n\n**Changes:**\n- Removed the entire \"Terminology\" section containing 20+ term definitions\n- Added inline references to RFC 9281 for IESG and other organizational definitions\n- Expanded ARPA acronym with inline explanation including DARPA evolution\n- Added references to RFC 8729 for alternate streams and RFC 2418bis for Working Groups\n\n\n\n\n\n---\n\n\ud83d\udca1 <a href=\"/ietf-wg-procon/2026bis/new/main/.github/instructions?filename=*.instructions.md\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Add Copilot custom instructions</a> for smarter, more guided reviews. <a href=\"https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Learn how to get started</a>.",
+          "createdAt": "2026-01-22T21:27:17Z",
+          "updatedAt": "2026-01-22T21:27:18Z",
+          "comments": [
+            {
+              "originalPosition": 141,
+              "body": "Corrected spelling of 'Project' to 'Projects'.\n```suggestion\nthe original Advanced Research Projects Agency (ARPA) wide-area networking\n```",
+              "createdAt": "2026-01-22T21:27:17Z",
+              "updatedAt": "2026-01-22T21:27:18Z"
+            },
+            {
+              "originalPosition": 173,
+              "body": "The reference '{{?2418bis}}' appears to be incomplete. It should likely be '{{?RFC2418bis}}' or similar to match the reference format used elsewhere in the document.\n```suggestion\nWorking Groups {{?RFC2418bis}} go through IESG review.\n```",
+              "createdAt": "2026-01-22T21:27:18Z",
+              "updatedAt": "2026-01-22T21:27:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMZ1wVs7cfKvH",
+          "commit": {
+            "abbreviatedOid": "a9e7216"
+          },
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-23T19:09:47Z",
+          "updatedAt": "2026-01-23T19:09:47Z",
+          "comments": [
+            {
+              "originalPosition": 141,
+              "body": "Added a commit to delete it.",
+              "createdAt": "2026-01-23T19:09:47Z",
+              "updatedAt": "2026-01-23T19:09:47Z"
+            }
+          ]
         }
       ]
+    },
+    {
+      "number": 64,
+      "id": "PR_kwDOMZ1wVs6-_2Jj",
+      "title": "Minor wording changes for consistency",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/64",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes: #63",
+      "createdAt": "2026-01-23T18:41:36Z",
+      "updatedAt": "2026-01-24T17:03:38Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "4f3ac7ede2636761543dc1ae770858b55f44cfbf",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-63",
+      "headRefOid": "a8a624600c21bad0581da15663f27036079dba94",
+      "closedAt": "2026-01-24T17:03:33Z",
+      "mergedAt": "2026-01-24T17:03:33Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "d47233120b0918db24e4431a1c5bb07d665f5410"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 65,
+      "id": "PR_kwDOMZ1wVs6_Jf2Z",
+      "title": "Update BCP definition/process section",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/65",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes: #48",
+      "createdAt": "2026-01-24T16:47:32Z",
+      "updatedAt": "2026-01-24T17:18:33Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "a12434456435c0fc07c24cce0993b1ff759d95c2",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-48",
+      "headRefOid": "6a22a1684fb3527ffffb85d8e227d99fac61eeed",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
