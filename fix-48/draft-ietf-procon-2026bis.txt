@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              24 January 2026
+Updates: 7475 (if approved)                              26 January 2026
 Intended status: Best Current Practice                                  
-Expires: 28 July 2026
+Expires: 30 July 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 July 2026.
+   This Internet-Draft will expire on 30 July 2026.
 
 Copyright Notice
 
@@ -610,7 +610,7 @@ Table of Contents
    the IETF itself.  For example, this document defines the IETF
    Standards Process and is published as a BCP.  While other streams may
    publish BCP RFCs, documents that affect the Internet Standards
-   Process must be published in the IETF stream and follow the review
+   Process are published on the IETF stream and follow the review
    process described below.
 
 7.1.  BCP Review Process
@@ -1191,7 +1191,7 @@ Table of Contents
       Center."  Put punctuation inside the quotation where necessary.
       Avoid "Internet Standards-related" construction Use subseries
       consistently for BCP/STD.  Update BCP definition and explain those
-      that affect the standards process must be published on the IETF
+      that affect the standards process are published on the IETF
       stream.
 
 14.2.  Individual draft
