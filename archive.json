@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-25T01:04:58.683581+00:00",
+  "timestamp": "2026-01-27T01:02:10.058659+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -2578,13 +2578,13 @@
       "labels": [],
       "body": "Fixes: #48",
       "createdAt": "2026-01-24T16:47:32Z",
-      "updatedAt": "2026-01-24T17:18:33Z",
+      "updatedAt": "2026-01-26T20:13:20Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "a12434456435c0fc07c24cce0993b1ff759d95c2",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-48",
-      "headRefOid": "6a22a1684fb3527ffffb85d8e227d99fac61eeed",
+      "headRefOid": "a2bb25311dfcebc7ce673440bd731556b7c8b3e9",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
