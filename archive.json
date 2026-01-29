@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-27T01:02:10.058659+00:00",
+  "timestamp": "2026-01-29T01:07:28.559568+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -901,7 +901,7 @@
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2026-01-24T16:50:22Z",
+      "updatedAt": "2026-01-27T19:47:39Z",
       "closedAt": null,
       "comments": [
         {
@@ -959,6 +959,13 @@
           "body": "I agree with @becarpenter.  Pull #65 clarifies the definition of BCP and says this:\n```\nWhile other streams may publish\nBCP RFCs, documents that affect the Internet Standards Process must\nbe published in the IETF stream and follow the review process described\nbelow.\n```\n",
           "createdAt": "2026-01-24T16:50:21Z",
           "updatedAt": "2026-01-24T16:50:21Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "See https://mailarchive.ietf.org/arch/msg/procon/RxfzPj5vYENTRBCfq_rPIyMKloc/ for a. copy of a note Brian and I sent to the IESG about the mis-categories IAB BCP's.\n\nPlease see https://github.com/ietf-wg-procon/2026bis/pull/65 for the proposed fix for what's left of this issue.",
+          "createdAt": "2026-01-27T19:47:39Z",
+          "updatedAt": "2026-01-27T19:47:39Z"
         }
       ]
     },
