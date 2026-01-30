@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                              28 January 2026
+Updates: 7475 (if approved)                              30 January 2026
 Intended status: Best Current Practice                                  
-Expires: 1 August 2026
+Expires: 3 August 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 August 2026.
+   This Internet-Draft will expire on 3 August 2026.
 
 Copyright Notice
 
@@ -530,7 +530,8 @@ Table of Contents
    Internet community.
 
    A specification that reaches the status of Internet Standard is
-   assigned a number in the STD series while retaining its RFC number.
+   assigned a number in the STD subseries while retaining its RFC
+   number.
 
 6.2.  Non-Standards Track Maturity Levels
 
@@ -592,7 +593,7 @@ Table of Contents
    standards track documents and thus is a vehicle by which the IETF
    community can define and ratify the community's best current thinking
    on a statement of principle or on what is believed to be the best way
-   to perform some operations or IETF process function.
+   to perform some operations.
 
    Historically Internet Standards have generally been concerned with
    the technical specifications for hardware and software required for
@@ -605,37 +606,27 @@ Table of Contents
    from protocol standards, their establishment needs a similar process
    for consensus building.
 
-   While it is recognized that entities such as the IAB and IESG are
-   composed of individuals who may participate, as individuals, in the
-   technical work of the IETF, it is also recognized that the entities
-   themselves have an existence as leaders in the community.  As leaders
-   in the Internet technical community, these entities should have an
-   outlet to propose ideas to stimulate work in a particular area, to
-   raise the community's sensitivity to a certain issue, to make a
-   statement of architectural principle, or to communicate their
-   thoughts on other matters.  The BCP subseries creates a smoothly
-   structured way for these management entities to insert proposals into
-   the consensus-building machinery of the IETF while gauging the
-   community's view of that issue.
-
-   Finally, the BCP series may be used to document the operation of the
-   IETF itself.  For example, this document defines the Internet
-   Standards Process and is published as a BCP.
+   Finally, the BCP subseries may be used to document the operation of
+   the IETF itself.  For example, this document defines the IETF
+   Standards Process and is published as a BCP.  While other streams may
+   publish BCP RFCs, documents that affect the Internet Standards
+   Process are published on the IETF stream and follow the review
+   process described below.
 
 7.1.  BCP Review Process
 
    Unlike standards-track documents, the mechanisms described in BCPs
-   are not well suited to the phased roll-in nature of the three stage
+   are not well suited to the phased roll-in nature of the two-stage
    standards track and instead generally only make sense for full and
    immediate instantiation.
 
    The BCP process is similar to that for proposed standards.  The BCP
-   is submitted to the IESG for review, (see Section 8.1.1) and the
-   existing review process applies, including a Last-Call (see
-   Section 8.1.2) on the IETF Announce mailing list.  However, once the
-   IESG has approved the document, the process ends and the document is
-   published.  The resulting document is viewed as having the technical
-   approval of the IETF.
+   is submitted to the IESG for review (see Section 8.1.1), and the
+   existing review process applies, including a Last-Call on the IETF
+   Announce mailing list.  However, once the IESG has approved the
+   document, the process ends and the document is published.  The
+   resulting document is viewed as having the technical approval of the
+   IETF.
 
    Specifically, a document to be considered for the status of BCP must
    undergo the procedures outlined in Section 8.1, and Section 8.4 of
@@ -649,7 +640,7 @@ Table of Contents
    for a content different from Informational RFCs.
 
    A specification, or group of specifications, that has, or have been
-   approved as a BCP is assigned a number in the BCP series while
+   approved as a BCP is assigned a number in the BCP subseries while
    retaining its RFC number(s).
 
 8.  The Internet Standards Process
@@ -1198,7 +1189,10 @@ Table of Contents
       when needed.  Consistency around "Internet Standards Process" term
       use and capitalization.  Change "RFC Editor" to "RFC Publication
       Center."  Put punctuation inside the quotation where necessary.
-      Avoid "Internet Standards-related" construction
+      Avoid "Internet Standards-related" construction Use subseries
+      consistently for BCP/STD.  Update BCP definition and explain those
+      that affect the standards process are published on the IETF
+      stream.
 
 14.2.  Individual draft
 

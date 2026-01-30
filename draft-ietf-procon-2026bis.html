@@ -21,23 +21,22 @@ RFC 7475.
 If this document and   are published as RFCs, then
 taken together the two of them make RFC 7475 obsolete. 
     " name="description">
-<meta content="xml2rfc 3.30.2" name="generator">
+<meta content="xml2rfc 3.31.0" name="generator">
 <meta content="process" name="keyword">
 <meta content="draft-ietf-procon-2026bis-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.30.2
-    Python 3.13.9
-    ConfigArgParse 1.7.1
+  xml2rfc 3.31.0
+    Python 3.12.12
+    ConfigArgParse 1.7
     google-i18n-address 3.1.1
-    intervaltree 3.1.0
+    intervaltree 3.2.1
     Jinja2 3.1.6
     lxml 6.0.2
-    platformdirs 4.4.0
+    platformdirs 4.5.1
     pycountry 24.6.1
     PyYAML 6.0.3
     requests 2.32.5
-    setuptools 80.9.0
-    wcwidth 0.2.14
+    wcwidth 0.3.0
 -->
 <link href="draft-ietf-procon-2026bis.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -578,6 +577,7 @@ aside, blockquote {
 }
 blockquote {
   margin: 1em 0;
+  border-left: 2px var(--pilcrow-strong) solid;
 }
 cite {
   display: block;
@@ -648,7 +648,7 @@ a.pilcrow {
   }
 }
 @media not print {
-  :hover > a.pilcrow {
+  :hover > a.pilcrow, a.pilcrow:focus {
     opacity: 1;
   }
   a.pilcrow[href]:hover {
@@ -1060,7 +1060,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Salz &amp; Bradner</td>
-<td class="center">Expires 1 August 2026</td>
+<td class="center">Expires 3 August 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1079,12 +1079,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-01-28" class="published">28 January 2026</time>
+<time datetime="2026-01-30" class="published">30 January 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-08-01">1 August 2026</time></dd>
+<dd class="expires"><time datetime="2026-08-03">3 August 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1143,7 +1143,7 @@ taken together the two of them make RFC 7475 obsolete.<a href="#section-abstract
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 1 August 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 3 August 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1826,7 +1826,7 @@ technical maturity and by a generally held belief that the specified
 protocol or service provides significant benefit to the Internet
 community.<a href="#section-6.1.2-1" class="pilcrow">¶</a></p>
 <p id="section-6.1.2-2">A specification that reaches the status of Internet Standard is
-assigned a number in the STD series while retaining its RFC number.<a href="#section-6.1.2-2" class="pilcrow">¶</a></p>
+assigned a number in the STD subseries while retaining its RFC number.<a href="#section-6.1.2-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1916,7 +1916,7 @@ BCP document is subject to the same basic set of procedures as
 standards track documents and thus is a vehicle by which the IETF
 community can define and ratify the community's best current thinking
 on a statement of principle or on what is believed to be the best way
-to perform some operations or IETF process function.<a href="#section-7-1" class="pilcrow">¶</a></p>
+to perform some operations.<a href="#section-7-1" class="pilcrow">¶</a></p>
 <p id="section-7-2">Historically Internet Standards have generally been concerned with
 the technical specifications for hardware and software required for
 computer communication across interconnected networks. However,
@@ -1927,34 +1927,24 @@ Internet follow some common guidelines for policies and operations.
 While these guidelines are generally different in scope and style
 from protocol standards, their establishment needs a similar process
 for consensus building.<a href="#section-7-2" class="pilcrow">¶</a></p>
-<p id="section-7-3">While it is recognized that entities such as the IAB and IESG are
-composed of individuals who may participate, as individuals, in the
-technical work of the IETF, it is also recognized that the entities
-themselves have an existence as leaders in the community. As leaders
-in the Internet technical community, these entities should have an
-outlet to propose ideas to stimulate work in a particular area, to
-raise the community's sensitivity to a certain issue, to make a
-statement of architectural principle, or to communicate their
-thoughts on other matters. The BCP subseries creates a smoothly
-structured way for these management entities to insert proposals into
-the consensus-building machinery of the IETF while gauging the
-community's view of that issue.<a href="#section-7-3" class="pilcrow">¶</a></p>
-<p id="section-7-4">Finally, the BCP series may be used to document the operation of the
-IETF itself. For example, this document defines the Internet Standards
-Process and is published as a BCP.<a href="#section-7-4" class="pilcrow">¶</a></p>
+<p id="section-7-3">Finally, the BCP subseries may be used to document the operation of the
+IETF itself. For example, this document defines the IETF Standards
+Process and is published as a BCP. While other streams may publish
+BCP RFCs, documents that affect the Internet Standards Process are
+published on the IETF stream and follow the review process described
+below.<a href="#section-7-3" class="pilcrow">¶</a></p>
 <div id="sec51">
 <section id="section-7.1">
         <h3 id="name-bcp-review-process">
 <a href="#section-7.1" class="section-number selfRef">7.1. </a><a href="#name-bcp-review-process" class="section-name selfRef">BCP Review Process</a>
         </h3>
 <p id="section-7.1-1">Unlike standards-track documents, the mechanisms described in BCPs
-are not well suited to the phased roll-in nature of the three stage
+are not well suited to the phased roll-in nature of the two-stage
 standards track and instead generally only make sense for full and
 immediate instantiation.<a href="#section-7.1-1" class="pilcrow">¶</a></p>
 <p id="section-7.1-2">The BCP process is similar to that for proposed standards. The BCP
-is submitted to the IESG for review, (see <a href="#sec611" class="auto internal xref">Section 8.1.1</a>) and the
-existing review process applies, including a Last-Call (see <a href="#sec612" class="auto internal xref">Section 8.1.2</a>)
-on the IETF
+is submitted to the IESG for review (see <a href="#sec611" class="auto internal xref">Section 8.1.1</a>), and the
+existing review process applies, including a Last-Call on the IETF
 Announce mailing list. However, once the IESG has approved the
 document, the process ends and the document is published. The
 resulting document is viewed as having the technical approval of the
@@ -1969,7 +1959,7 @@ Specifically, BCPs should not be viewed simply as stronger
 Informational RFCs, but rather should be viewed as documents suitable
 for a content different from Informational RFCs.<a href="#section-7.1-4" class="pilcrow">¶</a></p>
 <p id="section-7.1-5">A specification, or group of specifications, that has, or have been
-approved as a BCP is assigned a number in the BCP series while
+approved as a BCP is assigned a number in the BCP subseries while
 retaining its RFC number(s).<a href="#section-7.1-5" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -2620,7 +2610,10 @@ Consistency around "Internet Standards Process" term
 use and capitalization.
 Change "RFC Editor" to "RFC Publication Center."
 Put punctuation inside the quotation where necessary.
-Avoid "Internet Standards-related" construction<a href="#section-14.1-1.5.1" class="pilcrow">¶</a></p>
+Avoid "Internet Standards-related" construction
+Use subseries consistently for BCP/STD.
+Update BCP definition and explain those that affect the standards
+process are published on the IETF stream.<a href="#section-14.1-1.5.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
