@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-29T01:07:28.559568+00:00",
+  "timestamp": "2026-02-01T01:19:14.470615+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -894,15 +894,15 @@
       "id": "I_kwDOMZ1wVs7V1USg",
       "title": "BCPs published on the IAB stream",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/48",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "There are some BCPs that are published on the IAB stream. We have an process to moved IAB approved document to the IESG for IETF consensus needed for BCPs but 2026 is not fully clear about the stream that that BCP would be published on.\n\nI personally think there might be both cases where the BCP should be on the IAB stream or IETF stream but most important is that we clarify this.",
       "createdAt": "2025-11-04T17:19:48Z",
-      "updatedAt": "2026-01-27T19:47:39Z",
-      "closedAt": null,
+      "updatedAt": "2026-01-30T21:03:24Z",
+      "closedAt": "2026-01-30T21:03:24Z",
       "comments": [
         {
           "author": "richsalz",
@@ -2578,24 +2578,26 @@
       "id": "PR_kwDOMZ1wVs6_Jf2Z",
       "title": "Update BCP definition/process section",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/65",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes: #48",
       "createdAt": "2026-01-24T16:47:32Z",
-      "updatedAt": "2026-01-26T20:13:20Z",
+      "updatedAt": "2026-01-30T21:03:32Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "a12434456435c0fc07c24cce0993b1ff759d95c2",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "fix-48",
       "headRefOid": "a2bb25311dfcebc7ce673440bd731556b7c8b3e9",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-01-30T21:03:23Z",
+      "mergedAt": "2026-01-30T21:03:23Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "b92b06732e353ab778dd2eab46a09f4f4571a50c"
+      },
       "comments": [],
       "reviews": []
     }
