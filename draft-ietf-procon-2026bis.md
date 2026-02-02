@@ -36,12 +36,20 @@ informative:
     ADSPONSOR:
       title: Guidance on Area Director Sponsoring of Documents
       target: https://datatracker.ietf.org/doc/statement-iesg-guidance-on-area-director-sponsoring-of-documents-20070320/
+      date: "March 20, 2007"
     RFCXML:
       title: RFCXML overview and background
       target: https://authors.ietf.org/rfcxml-overview
     RFCPAGE:
       title: About RFCs
       target: https://www.ietf.org/process/rfcs/
+    REQPAGE:
+      title: Required Content
+      target: https://authors.ietf.org/en/required-content
+      date: "June, 2025"
+    IDPAGE:
+      title: Internet-Drafts
+      target: https://www.ietf.org/participate/ids/
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -247,34 +255,34 @@ and approval to become BCPs. See {{!RFC1796}} for further information.
 ## Internet-Drafts {#sec22}
 
 During the development of a specification, draft versions of the
-document are made available for informal review and comment by
-placing them in the IETF's "Internet-Drafts" directory, which is
-replicated on a number of Internet hosts. This makes an evolving
-working document readily available to a wide audience, facilitating
-the process of review and revision.
+document are made available to the public for review and comment by
+placing them in the Internet-Drafts collection {{IDPAGE}}.  This
+makes an evolving working document readily available to a wide audience,
+facilitating the process of review and revision.
 
-An Internet-Draft that is published as an RFC, or that has remained
-unchanged in the Internet-Drafts directory for more than six months
-without being recommended by the IESG for publication as an RFC, is
-simply removed from the Internet-Drafts directory. At any time, an
-Internet-Draft may be replaced by a more recent version of the same
-specification, restarting the six-month timeout period.
+A Internet-Draft that has been not been changed for more than six months
+will be marked as Expired and may be removed from some views of the
+collection.  At any time, an Internet-Draft may be replaced by a more
+recent version of the same specification, restarting the six-month
+timeout period.
 
-An Internet-Draft is NOT a means of "publishing" a specification;
-specifications are published through the RFC mechanism described in
-the previous section. Internet-Drafts have no formal status, and are
-subject to change or removal at any time.
+The format of an Internet-Draft is mostly the same as for an
+{{?RFC7322, Section 4}}.
+Full details, including the naming conventions and required contents, can be
+found at {{REQPAGE}}.  Of particular importance is the legal boilerplate
+and copyright as described in the "Copyright Notice" section of that page.
 
-        Under no circumstances should an Internet-Draft
-        be referenced by any paper, report, or Request-
-        for-Proposal, nor should a vendor claim compliance
-        with an Internet-Draft.
+Internet-Drafts have no formal status, and are subject to change or
+removal at any time.  They are working documents and have no official
+standards status whatsoever. They may, eventually, turn into a
+standards-track document or they may sink from sight. An Internet-Draft
+is not a means of "publishing" a specification; specifications are
+published through the RFC mechanism described in the previous section.
 
-Note: It is acceptable to reference a standards-track specification
-that may reasonably be expected to be published as an RFC using the
-phrase "Work in Progress" without referencing an Internet-Draft.
-This may also be done in a standards track document itself as long
-as the specification in which the reference is made would stand as a
+It is acceptable to reference an Internet-Draft that may reasonably be
+expected to be published as an RFC using the phrase "Work in Progress".
+This may also be done in a standards track document itself as long as
+the specification in which the reference is made would stand as a
 complete and understandable document with or without the reference to
 the "Work in Progress".
 
@@ -1148,6 +1156,7 @@ Avoid "Internet Standards-related" construction
 Use subseries consistently for BCP/STD.
 Update BCP definition and explain those that affect the standards
 process are published on the IETF stream.
+Update Internet-Draft section (with Brian Carpenter).
 
 ## Individual draft
 
