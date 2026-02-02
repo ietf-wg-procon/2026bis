@@ -552,10 +552,7 @@ for consensus building.
 
 Finally, the BCP subseries may be used to document the operation of the
 IETF itself. For example, this document defines the IETF Standards
-Process and is published as a BCP. While other streams may publish
-BCP RFCs, documents that affect the Internet Standards Process are
-published on the IETF stream and follow the review process described
-below.
+Process and is published as a BCP.
 
 ## BCP Review Process {#sec51}
 
