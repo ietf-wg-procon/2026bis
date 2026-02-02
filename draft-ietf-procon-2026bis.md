@@ -1156,7 +1156,9 @@ Avoid "Internet Standards-related" construction
 Use subseries consistently for BCP/STD.
 Update BCP definition and explain those that affect the standards
 process are published on the IETF stream.
-Update Internet-Draft section (with Brian Carpenter).
+
+- Draft 5: Update Internet-Draft section (with Brian Carpenter).
+Remove out-of-scope BCP sentence.
 
 ## Individual draft
 
