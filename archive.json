@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-02-01T01:19:14.470615+00:00",
+  "timestamp": "2026-02-03T01:11:46.784610+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -998,15 +998,15 @@
       "id": "I_kwDOMZ1wVs7WszyT",
       "title": "Reconcile \"Internet-Drafts\" sections",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/52",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "becarpenter",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "Both 2026bis and 2418bis contain \"Internet-Drafts\" sections. They need to be cross-checked for discrepancies and overlaps.",
       "createdAt": "2025-11-07T21:22:39Z",
-      "updatedAt": "2026-01-17T03:56:16Z",
-      "closedAt": null,
+      "updatedAt": "2026-02-02T14:45:45Z",
+      "closedAt": "2026-02-02T14:36:01Z",
       "comments": [
         {
           "author": "jariarkko",
@@ -1028,6 +1028,20 @@
           "body": "I believe that the sections in the two drafts do indeed overlap and not in a good way. Some of the information in 2418bis applies to _all_ I-Ds, not just to WG I-Ds, so should really be in 2026bis. Also there are some discrepancies from reality, and some of the language is so pre-Web and pre-Datatracker that we'd look pretty silly republishing it in 2026.\n\nRather than PRs I will send email to the list so people can say what they think.",
           "createdAt": "2026-01-17T03:56:16Z",
           "updatedAt": "2026-01-17T03:56:16Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed by #67",
+          "createdAt": "2026-02-02T14:36:01Z",
+          "updatedAt": "2026-02-02T14:36:01Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "2418bis PR is at https://github.com/ietf-wg-procon/2418bis/pull/38",
+          "createdAt": "2026-02-02T14:45:45Z",
+          "updatedAt": "2026-02-02T14:45:45Z"
         }
       ]
     },
@@ -2597,6 +2611,62 @@
       "mergedBy": "richsalz",
       "mergeCommit": {
         "oid": "b92b06732e353ab778dd2eab46a09f4f4571a50c"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 66,
+      "id": "PR_kwDOMZ1wVs7A7SO8",
+      "title": "Update BCP definition",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/66",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes: #48",
+      "createdAt": "2026-02-02T14:15:46Z",
+      "updatedAt": "2026-02-02T14:16:41Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "b92b06732e353ab778dd2eab46a09f4f4571a50c",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-48",
+      "headRefOid": "dcfbf6c3a99e5ff8677c57ad00702d6a424922a2",
+      "closedAt": "2026-02-02T14:16:38Z",
+      "mergedAt": "2026-02-02T14:16:38Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "979899c4064fcf32d60490f72db08ebfbc2ca5fc"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 67,
+      "id": "PR_kwDOMZ1wVs7A7lyA",
+      "title": "Update Internet-Drafts section",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/67",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This is the 2026bis/2418bis I-D consolidation that Brian Carpenter drafted. Edits by Rich.",
+      "createdAt": "2026-02-02T14:33:45Z",
+      "updatedAt": "2026-02-02T14:34:28Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "979899c4064fcf32d60490f72db08ebfbc2ca5fc",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "fix-52",
+      "headRefOid": "b9b66a8d614f7fb734e152094d295e72379612f1",
+      "closedAt": "2026-02-02T14:34:24Z",
+      "mergedAt": "2026-02-02T14:34:24Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "81c5c6ae4c19dd9857895986c687f5e9a7701494"
       },
       "comments": [],
       "reviews": []
