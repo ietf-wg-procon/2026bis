@@ -222,7 +222,7 @@ The style guide for writing an RFC is {{!RFC7322}}.
 The default input format is {{RFCXML}},
 RFCs are available in multiple formats as described in {{RFCPAGE}}.
 
-Some RFCs document an "Internet Standards." These RFCs form the "STD"
+Some RFCs document an "Internet Standard." These RFCs form the "STD"
 subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STD xxx", but it keeps its RFC number and its place in the RFC
