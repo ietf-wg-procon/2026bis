@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                 3 March 2026
+Updates: 7475 (if approved)                                 4 March 2026
 Intended status: Best Current Practice                                  
-Expires: 4 September 2026
+Expires: 5 September 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 September 2026.
+   This Internet-Draft will expire on 5 September 2026.
 
 Copyright Notice
 
@@ -275,10 +275,10 @@ Table of Contents
    format is [RFCXML], RFCs are available in multiple formats as
    described in [RFCPAGE].
 
-   Some RFCs document an "Internet Standards."  These RFCs form the
-   "STD" subseries of the RFC series [RFC1311].  When a specification
-   has been adopted as an Internet Standard, it is given the additional
-   label "STD xxx", but it keeps its RFC number and its place in the RFC
+   Some RFCs document an "Internet Standard."  These RFCs form the "STD"
+   subseries of the RFC series [RFC1311].  When a specification has been
+   adopted as an Internet Standard, it is given the additional label
+   "STD xxx", but it keeps its RFC number and its place in the RFC
    series (see Section 6.1.2).  The status of Internet protocol and
    service specifications is available from the RFC Index
    (https://www.rfc-editor.org/rfc-index.txt) in the RFC repository.
