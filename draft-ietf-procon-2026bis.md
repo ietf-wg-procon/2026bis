@@ -222,7 +222,7 @@ The style guide for writing an RFC is {{!RFC7322}}.
 The default input format is {{RFCXML}},
 RFCs are available in multiple formats as described in {{RFCPAGE}}.
 
-Some RFCs document Internet Standards. These RFCs form the "STD"
+Some RFCs document an "Internet Standard." These RFCs form the "STD"
 subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STD xxx", but it keeps its RFC number and its place in the RFC
@@ -266,8 +266,8 @@ collection.  At any time, an Internet-Draft may be replaced by a more
 recent version of the same specification, restarting the six-month
 timeout period.
 
-The format of an Internet-Draft is mostly the same as for an
-{{?RFC7322, Section 4}}.
+The format of an Internet-Draft is mostly the same as for an RFC
+as described in {{?RFC7322, Section 4}}.
 Full details, including the naming conventions and required contents, can be
 found at {{REQPAGE}}.  Of particular importance is the legal boilerplate
 and copyright as described in the "Copyright Notice" section of that page.
@@ -342,7 +342,7 @@ of the TSs to which it refers:
 
 - Required: Implementation of the referenced TS, as specified by
 the AS, is required to achieve minimal conformance. For example,
-IP and the Internet Control Message Protocl (ICMP) must be implemented
+IP and ICMP must be implemented
 by all Internet systems using the
 TCP/IP Protocol Suite.
 
@@ -526,7 +526,8 @@ Working Groups {{2418bis}} go through IESG review.
 The review is initiated using
 the process described in {{sec611}}.
 
-The final assignment of maturity level, as with Internet Standard,
+The final assignment of maturity level, as with Internet Standards
+Track Documents,
 is determined by the IESG.
 
 ### Historic
@@ -824,7 +825,7 @@ If the disagreement cannot be resolved in this way, any of the
 parties involved may bring it to the attention of the Area
 Director(s) for the area in which the Working Group is chartered.
 The treatment of any particular disagreement may be delegated to
-one of more Area Director(s) in this or other areas where necessary.
+one or more Area Director(s) in this or other areas where necessary.
 The Area Director(s) shall attempt to resolve the dispute.
 
 If the disagreement cannot be resolved by the Area Director(s) any of
