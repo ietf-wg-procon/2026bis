@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                             10 February 2026
+Updates: 7475 (if approved)                                10 March 2026
 Intended status: Best Current Practice                                  
-Expires: 14 August 2026
+Expires: 11 September 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 August 2026.
+   This Internet-Draft will expire on 11 September 2026.
 
 Copyright Notice
 
@@ -275,7 +275,7 @@ Table of Contents
    format is [RFCXML], RFCs are available in multiple formats as
    described in [RFCPAGE].
 
-   Some RFCs document Internet Standards.  These RFCs form the "STD"
+   Some RFCs document an "Internet Standard."  These RFCs form the "STD"
    subseries of the RFC series [RFC1311].  When a specification has been
    adopted as an Internet Standard, it is given the additional label
    "STD xxx", but it keeps its RFC number and its place in the RFC
@@ -318,11 +318,11 @@ Table of Contents
    a more recent version of the same specification, restarting the six-
    month timeout period.
 
-   The format of an Internet-Draft is mostly the same as for an
-   [RFC7322], Section 4.  Full details, including the naming conventions
-   and required contents, can be found at [REQPAGE].  Of particular
-   importance is the legal boilerplate and copyright as described in the
-   "Copyright Notice" section of that page.
+   The format of an Internet-Draft is mostly the same as for an RFC as
+   described in [RFC7322], Section 4.  Full details, including the
+   naming conventions and required contents, can be found at [REQPAGE].
+   Of particular importance is the legal boilerplate and copyright as
+   described in the "Copyright Notice" section of that page.
 
    Internet-Drafts have no formal status, and are subject to change or
    removal at any time.  They are working documents and have no official
@@ -396,9 +396,8 @@ Table of Contents
 
    *  Required: Implementation of the referenced TS, as specified by the
       AS, is required to achieve minimal conformance.  For example, IP
-      and the Internet Control Message Protocl (ICMP) must be
-      implemented by all Internet systems using the TCP/IP Protocol
-      Suite.
+      and ICMP must be implemented by all Internet systems using the
+      TCP/IP Protocol Suite.
 
    *  Recommended: Implementation of the referenced TS is not required
       for minimal conformance, but experience and/or generally accepted
@@ -575,8 +574,8 @@ Table of Contents
    Working Groups [_2418bis] go through IESG review.  The review is
    initiated using the process described in Section 8.1.1.
 
-   The final assignment of maturity level, as with Internet Standard, is
-   determined by the IESG.
+   The final assignment of maturity level, as with Internet Standards
+   Track Documents, is determined by the IESG.
 
 6.2.4.  Historic
 
@@ -869,7 +868,7 @@ Table of Contents
    parties involved may bring it to the attention of the Area
    Director(s) for the area in which the Working Group is chartered.
    The treatment of any particular disagreement may be delegated to one
-   of more Area Director(s) in this or other areas where necessary.  The
+   or more Area Director(s) in this or other areas where necessary.  The
    Area Director(s) shall attempt to resolve the dispute.
 
    If the disagreement cannot be resolved by the Area Director(s) any of
@@ -1335,9 +1334,9 @@ Table of Contents
 
    [_2418bis] Salz, R., Schinazi, D., and S. O. Bradner, "IETF Working
               Group Guidelines and Procedures", Work in Progress,
-              Internet-Draft, draft-ietf-procon-2418bis-01, 15 October
-              2025, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              procon-2418bis-01>.
+              Internet-Draft, draft-ietf-procon-2418bis-02, 2 March
+              2026, <https://datatracker.ietf.org/doc/html/draft-ietf-
+              procon-2418bis-02>.
 
 Acknowledgments
 
