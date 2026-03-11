@@ -709,15 +709,8 @@ Table of Contents
    specification was submitted.  For example, the IESG may decide to
    consider the specification for publication in a different maturity
    level than that requested.  If the IESG determines this before the
-   Last- Call is issued then the Last-Call should reflect the IESG's
-   view.  The IESG could also decide to change the publication maturity
-   level based on the response to a Last-Call.  If this decision would
-   result in a specification being published at a "higher" level than
-   the original Last-Call was for, a new Last-Call should be issued
-   indicating the IESG recommendation.  In addition, in case of
-   significant controvery in response to the Last-Call, The IESG may
-   decide to refer the document back to the Working Group, the authors,
-   or hold the document for the creation of a new Working Group.
+   Last- Call is issued (see below) then the Last-Call should reflect
+   the IESG's view.
 
    In order to obtain all of the information necessary to make these
    determinations, particularly when the specification is considered by
@@ -749,13 +742,22 @@ Table of Contents
    community of their intent to advance a document from Proposed
    Standard to Internet Standard.
 
-   If there is consensus for reclassification, the RFC will be
-   reclassified with or without publication of a new RFC.
-
    In a timely fashion after the expiration of the Last-Call period, the
    IESG shall make its final determination of whether or not to approve
    the standards action, and shall notify the IETF of its decision via
    electronic mail to the IETF Announce mailing list.
+
+   If there is consensus for reclassification, the RFC will be
+   reclassified with or without publication of a new RFC.
+
+   The IESG could also decide to change the publication maturity level
+   based on the response to a Last-Call.  If this decision would result
+   in a specification being published at a "higher" level than the
+   original Last-Call was for, a new Last-Call should be issued
+   indicating the IESG recommendation.  In addition, in case of
+   significant controversy in response to the Last-Call, The IESG may
+   decide to refer the document back to the Working Group, the authors,
+   or hold the document for the creation of a new Working Group.
 
    In no event shall a document be published on the IETF Stream without
    IETF consensus.
@@ -1194,7 +1196,8 @@ Table of Contents
    *  Draft 5: Update Internet-Draft section (with Brian Carpenter).
       Remove out-of-scope BCP sentence.
 
-   *  Draft 6: More wording fixes from Pete caused by #4.
+   *  Draft 6: More wording fixes from Pete caused by #4.  Split IESG
+      work pre- and post- IETF LC.
 
 14.2.  Individual draft
 
