@@ -1161,6 +1161,8 @@ process are published on the IETF stream.
 - Draft 5: Update Internet-Draft section (with Brian Carpenter).
 Remove out-of-scope BCP sentence.
 
+- Draft 6: More wording fixes from Pete caused by #4.
+
 ## Individual draft
 
 - Draft 0: Translated the nroff source of RFC 2026 into markdown.
