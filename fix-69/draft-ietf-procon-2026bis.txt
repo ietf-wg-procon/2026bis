@@ -301,6 +301,13 @@ Table of Contents
    given the review and approval to become BCPs.  See [RFC1796] for
    further information.
 
+   Each entry in the STD or BCP subseries may have more than one RFC.
+
+   When a new RFC obsoletes an RFC that is in one of the subseries, the
+   old RFC is removed and replaced by the new RFC.  If a new RFC updates
+   an RFC that is in one of the subseries, that is noted as an update,
+   but that RFC does not become part of the subseries.
+
    The full list of all RFCs, including the subseries, and lists
    organized by status, can be found in the RFC repository
    (https://www.rfc-editor.org/rfc-index.txt).
@@ -1193,10 +1200,12 @@ Table of Contents
    *  Draft 5: Update Internet-Draft section (with Brian Carpenter).
       Remove out-of-scope BCP sentence.
 
-   *  Draft 6: More wording fixes from Pete caused by #4.  Split IESG
-      work pre- and post- IETF LC.  It's RFC Production (not
-      Publication) Center.  BCP and STD may issue new RFC number, or
-      not.  Fix text and link to published list of RFCs, STD, etc.
+   *  Draft 6: More wording fixes from Pete caused by #4.  It's RFC
+      Production (not Publication) Center.  BCP and STD may issue new
+      RFC number or not.  A subseries may have multiple RFCs.  When an
+      RFC is obsoleted, it is removed from the subseries and the
+      obsoleting RFC is added.  Fix text and link to published list of
+      RFCs, STD, etc.
 
 14.2.  Individual draft
 
