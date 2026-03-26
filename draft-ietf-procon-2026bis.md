@@ -225,32 +225,38 @@ RFCs are available in multiple formats as described in {{RFCPAGE}}.
 Some RFCs document an "Internet Standard." These RFCs form the "STD"
 subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
-"STD xxx", but it keeps its RFC number and its place in the RFC
-series (see {{sec413}}).
-The status of Internet protocol and service specifications is available
-from the [RFC Index](https://www.rfc-editor.org/rfc-index.txt) in the
-RFC repository.
+"STD xxx" (see {{sec413}}).
 
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF processes. These RFCs form
-the specification has been adopted as a Best Current Practice (BCP);
-it is given the
-additional label "BCP xxx", but it keeps its RFC number and its place
-in the RFC series. (see {{sec5}})
+Best Current Practice (BCP) subseries. When a specification has
+been adopted as a BCP, it is given the
+additional label "BCP xxx" (see {{sec5}}).
 
 Not all specifications of protocols or services for the Internet
 should or will become Internet Standards or BCPs. Such non-standards
 track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
 directly as "Experimental" or "Informational" RFCs at the discretion
-of the RFC Publication Center (RPC)
+of the RFC Production Center (RPC)
 in consultation with the IESG (see {{sec42}}).
 
 In addition, not all RFCs are standards track documents, and not all
 standards track documents reach the level of Internet Standard. In the same
 way, not all RFCs which describe current practices have been given the review
 and approval to become BCPs. See {{!RFC1796}} for further information.
+
+Each entry in the STD or BCP subseries may have more than one RFC.
+
+When a new RFC obsoletes an RFC that is in one of the subseries, the
+old RFC is removed and replaced by the new RFC.
+If a new RFC updates an RFC that is in one of the subseries, that is noted
+as an update, but that RFC does not become part of the subseries.
+
+The full list of all RFCs, including the subseries, and lists organized
+by status, can be found
+in the [RFC repository](https://www.rfc-editor.org/rfc-index.txt).
 
 ## Internet-Drafts {#sec22}
 
@@ -480,7 +486,7 @@ protocol or service provides significant benefit to the Internet
 community.
 
 A specification that reaches the status of Internet Standard is
-assigned a number in the STD subseries while retaining its RFC number.
+assigned a number in the STD subseries.
 
 ## Non-Standards Track Maturity Levels {#sec42}
 
@@ -590,8 +596,7 @@ Informational RFCs, but rather should be viewed as documents suitable
 for a content different from Informational RFCs.
 
 A specification, or group of specifications, that has, or have been
-approved as a BCP is assigned a number in the BCP subseries while
-retaining its RFC number(s).
+approved as a BCP is assigned a number in the BCP subseries.
 
 # The Internet Standards Process {#sec6}
 
@@ -1162,6 +1167,12 @@ process are published on the IETF stream.
 Remove out-of-scope BCP sentence.
 
 - Draft 6: More wording fixes from Pete caused by #4.
+It's RFC Production (not Publication) Center.
+BCP and STD may issue new RFC number or not.
+A subseries may have multiple RFCs.
+When an RFC is obsoleted, it is removed from the subseries and
+the obsoleting RFC is added.
+Fix text and link to published list of RFCs, STD, etc.
 
 ## Individual draft
 
