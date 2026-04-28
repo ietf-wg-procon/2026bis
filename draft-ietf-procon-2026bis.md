@@ -419,8 +419,8 @@ specifications that are not considered to be on the standards track.
 
 Standards track specifications normally must not depend on either
 other standards track specifications which are at a lower maturity
-level, or on non standards track specifications except for referenced
-specifications from other standards bodies (see {{sec7}}).
+level or on non standards track specifications other than referenced
+specifications from other standards bodies (see {{!BCP97}} and {{sec7}}).
 
 ## Standards Track Maturity Levels {#sec41}
 
