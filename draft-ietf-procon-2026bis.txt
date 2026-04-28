@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                26 March 2026
+Updates: 7475 (if approved)                                28 April 2026
 Intended status: Best Current Practice                                  
-Expires: 27 September 2026
+Expires: 30 October 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 September 2026.
+   This Internet-Draft will expire on 30 October 2026.
 
 Copyright Notice
 
@@ -287,6 +287,8 @@ Table of Contents
    adopted as a BCP, it is given the additional label "BCP xxx" (see
    Section 7).
 
+   Each entry in the STD or BCP subseries may have more than one RFC.
+
    Not all specifications of protocols or services for the Internet
    should or will become Internet Standards or BCPs.  Such non-standards
    track specifications are not subject to the rules for Internet
@@ -301,16 +303,9 @@ Table of Contents
    given the review and approval to become BCPs.  See [RFC1796] for
    further information.
 
-   Each entry in the STD or BCP subseries may have more than one RFC.
-
-   When a new RFC obsoletes an RFC that is in one of the subseries, the
-   old RFC is removed and replaced by the new RFC.  If a new RFC updates
-   an RFC that is in one of the subseries, that is noted as an update,
-   but that RFC does not become part of the subseries.
-
    The full list of all RFCs, including the subseries, and lists
-   organized by status, can be found in the RFC repository
-   (https://www.rfc-editor.org/rfc-index.txt).
+   organized by status, can be found at https://www.rfc-editor.org
+   (https://www.rfc-editor.org).
 
 4.2.  Internet-Drafts
 
@@ -711,20 +706,6 @@ Table of Contents
    clarity of the specification is consistent with that expected for the
    maturity level to which the specification is recommended.
 
-   The IESG is not bound by the action recommended when the
-   specification was submitted.  For example, the IESG may decide to
-   consider the specification for publication in a different maturity
-   level than that requested.  If the IESG determines this before the
-   Last- Call is issued then the Last-Call should reflect the IESG's
-   view.  The IESG could also decide to change the publication maturity
-   level based on the response to a Last-Call.  If this decision would
-   result in a specification being published at a "higher" level than
-   the original Last-Call was for, a new Last-Call should be issued
-   indicating the IESG recommendation.  In addition, in case of
-   significant controvery in response to the Last-Call, The IESG may
-   decide to refer the document back to the Working Group, the authors,
-   or hold the document for the creation of a new Working Group.
-
    In order to obtain all of the information necessary to make these
    determinations, particularly when the specification is considered by
    the IESG to be extremely important in terms of its potential impact
@@ -762,6 +743,20 @@ Table of Contents
    IESG shall make its final determination of whether or not to approve
    the standards action, and shall notify the IETF of its decision via
    electronic mail to the IETF Announce mailing list.
+
+   The IESG is not bound by the action recommended when the
+   specification was submitted.  For example, the IESG may decide to
+   consider the specification for publication in a different maturity
+   level than that requested.  If the IESG determines this before the
+   Last- Call is issued then the Last-Call should reflect the IESG's
+   view.  The IESG could also decide to change the publication maturity
+   level based on the response to a Last-Call.  If this decision would
+   result in a specification being published at a "higher" level than
+   the original Last-Call was for, a new Last-Call should be issued
+   indicating the IESG recommendation.  In addition, in case of
+   significant controvery in response to the Last-Call, The IESG may
+   decide to refer the document back to the Working Group, the authors,
+   or hold the document for the creation of a new Working Group.
 
    In no event shall a document be published on the IETF Stream without
    IETF consensus.
@@ -1206,6 +1201,10 @@ Table of Contents
       RFC is obsoleted, it is removed from the subseries and the
       obsoleting RFC is added.  Fix text and link to published list of
       RFCs, STD, etc.
+
+   *  Draft 7: Re-order IESG Evaluation to fully undo paragraph
+      shuffling.  Remove added text about when an "update" RFC is in the
+      subseries.  Change RFC Editor link for subseries info.
 
 14.2.  Individual draft
 
