@@ -1173,6 +1173,7 @@ Fix text and link to published list of RFCs, STD, etc.
 Re-order IESG Evaluation to fully undo paragraph shuffling.
 Remove added text about when an "update" RFC is in the subseries.
 Change RFC Editor link for subseries info.
+Add reference to BCP97.
 
 ## Individual draft
 
