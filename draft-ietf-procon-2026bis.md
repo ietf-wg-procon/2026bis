@@ -419,8 +419,8 @@ specifications that are not considered to be on the standards track.
 
 Standards track specifications normally must not depend on either
 other standards track specifications which are at a lower maturity
-level, or on non standards track specifications except for referenced
-specifications from other standards bodies (see {{sec7}}).
+level or on non standards track specifications other than referenced
+specifications from other standards bodies (see {{!BCP97}} and {{sec7}}).
 
 ## Standards Track Maturity Levels {#sec41}
 
@@ -1173,6 +1173,7 @@ Fix text and link to published list of RFCs, STD, etc.
 Re-order IESG Evaluation to fully undo paragraph shuffling.
 Remove added text about when an "update" RFC is in the subseries.
 Change RFC Editor link for subseries info.
+Add reference to BCP97.
 
 ## Individual draft
 
