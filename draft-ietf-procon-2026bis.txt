@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                28 April 2026
+Updates: 7475 (if approved)                                29 April 2026
 Intended status: Best Current Practice                                  
-Expires: 30 October 2026
+Expires: 31 October 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 October 2026.
+   This Internet-Draft will expire on 31 October 2026.
 
 Copyright Notice
 
@@ -473,8 +473,9 @@ Table of Contents
 
    Standards track specifications normally must not depend on either
    other standards track specifications which are at a lower maturity
-   level, or on non standards track specifications except for referenced
-   specifications from other standards bodies (see Section 9).
+   level or on non standards track specifications other than referenced
+   specifications from other standards bodies (see [BCP97] and
+   Section 9).
 
 6.1.  Standards Track Maturity Levels
 
@@ -1204,7 +1205,8 @@ Table of Contents
 
    *  Draft 7: Re-order IESG Evaluation to fully undo paragraph
       shuffling.  Remove added text about when an "update" RFC is in the
-      subseries.  Change RFC Editor link for subseries info.
+      subseries.  Change RFC Editor link for subseries info.  Add
+      reference to BCP97.
 
 14.2.  Individual draft
 
@@ -1279,6 +1281,25 @@ Table of Contents
               Rights in IETF Technology", BCP 79, RFC 8179,
               DOI 10.17487/RFC8179, May 2017,
               <https://www.rfc-editor.org/info/rfc8179>.
+
+   [BCP97]    Best Current Practice 97,
+              <https://www.rfc-editor.org/info/bcp97>.
+              At the time of writing, this BCP comprises the following:
+
+              Bush, R. and T. Narten, "Clarifying when Standards Track
+              Documents may Refer Normatively to Documents at a Lower
+              Level", BCP 97, RFC 3967, DOI 10.17487/RFC3967, December
+              2004, <https://www.rfc-editor.org/info/rfc3967>.
+
+              Klensin, J. and S. Hartman, "Handling Normative References
+              to Standards-Track Documents", BCP 97, RFC 4897,
+              DOI 10.17487/RFC4897, June 2007,
+              <https://www.rfc-editor.org/info/rfc4897>.
+
+              Leiba, B., "Updating When Standards Track Documents May
+              Refer Normatively to Documents at a Lower Level", BCP 97,
+              RFC 8067, DOI 10.17487/RFC8067, January 2017,
+              <https://www.rfc-editor.org/info/rfc8067>.
 
    [RFC1796]  Huitema, C., Postel, J., and S. Crocker, "Not All RFCs are
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
