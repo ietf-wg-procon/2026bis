@@ -431,6 +431,10 @@ are formally labeled "maturity levels".
 This section describes the maturity levels and the expected
 characteristics of specifications at each level.
 
+A "standards action" -- entering a particular specification into,
+advancing it within, or removing it from, the standards track -- must
+be approved by the IESG.
+
 ### Proposed Standard {#propstd}
 
 The entry-level maturity for the standards track is "Proposed
@@ -1174,6 +1178,9 @@ Re-order IESG Evaluation to fully undo paragraph shuffling.
 Remove added text about when an "update" RFC is in the subseries.
 Change RFC Editor link for subseries info.
 Add reference to BCP97.
+
+- Draft 8:
+Add "standards action requires IESG approval" paragraph.
 
 ## Individual draft
 
