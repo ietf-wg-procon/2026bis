@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-29T01:22:18.129370+00:00",
+  "timestamp": "2026-04-30T01:57:24.634696+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -2807,25 +2807,63 @@
       "id": "PR_kwDOMZ1wVs7OEwTL",
       "title": "Fix mistakes made in previous draft.",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/72",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Thanks to Pete for pointing them out.",
       "createdAt": "2026-03-27T14:49:15Z",
-      "updatedAt": "2026-03-27T14:49:15Z",
+      "updatedAt": "2026-04-28T22:54:47Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "9c9784d1b8d10b4b3af680358102a5666f7bce9d",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "pre-wglc-fixes",
       "headRefOid": "3d2ddd9b7af921b2320d3e5f4ff06c58a1101727",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-04-28T22:54:21Z",
+      "mergedAt": "2026-04-28T22:54:21Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "6b105b4bfab1c9bee9b8dc484a539e0b711c63d8"
+      },
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 73,
+      "id": "PR_kwDOMZ1wVs7WhX0L",
+      "title": "Add reference to BCP97",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/73",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Courtesy Brian Carpenter",
+      "createdAt": "2026-04-28T23:11:45Z",
+      "updatedAt": "2026-04-29T15:01:35Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "6b105b4bfab1c9bee9b8dc484a539e0b711c63d8",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "add-bcp97",
+      "headRefOid": "d802afa0bb7fa04dfac535ba3b182d5b6ee1c68d",
+      "closedAt": "2026-04-29T15:01:30Z",
+      "mergedAt": "2026-04-29T15:01:30Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "78db52aba50239f8175e0b069fb1c47ac04e9fca"
+      },
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "WFM",
+          "createdAt": "2026-04-28T23:25:37Z",
+          "updatedAt": "2026-04-28T23:25:37Z"
+        }
+      ],
       "reviews": []
     }
   ]
