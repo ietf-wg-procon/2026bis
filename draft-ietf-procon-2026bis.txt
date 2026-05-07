@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                29 April 2026
+Updates: 7475 (if approved)                                   7 May 2026
 Intended status: Best Current Practice                                  
-Expires: 31 October 2026
+Expires: 8 November 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 October 2026.
+   This Internet-Draft will expire on 8 November 2026.
 
 Copyright Notice
 
@@ -485,6 +485,10 @@ Table of Contents
 
    This section describes the maturity levels and the expected
    characteristics of specifications at each level.
+
+   A "standards action" -- entering a particular specification into,
+   advancing it within, or removing it from, the standards track -- must
+   be approved by the IESG.
 
 6.1.1.  Proposed Standard
 
@@ -1207,6 +1211,8 @@ Table of Contents
       shuffling.  Remove added text about when an "update" RFC is in the
       subseries.  Change RFC Editor link for subseries info.  Add
       reference to BCP97.
+
+   *  Draft 8: Add "standards action requires IESG approval" paragraph.
 
 14.2.  Individual draft
 
