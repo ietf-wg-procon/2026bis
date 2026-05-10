@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-03T01:50:52.249060+00:00",
+  "timestamp": "2026-05-10T01:53:56.170974+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -2871,24 +2871,26 @@
       "id": "PR_kwDOMZ1wVs7XMizK",
       "title": "Restore explanation of standards action",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/74",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Identified by Simon Josefsson",
       "createdAt": "2026-04-30T17:14:27Z",
-      "updatedAt": "2026-05-03T01:12:16Z",
+      "updatedAt": "2026-05-07T14:41:38Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "78db52aba50239f8175e0b069fb1c47ac04e9fca",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "simon-feedback",
       "headRefOid": "466d80a915d3b62f43ef9de9f1c8570c4dbb2902",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-05-07T14:41:34Z",
+      "mergedAt": "2026-05-07T14:41:34Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "08dbc3890061db0196712e6295dcdb79f3a19a9f"
+      },
       "comments": [],
       "reviews": [
         {
