@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-24T02:09:32.143830+00:00",
+  "timestamp": "2026-05-26T02:07:39.435947+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1192,15 +1192,15 @@
       ],
       "body": "Split into a new issue, from a comment by @timogerke in #26 \n\nScope: RFC 2026bis / 2418bis\n\nTo resolve the systemic vulnerabilities and cascading deadlocks within late-stage document processing (as currently\ndemonstrated by the stall within Cluster C430), I submit a deterministic, four-pillar procedural patch for the procon\nWorking Group.\n\nThis proposal enforces strict process hygiene by transforming political, person-dependent interventions into automated, algorithmic workflows:\n\nThe Problem: \"Not Working Process\" in Cluster C430\nCurrently, a single document undergoing a late-stage technical overhaul can hold an entire cluster hostage. In Cluster C430, 4x AUTH48-DONER, 1x EDITR and 1x AUTH48 (primary blocker) have been stalled for over five months because one primary blocker (draft-ietf-tls-rfc8446bis) is stuck. Interestingly, for this primary blocker, IANA has already signaled \"OK - Actions required\", proving that the technical core parameters are officially validated. There is no logical or procedural justification for a five-month editorial delay blocking completely unrelated documents.\n\n1. The Dual-Timer-Model: Imposing a hard 90-day absolute limit for the AUTH48 state, with an automatic 30-day \"Final Approval\" trigger once an author signals \"No actions required by the RPC\".\n2. Normative Splitting: Mandatory automated cluster-splitting by the RPC upon timer expiration to immediately release all documents without active normative dependencies on the blocking specification.\n3. Strict Editorial Demarkation: Authorizing the RPC to execute editorial changes (\"wordsmithing\") only.\n4. Automated Working Group Reset: Any substantial technical modifications or rollbacks attempted during AUTH48 will automatically invalidate the consensus boilerplate, terminate the egress pipeline, and trigger an immediate return of the document to the Working Group stage for full re-evaluation.\n\nNote on Structural Interface: While this proposal focuses strictly on the operational WG and IESG egress process rules\ngoverned by RFC 2026bis/2418bis",
       "createdAt": "2026-05-14T20:05:39Z",
-      "updatedAt": "2026-05-23T09:26:13Z",
+      "updatedAt": "2026-05-25T13:12:01Z",
       "closedAt": null,
       "comments": [
         {
           "author": "timogerke",
           "authorAssociation": "NONE",
-          "body": "@richsalz, thanks for splitting. It seems the attachment has been stripped during the split.\n\n[auth48-process-reform.txt](https://github.com/user-attachments/files/28172692/auth48-process-reform.txt)",
+          "body": "@richsalz, thanks for splitting. It seems the attachment has been stripped during the split.\n\n\n[auth48-process-reform.txt](https://github.com/user-attachments/files/28223548/auth48-process-reform.txt)\n\n2026-05-24: Updated Attachment\n2026-05-25: Fixed minor issue in attachment. addedImplementation Note (for the  RPC)",
           "createdAt": "2026-05-23T08:16:49Z",
-          "updatedAt": "2026-05-23T09:26:13Z"
+          "updatedAt": "2026-05-25T13:12:01Z"
         }
       ]
     }
