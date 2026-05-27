@@ -240,14 +240,15 @@ Not all specifications of protocols or services for the Internet
 should or will become Internet Standards or BCPs. Such non-standards
 track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
-directly as "Experimental" or "Informational" RFCs at the discretion
-of the RFC Production Center (RPC)
-in consultation with the IESG (see {{sec42}}).
+directly as "Experimental" or "Informational" RFCs; see {{sec42}}.
 
 In addition, not all RFCs are standards track documents, and not all
 standards track documents reach the level of Internet Standard. In the same
 way, not all RFCs which describe current practices have been given the review
 and approval to become BCPs. See {{!RFC1796}} for further information.
+
+In no event shall a document be published on the IETF Stream
+without IETF rough consensus.
 
 The full list of all RFCs, including the subseries, and lists organized
 by status, can be found at
@@ -713,9 +714,6 @@ in response to the Last-Call, The IESG may decide to refer the document back to
 the Working Group, the authors, or hold the document for the creation
 of a new Working Group.
 
-In no event shall a document be published on the IETF Stream
-without IETF consensus.
-
 ### Publication
 
 If a standards action is approved, notification is sent to the RFC
@@ -1178,6 +1176,10 @@ Add "standards action requires IESG approval" paragraph.
 - Draft 9:
 Remove some changes that were decided to be out of scope as
 identified by Dan Bernstein and confirmed by Roman.
+
+- Draft 10:
+Address WGLC feedback mostly from Brian.
+Move "IETF stream needs rough consensus" to the RFC section (4.1).
 
 ## Individual draft
 
