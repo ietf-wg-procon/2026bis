@@ -50,12 +50,12 @@ informative:
     IDPAGE:
       title: Internet-Drafts
       target: https://www.ietf.org/participate/ids/
-    US-ASCII:
-      title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
+    UNICODE:
+      title: The Unicode Standard
       author:
-      - name: ANSI
-      date: "March, 1986"
-      ann: "ANSI X3.4-1986"
+      - organization: "Unicode Technical Committee"
+      date: "September 9, 2025"
+      ann: "Unicode 17.0.0"
 
 --- abstract
 
@@ -80,7 +80,7 @@ taken together the two of them make RFC 7475 obsolete.
 This memo documents the process currently used by the Internet
 community for the standardization of protocols and procedures. The
 Internet Standards process is organized and managed by the IETF,
-an entity of the Internet Society (ISOC).
+an entity of the Internet Society (ISOC); see {{!RFC8712}}.
 
 The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
@@ -148,9 +148,9 @@ objective basis for developing, evaluating, and adopting Internet
 Standards. They provide ample opportunity for participation and
 comment by all interested parties. At each stage of the
 standardization process, a specification is repeatedly discussed
-and its merits debated in open meetings and/or public electronic
-mailing lists, and it is made available for review via world-wide
-on-line directories.
+and its merits debated in open meetings, public public electronic
+mail lists, and/or other electronic fora, and it is made available
+for review via world-wide on-line directories.
 
 - These procedures are explicitly aimed at recognizing and adopting
 generally-accepted practices. Thus, a candidate specification
@@ -216,7 +216,7 @@ Internet hosts using standard Internet applications such as the WWW.
 RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
-For information about RFC publication, see {{?RFC9280}}.
+For information about RFC publication, see {{?RFC9920}}.
 
 The style guide for writing an RFC is {{!RFC7322}}.
 The default input format is {{RFCXML}},
@@ -508,11 +508,7 @@ may also use the maturity levels described here.
 The "Experimental" designation typically denotes a specification that
 is part of some research or development effort. Such a specification
 is published for the general information of the Internet technical
-community and as an archival record of the work. An
-Experimental specification may be the output of an organized Internet
-research effort (e.g., a Research Group of the Internet Research Task Force),
-an IETF Working
-Group, or it may be an individual contribution.
+community and as an archival record of the work.
 
 ### Informational
 
@@ -526,8 +522,8 @@ sources.
 
 Documents with the Experimental or Informational maturity level
 may be published using the process and workflow described here.
-Documents proposed for Experimental and Informational RFCs by IETF
-Working Groups {{2418bis}} go through IESG review.
+Documents proposed for Experimental and Informational RFCs
+go through IESG review.
 The review is initiated using
 the process described in {{sec611}}.
 
@@ -945,7 +941,7 @@ purposes of the Internet Standards Process.
 - Other Specifications:
 Other proprietary specifications that have come to be widely used
 in the Internet may be treated by the Internet community as if
-they were a "standards". Such a specification is not generally
+they were a "standard." Such a specification is not generally
 developed in an open fashion, is typically proprietary, and is
 controlled by the vendor, vendors, or organization that produced
 it.
@@ -964,8 +960,8 @@ may be adopted for Internet use.
 
 An Internet Standard TS or AS may incorporate an open external
 standard by reference. For example, many Internet Standards
-incorporate by reference the ANSI standard character set "US-ASCII"
-{{US-ASCII}}. Whenever possible, the referenced specification shall be
+incorporate by reference the Unicode encoding scheme {{UNICODE}}.
+Whenever possible, the referenced specification shall be
 available
 without restriction or undue fee using
 standard Internet applications such as the WWW.
