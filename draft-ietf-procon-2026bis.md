@@ -1245,3 +1245,7 @@ particular, we thank the authors of all the documents that updated
 We also thank Sandy Ginoza of the Secretariat for sending all the original
 RFC sources, and John Klensin for his support and cooperation during the
 process of creating this document.
+
+We thank Dr. Daniel J. Bernstein for pointing out places where clarifications
+in this document were needed, and we hope a future revision will address
+them.
