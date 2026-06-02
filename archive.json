@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-28T02:00:56.642332+00:00",
+  "timestamp": "2026-06-02T02:36:33.046403+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1216,7 +1216,7 @@
       "labels": [],
       "body": "Arguably the IESG determines if there is IETF consensus to publish an RFC on the IETF stream, but 9798 doesn't say that and 2026bis doesn't clarify.",
       "createdAt": "2026-05-27T16:04:25Z",
-      "updatedAt": "2026-05-27T22:26:41Z",
+      "updatedAt": "2026-06-01T20:22:26Z",
       "closedAt": null,
       "comments": [
         {
@@ -1246,6 +1246,34 @@
           "body": "Then perhaps the sentence needs to be moved somewhere else. I think the end of section 4.1; and I\u2019ll add a commit that does that.\r\n",
           "createdAt": "2026-05-27T22:26:41Z",
           "updatedAt": "2026-05-27T22:26:41Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The key open item on this issue is still \"who determines IETF consensus\" is still open.",
+          "createdAt": "2026-06-01T17:03:44Z",
+          "updatedAt": "2026-06-01T17:03:44Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Right. I think reality is \"as determined by the IESG\" but that's implied rather than stated in RFC 2026 and RFC 8789.",
+          "createdAt": "2026-06-01T19:59:58Z",
+          "updatedAt": "2026-06-01T19:59:58Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> Right. I think reality is \"as determined by the IESG\" but that's implied rather than stated in RFC 2026 and RFC 8789.\n\nI agree and would like to see at least WG discussion and consensus on this.",
+          "createdAt": "2026-06-01T20:08:41Z",
+          "updatedAt": "2026-06-01T20:08:41Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Since it was one of the \"showstoppers\" in my WGLC review, I agree, but maybe we need to wait until the next draft is posted?",
+          "createdAt": "2026-06-01T20:22:26Z",
+          "updatedAt": "2026-06-01T20:22:26Z"
         }
       ]
     }
@@ -3053,6 +3081,32 @@
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "wglc-2",
       "headRefOid": "393f9ec801292d09983b42563f060d8f31c6650d",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 79,
+      "id": "PR_kwDOMZ1wVs7hbO5h",
+      "title": "Add DJB to acknowledgements",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/79",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-06-01T15:35:08Z",
+      "updatedAt": "2026-06-01T16:33:37Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "08dbc3890061db0196712e6295dcdb79f3a19a9f",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "thanks-djb",
+      "headRefOid": "3e66b1c7cc2102550902cf46f80a447b3749348d",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
