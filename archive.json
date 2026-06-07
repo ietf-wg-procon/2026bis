@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-06-02T02:36:33.046403+00:00",
+  "timestamp": "2026-06-07T02:32:26.390980+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1192,15 +1192,29 @@
       ],
       "body": "Split into a new issue, from a comment by @timogerke in #26 \n\nScope: RFC 2026bis / 2418bis\n\nTo resolve the systemic vulnerabilities and cascading deadlocks within late-stage document processing (as currently\ndemonstrated by the stall within Cluster C430), I submit a deterministic, four-pillar procedural patch for the procon\nWorking Group.\n\nThis proposal enforces strict process hygiene by transforming political, person-dependent interventions into automated, algorithmic workflows:\n\nThe Problem: \"Not Working Process\" in Cluster C430\nCurrently, a single document undergoing a late-stage technical overhaul can hold an entire cluster hostage. In Cluster C430, 4x AUTH48-DONER, 1x EDITR and 1x AUTH48 (primary blocker) have been stalled for over five months because one primary blocker (draft-ietf-tls-rfc8446bis) is stuck. Interestingly, for this primary blocker, IANA has already signaled \"OK - Actions required\", proving that the technical core parameters are officially validated. There is no logical or procedural justification for a five-month editorial delay blocking completely unrelated documents.\n\n1. The Dual-Timer-Model: Imposing a hard 90-day absolute limit for the AUTH48 state, with an automatic 30-day \"Final Approval\" trigger once an author signals \"No actions required by the RPC\".\n2. Normative Splitting: Mandatory automated cluster-splitting by the RPC upon timer expiration to immediately release all documents without active normative dependencies on the blocking specification.\n3. Strict Editorial Demarkation: Authorizing the RPC to execute editorial changes (\"wordsmithing\") only.\n4. Automated Working Group Reset: Any substantial technical modifications or rollbacks attempted during AUTH48 will automatically invalidate the consensus boilerplate, terminate the egress pipeline, and trigger an immediate return of the document to the Working Group stage for full re-evaluation.\n\nNote on Structural Interface: While this proposal focuses strictly on the operational WG and IESG egress process rules\ngoverned by RFC 2026bis/2418bis",
       "createdAt": "2026-05-14T20:05:39Z",
-      "updatedAt": "2026-05-25T13:12:01Z",
+      "updatedAt": "2026-06-05T22:20:45Z",
       "closedAt": null,
       "comments": [
         {
           "author": "timogerke",
           "authorAssociation": "NONE",
-          "body": "@richsalz, thanks for splitting. It seems the attachment has been stripped during the split.\n\n\n[auth48-process-reform.txt](https://github.com/user-attachments/files/28223548/auth48-process-reform.txt)\n\n2026-05-24: Updated Attachment\n2026-05-25: Fixed minor issue in attachment. addedImplementation Note (for the  RPC)",
+          "body": "@richsalz, thanks for splitting. It seems the attachment has been stripped during the split.\n\n\n[auth48-process-reform.txt](https://github.com/user-attachments/files/28649117/auth48-process-reform.txt)\n\n2026-05-24: Updated Attachment\n2026-05-25: Fixed minor issue in attachment. addedImplementation Note (for the  RPC)\n2026-06-05: Full review and update",
           "createdAt": "2026-05-23T08:16:49Z",
-          "updatedAt": "2026-05-25T13:12:01Z"
+          "updatedAt": "2026-06-05T18:51:30Z"
+        },
+        {
+          "author": "timogerke",
+          "authorAssociation": "NONE",
+          "body": "Since you @richsalz invited me here, do you still plan to integrate my idea into RFC 2026bis? \n\nIf so, I suggest using the following of my hopefully finalized document called iin comment above Section mapping:\n\n- Section 3 (IESG/IAB Operational States) -> Integrate into Section 8.1.2\n- Section 1 & 2 (Datatracker Constraints & RPC Timer) -> To be integrated as separate subsections of 8.1\n- Section 4 (Mandated Frameworks) -> To be integrated as a new section (\"Requested IESG Actions\")\n\nThe main, but not only, target of my idea is total transparency.\n\nI also wrote [Implementations Notes](https://github.com/user-attachments/files/28652344/auth48-process-reform-in.txt) for the Tools-Team and the RPC.",
+          "createdAt": "2026-06-05T21:32:41Z",
+          "updatedAt": "2026-06-05T21:32:41Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Please read the current charter of the working group, at https://datatracker.ietf.org/wg/procon/about/. \nYour changes are out of scope of the current WG effort as they propose a whole new scheme. The WG will be re-chartered and then this can be considered. Once the WG considers them and we get consensus *within* the WG, changes can be made to the document.\n\nI suggested you come here because this is the place where changes to RFC 2026-replacement will happen. If you want to have general discussion and try to convince other people that your ideas should be adopted, email the ietf@ietf.org mailing list.\n\nHope this clarification helps.",
+          "createdAt": "2026-06-05T22:20:45Z",
+          "updatedAt": "2026-06-05T22:20:45Z"
         }
       ]
     },
