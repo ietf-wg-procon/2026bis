@@ -800,8 +800,7 @@ much as possible the process is designed so that compromises can be
 made, and genuine consensus achieved, however there are times when
 even the most reasonable and knowledgeable people are unable to
 agree. To achieve the goals of openness and fairness, such conflicts
-must be resolved by a process of open review and, where appropriate,
-open discussion. This
+must be resolved by a process of open review and discussion. This
 section specifies the procedures that shall be followed to deal with
 Internet Standards Process issues that cannot be resolved through the normal
 processes whereby IETF Working Groups and other Internet Standards
@@ -828,8 +827,6 @@ Group as a whole) in the discussion.
 If the disagreement cannot be resolved in this way, any of the
 parties involved may bring it to the attention of the Area
 Director(s) for the area in which the Working Group is chartered.
-The treatment of any particular disagreement may be delegated to
-one or more Area Director(s) in this or other areas where necessary.
 The Area Director(s) shall attempt to resolve the dispute.
 
 If the disagreement cannot be resolved by the Area Director(s) any of
@@ -1181,6 +1178,10 @@ Add reference to BCP97.
 
 - Draft 8:
 Add "standards action requires IESG approval" paragraph.
+
+- Draft 9:
+Remove some changes that were decided to be out of scope as
+identified by Dan Bernstein and confirmed by Roman.
 
 ## Individual draft
 
