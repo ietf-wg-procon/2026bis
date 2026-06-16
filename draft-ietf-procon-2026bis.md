@@ -523,8 +523,8 @@ sources.
 
 Documents with the Experimental or Informational maturity level
 may be published using the process and workflow described here.
-Documents proposed for Experimental and Informational RFCs
-go through IESG review.
+Documents proposed for Experimental and Informational RFCs by IETF
+Working Groups {{2418bis}} go through IESG review.
 The review is initiated using
 the process described in {{sec611}}.
 
@@ -1178,8 +1178,12 @@ Remove some changes that were decided to be out of scope as
 identified by Dan Bernstein and confirmed by Roman.
 
 - Draft 10:
-Address WGLC feedback mostly from Brian.
-Move "IETF stream needs rough consensus" to the RFC section (4.1).
+Use Unicode instead of ASCII as external standard example (editorial).
+Add references to RFC 8712 and RFC 9920; mention other online fora per RFC 9945
+(editorial).
+Move "IETF stream needs rough consensus" to the RFC section (4.1) (editorial).
+Remove mention of other streams from Experimental (editorial).
+All inf/exp drafts get IETSG review (implied by 2026 and 8789).
 
 ## Individual draft
 
