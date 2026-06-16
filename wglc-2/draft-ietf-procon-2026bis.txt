@@ -1210,10 +1210,11 @@ Table of Contents
    *  Draft 8: Add "standards action requires IESG approval" paragraph.
 
    *  Draft 10: Use Unicode instead of ASCII as external standard
-      example.  Add references to RFC 8712, other online fora (per RFC
-      9945), and RFC 9920.  Move "IETF stream needs rough consensus" to
-      the RFC section (4.1).  Remove mention of other streams from
-      Experimental.
+      example (editorial).  Add references to RFC 8712, other online
+      fora (per RFC 9945), and RFC 9920 (editorial).  Move "IETF stream
+      needs rough consensus" to the RFC section (4.1) (editorial).
+      Remove mention of other streams from Experimental (editorial).
+      All inf/exp drafts get IETSG review (implied by 2026 and 8789).
 
 14.2.  Individual draft
 
