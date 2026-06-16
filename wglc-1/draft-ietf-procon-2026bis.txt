@@ -1208,8 +1208,8 @@ Table of Contents
 
    *  Draft 8: Add "standards action requires IESG approval" paragraph.
 
-   *  Draft 10: Change titles and move paragraph to avoid re-using the
-      title as a section header.
+   *  Draft 10: Edit section headings and move text to avoid re-using
+      the draft title as a section header (editorial).
 
 14.2.  Individual draft
 
