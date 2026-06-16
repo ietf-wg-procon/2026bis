@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                  1 June 2026
+Updates: 7475 (if approved)                                 16 June 2026
 Intended status: Best Current Practice                                  
-Expires: 3 December 2026
+Expires: 18 December 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 December 2026.
+   This Internet-Draft will expire on 18 December 2026.
 
 Copyright Notice
 
@@ -1384,12 +1384,13 @@ Acknowledgments
    content and documents.  In particular, we thank the authors of all
    the documents that updated [RFC2026].
 
-   We thank Dr. Daniel J.  Bernstein whose actions pointed out places
-   where clarifications in the document were needed.
-
    We also thank Sandy Ginoza of the Secretariat for sending all the
    original RFC sources, and John Klensin for his support and
    cooperation during the process of creating this document.
+
+   We thank Dr. Daniel J.  Bernstein for pointing out places where
+   clarifications in this document were needed; we hope to address those
+   in the future.
 
 Authors' Addresses
 
