@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                  22 May 2026
+Updates: 7475 (if approved)                                 16 June 2026
 Intended status: Best Current Practice                                  
-Expires: 23 November 2026
+Expires: 18 December 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 November 2026.
+   This Internet-Draft will expire on 18 December 2026.
 
 Copyright Notice
 
@@ -1208,7 +1208,7 @@ Table of Contents
 
    *  Draft 8: Add "standards action requires IESG approval" paragraph.
 
-   *  Draft 9: Change titles and move paragraph to avoid re-using the
+   *  Draft 10: Change titles and move paragraph to avoid re-using the
       title as a section header.
 
 14.2.  Individual draft
