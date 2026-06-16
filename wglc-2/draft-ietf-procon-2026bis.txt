@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                  27 May 2026
+Updates: 7475 (if approved)                                 16 June 2026
 Intended status: Best Current Practice                                  
-Expires: 28 November 2026
+Expires: 18 December 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 November 2026.
+   This Internet-Draft will expire on 18 December 2026.
 
 Copyright Notice
 
@@ -575,9 +575,9 @@ Table of Contents
 
    Documents with the Experimental or Informational maturity level may
    be published using the process and workflow described here.
-   Documents proposed for Experimental and Informational RFCs go through
-   IESG review.  The review is initiated using the process described in
-   Section 8.1.1.
+   Documents proposed for Experimental and Informational RFCs by IETF
+   Working Groups [_2418bis] go through IESG review.  The review is
+   initiated using the process described in Section 8.1.1.
 
    The final assignment of maturity level, as with Internet Standards
    Track Documents, is determined by the IESG.
@@ -1209,8 +1209,11 @@ Table of Contents
 
    *  Draft 8: Add "standards action requires IESG approval" paragraph.
 
-   *  Draft 9: Address WGLC feedback.  Move "IETF stream needs rough
-      consensus" to the RFC section (4.1).
+   *  Draft 10: Use Unicode instead of ASCII as external standard
+      example.  Add references to RFC 8712, other online fora (per RFC
+      9945), and RFC 9920.  Move "IETF stream needs rough consensus" to
+      the RFC section (4.1).  Remove mention of other streams from
+      Experimental.
 
 14.2.  Individual draft
 
