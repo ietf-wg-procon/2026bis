@@ -240,7 +240,7 @@ Not all specifications of protocols or services for the Internet
 should or will become Internet Standards or BCPs. Such non-standards
 track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
-directly as "Experimental" or "Informational" RFCs; see {{sec42}}.
+as "Experimental" or "Informational" RFCs; see {{sec42}}.
 
 In addition, not all RFCs are standards track documents, and not all
 standards track documents reach the level of Internet Standard. In the same
@@ -1184,6 +1184,8 @@ Add references to RFC 8712 and RFC 9920; mention other online fora per RFC 9945
 Move "IETF stream needs rough consensus" to the RFC section (4.1) (editorial).
 Remove mention of other streams from Experimental (editorial).
 All inf/exp drafts get IETSG review (implied by 2026 and 8789).
+Remove "directly" from inf/exp publication as its a holdover from
+when the RFC Editor (sic) could publish them w/o IESG (editorial).
 
 ## Individual draft
 
