@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                 16 June 2026
+Updates: 7475 (if approved)                                 17 June 2026
 Intended status: Best Current Practice                                  
-Expires: 18 December 2026
+Expires: 19 December 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 December 2026.
+   This Internet-Draft will expire on 19 December 2026.
 
 Copyright Notice
 
@@ -293,7 +293,7 @@ Table of Contents
    should or will become Internet Standards or BCPs.  Such non-standards
    track specifications are not subject to the rules for Internet
    standardization.  Non-standards track specifications may be published
-   directly as "Experimental" or "Informational" RFCs; see Section 6.2.
+   as "Experimental" or "Informational" RFCs; see Section 6.2.
 
    In addition, not all RFCs are standards track documents, and not all
    standards track documents reach the level of Internet Standard.  In
@@ -1215,6 +1215,8 @@ Table of Contents
       needs rough consensus" to the RFC section (4.1) (editorial).
       Remove mention of other streams from Experimental (editorial).
       All inf/exp drafts get IETSG review (implied by 2026 and 8789).
+      Remove "directly" from inf/exp publication as its a holdover from
+      when the RFC Editor (sic) could publish them w/o IESG (editorial).
 
 14.2.  Individual draft
 
