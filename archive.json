@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-06-07T02:32:26.390980+00:00",
+  "timestamp": "2026-06-18T02:37:25.121794+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -200,18 +200,18 @@
       "id": "I_kwDOMZ1wVs7ITSPo",
       "title": "record keeping and appeals",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/24",
-      "state": "CLOSED",
+      "state": "OPEN",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "reality",
-        "discuss"
+        "hold",
+        "reality"
       ],
       "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
       "createdAt": "2025-08-27T18:47:26Z",
-      "updatedAt": "2025-12-01T20:45:26Z",
-      "closedAt": "2025-12-01T20:45:26Z",
+      "updatedAt": "2026-06-16T13:29:50Z",
+      "closedAt": null,
       "comments": [
         {
           "author": "richsalz",
@@ -247,6 +247,13 @@
           "body": "The classical principle is that decisions are recorded (and public).\nThere should be no requirement that all discussions are recorded - there will always be conversation.\n\nRemember: Until 2014, all IESG telechats were private. Only the decisions were public.\n",
           "createdAt": "2025-11-04T21:11:03Z",
           "updatedAt": "2025-11-04T21:11:03Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "On hold for re-chartering.",
+          "createdAt": "2026-06-16T13:29:50Z",
+          "updatedAt": "2026-06-16T13:29:50Z"
         }
       ]
     },
@@ -861,17 +868,18 @@
       "id": "I_kwDOMZ1wVs7Tp2rX",
       "title": "8.5.1: appeals; ADs can divide/delegate",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/47",
-      "state": "CLOSED",
+      "state": "OPEN",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
+        "hold",
         "reality"
       ],
       "body": "Working groups typically have a responsible AD.  Appeals are first handled by that AD, right?  Then the IESG",
       "createdAt": "2025-10-24T20:45:26Z",
-      "updatedAt": "2026-01-20T14:54:13Z",
-      "closedAt": "2026-01-20T14:54:13Z",
+      "updatedAt": "2026-06-16T13:27:34Z",
+      "closedAt": null,
       "comments": [
         {
           "author": "richsalz",
@@ -900,6 +908,13 @@
           "body": "AI summary seemed correct: Clarify that Area Directors (ADs) can delegate or assign an individual AD to handle the first level of an appeal, addressing confusion where appellants expect all ADs to respond. Proposed text will be needed.\n\nMaybe add label reality.\n\nMaybe:\n\nOLD: If the disagreement cannot be resolved in this way, any of the parties involved may bring it to the attention of the Area Director(s) for the area in which the Working Group is chartered. The Area Director(s) shall attempt to resolve the dispute.\n\nNEW: If the disagreement cannot be resolved in this way, any of the parties involved may bring it to the attention of the Area Director(s) for the area in which the Working Group is chartered. The treatment of any particular disagreement may also be delegated to other Area Director(s) in this or other areas where necessary. The Area Director(s) shall attempt to resolve the dispute.",
           "createdAt": "2026-01-14T00:13:29Z",
           "updatedAt": "2026-01-14T00:13:29Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Change is out of scope, hold for recharter.",
+          "createdAt": "2026-06-16T13:27:12Z",
+          "updatedAt": "2026-06-16T13:27:12Z"
         }
       ]
     },
@@ -1227,10 +1242,13 @@
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "hold",
+        "reality"
+      ],
       "body": "Arguably the IESG determines if there is IETF consensus to publish an RFC on the IETF stream, but 9798 doesn't say that and 2026bis doesn't clarify.",
       "createdAt": "2026-05-27T16:04:25Z",
-      "updatedAt": "2026-06-01T20:22:26Z",
+      "updatedAt": "2026-06-16T13:27:53Z",
       "closedAt": null,
       "comments": [
         {
@@ -1288,6 +1306,30 @@
           "body": "Since it was one of the \"showstoppers\" in my WGLC review, I agree, but maybe we need to wait until the next draft is posted?",
           "createdAt": "2026-06-01T20:22:26Z",
           "updatedAt": "2026-06-01T20:22:26Z"
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "id": "I_kwDOMZ1wVs8AAAABFrxBrA",
+      "title": "Does every doc in the IETF stream need IESG review?",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/81",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "For example, what about individual submissions of informational or experimental?  The answer is 2026 and 8789 imply yes, but it should be made explicit.  See also #77 ",
+      "createdAt": "2026-06-16T17:17:44Z",
+      "updatedAt": "2026-06-17T14:07:17Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "To expand a bit: 2026 defines the Informational and Experimental as maturity levels, part of the standards process, just like Historical and Obsolete are part of the standards process. Therefore, the same IESG review holds.",
+          "createdAt": "2026-06-17T14:07:16Z",
+          "updatedAt": "2026-06-17T14:07:16Z"
         }
       ]
     }
@@ -3045,7 +3087,7 @@
     {
       "number": 76,
       "id": "PR_kwDOMZ1wVs7ec3V0",
-      "title": "Don't re-use title as a section header",
+      "title": "Don't re-use title as a section header (via Rob Sayre)",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/76",
       "state": "OPEN",
       "author": "richsalz",
@@ -3054,13 +3096,13 @@
       "labels": [],
       "body": "Change titles and move paragraph to avoid re-using the title as a section header. (Rob Sayre)",
       "createdAt": "2026-05-22T18:15:40Z",
-      "updatedAt": "2026-05-26T17:04:18Z",
+      "updatedAt": "2026-06-16T18:43:46Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "08dbc3890061db0196712e6295dcdb79f3a19a9f",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "wglc-1",
-      "headRefOid": "e27027d3bce306a4f54463877f1640416dabebf7",
+      "headRefOid": "299e52b06fc5828054b49e66cb4baf939e10d502",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -3088,13 +3130,13 @@
       "labels": [],
       "body": "Scott approved.",
       "createdAt": "2026-05-27T20:01:58Z",
-      "updatedAt": "2026-05-27T22:32:11Z",
+      "updatedAt": "2026-06-17T14:09:39Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "08dbc3890061db0196712e6295dcdb79f3a19a9f",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "wglc-2",
-      "headRefOid": "393f9ec801292d09983b42563f060d8f31c6650d",
+      "headRefOid": "9c5e9f0cb0e1cbbadbe2fc5e6ed67e455a6bbd30",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -3114,18 +3156,52 @@
       "labels": [],
       "body": "",
       "createdAt": "2026-06-01T15:35:08Z",
-      "updatedAt": "2026-06-01T16:33:37Z",
+      "updatedAt": "2026-06-16T18:46:20Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "08dbc3890061db0196712e6295dcdb79f3a19a9f",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "thanks-djb",
-      "headRefOid": "3e66b1c7cc2102550902cf46f80a447b3749348d",
+      "headRefOid": "b419a383724eb83350874c5c09d0c836331086ac",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 80,
+      "id": "PR_kwDOMZ1wVs7nCNCv",
+      "title": "Undo out-of-charter changes.",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/80",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-06-16T13:48:34Z",
+      "updatedAt": "2026-06-16T18:43:00Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "08dbc3890061db0196712e6295dcdb79f3a19a9f",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "out-of-scope",
+      "headRefOid": "526a835ab3da63fefb0761c35bf7b146b78e50a4",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Approved by Scott.",
+          "createdAt": "2026-06-16T18:43:00Z",
+          "updatedAt": "2026-06-16T18:43:00Z"
+        }
+      ],
       "reviews": []
     }
   ]
