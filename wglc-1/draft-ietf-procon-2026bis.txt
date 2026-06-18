@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                 16 June 2026
+Updates: 7475 (if approved)                                 18 June 2026
 Intended status: Best Current Practice                                  
-Expires: 18 December 2026
+Expires: 20 December 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 December 2026.
+   This Internet-Draft will expire on 20 December 2026.
 
 Copyright Notice
 
@@ -839,12 +839,11 @@ Table of Contents
    made, and genuine consensus achieved, however there are times when
    even the most reasonable and knowledgeable people are unable to
    agree.  To achieve the goals of openness and fairness, such conflicts
-   must be resolved by a process of open review and, where appropriate,
-   open discussion.  This section specifies the procedures that shall be
-   followed to deal with Internet Standards Process issues that cannot
-   be resolved through the normal processes whereby IETF Working Groups
-   and other Internet Standards Process participants ordinarily reach
-   consensus.
+   must be resolved by a process of open review and discussion.  This
+   section specifies the procedures that shall be followed to deal with
+   Internet Standards Process issues that cannot be resolved through the
+   normal processes whereby IETF Working Groups and other Internet
+   Standards Process participants ordinarily reach consensus.
 
 8.7.1.  Working Group Disputes
 
@@ -867,9 +866,7 @@ Table of Contents
    If the disagreement cannot be resolved in this way, any of the
    parties involved may bring it to the attention of the Area
    Director(s) for the area in which the Working Group is chartered.
-   The treatment of any particular disagreement may be delegated to one
-   or more Area Director(s) in this or other areas where necessary.  The
-   Area Director(s) shall attempt to resolve the dispute.
+   The Area Director(s) shall attempt to resolve the dispute.
 
    If the disagreement cannot be resolved by the Area Director(s) any of
    the parties involved may then appeal to the IESG as a whole.  The
@@ -1207,6 +1204,9 @@ Table of Contents
       reference to BCP97.
 
    *  Draft 8: Add "standards action requires IESG approval" paragraph.
+
+   *  Draft 9: Remove some changes that were decided to be out of scope
+      as identified by Dan Bernstein and confirmed by Roman.
 
    *  Draft 10: Edit section headings and move text to avoid re-using
       the draft title as a section header (editorial).
