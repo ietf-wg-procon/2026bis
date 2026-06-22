@@ -109,12 +109,11 @@ recognizably useful in some or all parts of the Internet.
 Readers are expected to be familiar with the various entities
 involved in the Internet Standards Process, as described in {{!RFC9281}}.
 
-# The Internet Standards Process {#std-process}
+# Creating an Internet Standard
 
-In outline, the process of creating an Internet Standard is
-straightforward: a specification undergoes a period of development
+A specification undergoes a period of development
 and several iterations of review by the Internet community and
-revision based upon experience, is adopted as a Standard by the
+revision based upon experience, is then adopted as a Standard by the
 appropriate body (see below), and is published. In practice, the
 process is more complicated, due to (1) the difficulty of creating
 specifications of high technical quality; (2) the need to consider
@@ -246,9 +245,6 @@ In addition, not all RFCs are standards track documents, and not all
 standards track documents reach the level of Internet Standard. In the same
 way, not all RFCs which describe current practices have been given the review
 and approval to become BCPs. See {{!RFC1796}} for further information.
-
-In no event shall a document be published on the IETF Stream
-without IETF rough consensus.
 
 The full list of all RFCs, including the subseries, and lists organized
 by status, can be found at
@@ -501,9 +497,6 @@ one of three "off-track" maturity levels: "Experimental,"
 "Informational," or "Historic." The documents bearing these labels
 are not Internet Standards in any sense.
 
-Alternate streams {{?RFC8729, Section 5.1}}
-may also use the maturity levels described here.
-
 ### Experimental
 
 The "Experimental" designation typically denotes a specification that
@@ -581,7 +574,7 @@ resulting document is viewed as having the technical approval of the
 IETF.
 
 Specifically, a document to be considered for the status of BCP must
-undergo the procedures outlined in {{sec61}}, and {{sec64}} of this
+undergo the procedures outlined in {{sec6}}, and {{sec64}} of this
 document. The BCP process may be appealed according to the procedures
 in {{sec65}}.
 
@@ -594,7 +587,11 @@ for a content different from Informational RFCs.
 A specification, or group of specifications, that has, or have been
 approved as a BCP is assigned a number in the BCP subseries.
 
-# The Internet Standards Process {#sec6}
+# Standards Actions {#sec6}
+
+A "standards action" -- entering a particular specification into,
+advancing it within, or removing it from, the standards track -- must
+be approved by the IESG.
 
 The mechanics of the Internet Standards Process involve decisions of
 the IESG concerning the elevation of a specification onto the
@@ -609,13 +606,7 @@ concerning the technical quality of a specification proposed for
 elevation to or advancement in the standards track is an essential
 component of the decision-making process.
 
-## Standards Actions {#sec61}
-
-A "standards action" -- entering a particular specification into,
-advancing it within, or removing it from, the standards track -- must
-be approved by the IESG.
-
-### Initiation of Action {#sec611}
+## Initiation of Action {#sec611}
 
 A specification that is intended to enter or advance in the Internet
 standards track shall first be posted as an Internet-Draft (see
@@ -650,7 +641,7 @@ requires patented or otherwise controlled technology, then the
 set of implementations must demonstrate at least two independent,
 separate and successful uses of the licensing process.
 
-### IESG Review and Approval {#sec612}
+## IESG Review and Approval {#sec612}
 
 The IESG shall determine whether or not a specification submitted to
 it according to {{sec611}} satisfies the applicable criteria for
@@ -714,7 +705,10 @@ in response to the Last-Call, The IESG may decide to refer the document back to
 the Working Group, the authors, or hold the document for the creation
 of a new Working Group.
 
-### Publication
+## Publication
+
+In no event shall a document be published on the IETF Stream
+without IETF consensus.
 
 If a standards action is approved, notification is sent to the RFC
 Editor and copied to the IETF with instructions to publish the
@@ -723,7 +717,7 @@ removed from the Internet-Drafts directory.
 
 ## Advancing in the Standards Track
 
-The procedure described in {{sec61}} is followed for each action
+The procedure described in {{sec6}} is followed for each action
 that attends the advancement of a specification along the standards
 track.
 
@@ -1108,7 +1102,7 @@ consensus, nor from the need to keep proper records of the meetings
 and mailing list discussions.
 
 Specifically, the following sections of this document must not be
-subject of a variance: {{sec51}}, {{sec61}}, {{sec611}} (first paragraph),
+subject of a variance: {{sec51}}, {{sec6}}, {{sec611}} (first paragraph),
 {{sec612}}, {{sec63}} (first sentence), {{sec65}} and {{sec9}}.
 
 # Security Considerations
@@ -1186,6 +1180,8 @@ Remove mention of other streams from Experimental (editorial).
 All inf/exp drafts get IETSG review (implied by 2026 and 8789).
 Remove "directly" from inf/exp publication as its a holdover from
 when the RFC Editor (sic) could publish them w/o IESG (editorial).
+Edit section headings and move text to avoid re-using the draft
+title as a section header (editorial).
 
 ## Individual draft
 
