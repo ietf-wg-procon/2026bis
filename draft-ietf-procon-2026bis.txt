@@ -73,7 +73,7 @@ Table of Contents
 
    1.  Introduction
      1.1.  Terminology
-   2.  The Internet Standards Process
+   2.  Creating an Internet Standard
      2.1.  Intellectual Property Requirements
    3.  Organization of This Document
    4.  Documents related to Internet Standards
@@ -94,19 +94,18 @@ Table of Contents
        6.2.4.  Historic
    7.  Best Current Practice (BCP) RFCs
      7.1.  BCP Review Process
-   8.  The Internet Standards Process
-     8.1.  Standards Actions
-       8.1.1.  Initiation of Action
-       8.1.2.  IESG Review and Approval
-       8.1.3.  Publication
-     8.2.  Advancing in the Standards Track
-     8.3.  Revising a Standard
-     8.4.  Retiring a Standard
-     8.5.  Conflict Resolution and Appeals
-       8.5.1.  Working Group Disputes
-       8.5.2.  Process Failures
-       8.5.3.  Questions of Applicable Procedure
-       8.5.4.  Appeals Procedure
+   8.  Standards Actions
+     8.1.  Initiation of Action
+     8.2.  IESG Review and Approval
+     8.3.  Publication
+     8.4.  Advancing in the Standards Track
+     8.5.  Revising a Standard
+     8.6.  Retiring a Standard
+     8.7.  Conflict Resolution and Appeals
+       8.7.1.  Working Group Disputes
+       8.7.2.  Process Failures
+       8.7.3.  Questions of Applicable Procedure
+       8.7.4.  Appeals Procedure
    9.  External Standards and Specifications
      9.1.  Use of External Specifications
        9.1.1.  Incorporation of an Open Standard
@@ -162,19 +161,17 @@ Table of Contents
    involved in the Internet Standards Process, as described in
    [RFC9281].
 
-2.  The Internet Standards Process
+2.  Creating an Internet Standard
 
-   In outline, the process of creating an Internet Standard is
-   straightforward: a specification undergoes a period of development
-   and several iterations of review by the Internet community and
-   revision based upon experience, is adopted as a Standard by the
-   appropriate body (see below), and is published.  In practice, the
-   process is more complicated, due to (1) the difficulty of creating
-   specifications of high technical quality; (2) the need to consider
-   the interests of all of the affected parties; (3) the importance of
-   establishing widespread community consensus; and (4) the difficulty
-   of evaluating the utility of a particular specification for the
-   Internet community.
+   A specification undergoes a period of development and several
+   iterations of review by the Internet community and revision based
+   upon experience, is then adopted as a Standard by the appropriate
+   body (see below), and is published.  In practice, the process is more
+   complicated, due to (1) the difficulty of creating specifications of
+   high technical quality; (2) the need to consider the interests of all
+   of the affected parties; (3) the importance of establishing
+   widespread community consensus; and (4) the difficulty of evaluating
+   the utility of a particular specification for the Internet community.
 
    The process described here only applies to the IETF RFC stream.  See
    [RFC4844] for the definition of the streams and [RFC5742] for a
@@ -577,7 +574,7 @@ Table of Contents
    be published using the process and workflow described here.
    Documents proposed for Experimental and Informational RFCs by IETF
    Working Groups [_2418bis] go through IESG review.  The review is
-   initiated using the process described in Section 8.1.1.
+   initiated using the process described in Section 8.1.
 
    The final assignment of maturity level, as with Internet Standards
    Track Documents, is determined by the IESG.
@@ -623,7 +620,7 @@ Table of Contents
    immediate instantiation.
 
    The BCP process is similar to that for proposed standards.  The BCP
-   is submitted to the IESG for review (see Section 8.1.1), and the
+   is submitted to the IESG for review (see Section 8.1), and the
    existing review process applies, including a Last-Call on the IETF
    Announce mailing list.  However, once the IESG has approved the
    document, the process ends and the document is published.  The
@@ -631,9 +628,9 @@ Table of Contents
    IETF.
 
    Specifically, a document to be considered for the status of BCP must
-   undergo the procedures outlined in Section 8.1, and Section 8.4 of
-   this document.  The BCP process may be appealed according to the
-   procedures in Section 8.5.
+   undergo the procedures outlined in Section 8, and Section 8.6 of this
+   document.  The BCP process may be appealed according to the
+   procedures in Section 8.7.
 
    Because BCPs are meant to express community consensus but are arrived
    at more quickly than standards, BCPs require particular care.
@@ -644,7 +641,11 @@ Table of Contents
    A specification, or group of specifications, that has, or have been
    approved as a BCP is assigned a number in the BCP subseries.
 
-8.  The Internet Standards Process
+8.  Standards Actions
+
+   A "standards action" -- entering a particular specification into,
+   advancing it within, or removing it from, the standards track -- must
+   be approved by the IESG.
 
    The mechanics of the Internet Standards Process involve decisions of
    the IESG concerning the elevation of a specification onto the
@@ -659,13 +660,7 @@ Table of Contents
    elevation to or advancement in the standards track is an essential
    component of the decision-making process.
 
-8.1.  Standards Actions
-
-   A "standards action" -- entering a particular specification into,
-   advancing it within, or removing it from, the standards track -- must
-   be approved by the IESG.
-
-8.1.1.  Initiation of Action
+8.1.  Initiation of Action
 
    A specification that is intended to enter or advance in the Internet
    standards track shall first be posted as an Internet-Draft (see
@@ -700,13 +695,13 @@ Table of Contents
        set of implementations must demonstrate at least two independent,
        separate and successful uses of the licensing process.
 
-8.1.2.  IESG Review and Approval
+8.2.  IESG Review and Approval
 
    The IESG shall determine whether or not a specification submitted to
-   it according to Section 8.1.1 satisfies the applicable criteria for
-   the recommended action (see Section 6.1 and Section 6.2), and shall
-   in addition determine whether or not the technical quality and
-   clarity of the specification is consistent with that expected for the
+   it according to Section 8.1 satisfies the applicable criteria for the
+   recommended action (see Section 6.1 and Section 6.2), and shall in
+   addition determine whether or not the technical quality and clarity
+   of the specification is consistent with that expected for the
    maturity level to which the specification is recommended.
 
    In order to obtain all of the information necessary to make these
@@ -761,18 +756,20 @@ Table of Contents
    decide to refer the document back to the Working Group, the authors,
    or hold the document for the creation of a new Working Group.
 
-8.1.3.  Publication
+8.3.  Publication
+
+   In no event shall a document be published on the IETF Stream without
+   IETF consensus.
 
    If a standards action is approved, notification is sent to the RFC
    Editor and copied to the IETF with instructions to publish the
    specification as an RFC.  The specification shall at that point be
    removed from the Internet-Drafts directory.
 
-8.2.  Advancing in the Standards Track
+8.4.  Advancing in the Standards Track
 
-   The procedure described in Section 8.1 is followed for each action
-   that attends the advancement of a specification along the standards
-   track.
+   The procedure described in Section 8 is followed for each action that
+   attends the advancement of a specification along the standards track.
 
    A specification shall remain at the Proposed Standard level for at
    least six months.  This minimum period is intended to ensure adequate
@@ -806,7 +803,7 @@ Table of Contents
    number) with corrections, and this will not reset the minimum time-
    at-level clock.
 
-8.3.  Revising a Standard
+8.5.  Revising a Standard
 
    A new version of an established Internet Standard must progress
    through the full Internet standardization process as if it were a
@@ -819,7 +816,7 @@ Table of Contents
    text of the new version or in another appropriate document (e.g., an
    Applicability Statement; see Section 5.2).
 
-8.4.  Retiring a Standard
+8.6.  Retiring a Standard
 
    As the technology changes and matures, it is possible for a new
    Standard specification to be so clearly superior technically that one
@@ -833,7 +830,7 @@ Table of Contents
    originate from a Working Group, an Area Director or some other
    interested party.
 
-8.5.  Conflict Resolution and Appeals
+8.7.  Conflict Resolution and Appeals
 
    Disputes are possible at various stages during the IETF process.  As
    much as possible the process is designed so that compromises can be
@@ -846,7 +843,7 @@ Table of Contents
    normal processes whereby IETF Working Groups and other Internet
    Standards Process participants ordinarily reach consensus.
 
-8.5.1.  Working Group Disputes
+8.7.1.  Working Group Disputes
 
    An individual (whether a participant in the relevant Working Group or
    not) may disagree with a Working Group recommendation based on his or
@@ -883,7 +880,7 @@ Table of Contents
    not the Internet Standards Processes have been followed and with
    respect to all questions of technical merit.
 
-8.5.2.  Process Failures
+8.7.2.  Process Failures
 
    This document sets forward procedures required to be followed to
    ensure openness and fairness of the Internet Standards Process, and
@@ -916,7 +913,7 @@ Table of Contents
    The IAB decision is final with respect to the question of whether or
    not the Internet Standards Processes have been followed.
 
-8.5.3.  Questions of Applicable Procedure
+8.7.3.  Questions of Applicable Procedure
 
    Further recourse is available only in cases in which the procedures
    themselves (i.e., the procedures described in this document) are
@@ -932,7 +929,7 @@ Table of Contents
    The Trustees' decision upon completion of their review shall be final
    with respect to all aspects of the dispute.
 
-8.5.4.  Appeals Procedure
+8.7.4.  Appeals Procedure
 
    All appeals must include a detailed and specific description of the
    facts of the dispute.
@@ -1135,7 +1132,7 @@ Table of Contents
    to this document shall be accomplished through the normal BCP
    process.
 
-   The appeals process in Section 8.5 applies to this process.
+   The appeals process in Section 8.7 applies to this process.
 
 11.2.  Exclusions
 
@@ -1145,8 +1142,8 @@ Table of Contents
    and mailing list discussions.
 
    Specifically, the following sections of this document must not be
-   subject of a variance: Section 7.1, Section 8.1, Section 8.1.1 (first
-   paragraph), Section 8.1.2, Section 8.3 (first sentence), Section 8.5
+   subject of a variance: Section 7.1, Section 8, Section 8.1 (first
+   paragraph), Section 8.2, Section 8.5 (first sentence), Section 8.7
    and Section 11.
 
 12.  Security Considerations
@@ -1217,7 +1214,8 @@ Table of Contents
       (editorial).  All inf/exp drafts get IETSG review (implied by 2026
       and 8789).  Remove "directly" from inf/exp publication as its a
       holdover from when the RFC Editor (sic) could publish them w/o
-      IESG (editorial).
+      IESG (editorial).  Edit section headings and move text to avoid
+      re-using the draft title as a section header (editorial).
 
 14.2.  Individual draft
 
