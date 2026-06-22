@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                 18 June 2026
+Updates: 7475 (if approved)                                 22 June 2026
 Intended status: Best Current Practice                                  
-Expires: 20 December 2026
+Expires: 24 December 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 December 2026.
+   This Internet-Draft will expire on 24 December 2026.
 
 Copyright Notice
 
@@ -73,7 +73,7 @@ Table of Contents
 
    1.  Introduction
      1.1.  Terminology
-   2.  The Internet Standards Process
+   2.  Creating an Internet Standard
      2.1.  Intellectual Property Requirements
    3.  Organization of This Document
    4.  Documents related to Internet Standards
@@ -94,19 +94,18 @@ Table of Contents
        6.2.4.  Historic
    7.  Best Current Practice (BCP) RFCs
      7.1.  BCP Review Process
-   8.  The Internet Standards Process
-     8.1.  Standards Actions
-       8.1.1.  Initiation of Action
-       8.1.2.  IESG Review and Approval
-       8.1.3.  Publication
-     8.2.  Advancing in the Standards Track
-     8.3.  Revising a Standard
-     8.4.  Retiring a Standard
-     8.5.  Conflict Resolution and Appeals
-       8.5.1.  Working Group Disputes
-       8.5.2.  Process Failures
-       8.5.3.  Questions of Applicable Procedure
-       8.5.4.  Appeals Procedure
+   8.  Standards Actions
+     8.1.  Initiation of Action
+     8.2.  IESG Review and Approval
+     8.3.  Publication
+     8.4.  Advancing in the Standards Track
+     8.5.  Revising a Standard
+     8.6.  Retiring a Standard
+     8.7.  Conflict Resolution and Appeals
+       8.7.1.  Working Group Disputes
+       8.7.2.  Process Failures
+       8.7.3.  Questions of Applicable Procedure
+       8.7.4.  Appeals Procedure
    9.  External Standards and Specifications
      9.1.  Use of External Specifications
        9.1.1.  Incorporation of an Open Standard
@@ -132,7 +131,7 @@ Table of Contents
    This memo documents the process currently used by the Internet
    community for the standardization of protocols and procedures.  The
    Internet Standards process is organized and managed by the IETF, an
-   entity of the Internet Society (ISOC).
+   entity of the Internet Society (ISOC); see [RFC8712].
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -162,19 +161,17 @@ Table of Contents
    involved in the Internet Standards Process, as described in
    [RFC9281].
 
-2.  The Internet Standards Process
+2.  Creating an Internet Standard
 
-   In outline, the process of creating an Internet Standard is
-   straightforward: a specification undergoes a period of development
-   and several iterations of review by the Internet community and
-   revision based upon experience, is adopted as a Standard by the
-   appropriate body (see below), and is published.  In practice, the
-   process is more complicated, due to (1) the difficulty of creating
-   specifications of high technical quality; (2) the need to consider
-   the interests of all of the affected parties; (3) the importance of
-   establishing widespread community consensus; and (4) the difficulty
-   of evaluating the utility of a particular specification for the
-   Internet community.
+   A specification undergoes a period of development and several
+   iterations of review by the Internet community and revision based
+   upon experience, is then adopted as a Standard by the appropriate
+   body (see below), and is published.  In practice, the process is more
+   complicated, due to (1) the difficulty of creating specifications of
+   high technical quality; (2) the need to consider the interests of all
+   of the affected parties; (3) the importance of establishing
+   widespread community consensus; and (4) the difficulty of evaluating
+   the utility of a particular specification for the Internet community.
 
    The process described here only applies to the IETF RFC stream.  See
    [RFC4844] for the definition of the streams and [RFC5742] for a
@@ -201,9 +198,9 @@ Table of Contents
       Standards.  They provide ample opportunity for participation and
       comment by all interested parties.  At each stage of the
       standardization process, a specification is repeatedly discussed
-      and its merits debated in open meetings and/or public electronic
-      mailing lists, and it is made available for review via world-wide
-      on-line directories.
+      and its merits debated in open meetings, public public electronic
+      mail lists, and/or other electronic fora, and it is made available
+      for review via world-wide on-line directories.
 
    *  These procedures are explicitly aimed at recognizing and adopting
       generally-accepted practices.  Thus, a candidate specification
@@ -269,7 +266,7 @@ Table of Contents
 
    RFCs cover a wide range of topics in addition to Internet Standards,
    from early discussion of new research concepts to status memos about
-   the Internet.  For information about RFC publication, see [RFC9280].
+   the Internet.  For information about RFC publication, see [RFC9920].
 
    The style guide for writing an RFC is [RFC7322].  The default input
    format is [RFCXML], RFCs are available in multiple formats as
@@ -293,9 +290,7 @@ Table of Contents
    should or will become Internet Standards or BCPs.  Such non-standards
    track specifications are not subject to the rules for Internet
    standardization.  Non-standards track specifications may be published
-   directly as "Experimental" or "Informational" RFCs at the discretion
-   of the RFC Production Center (RPC) in consultation with the IESG (see
-   Section 6.2).
+   as "Experimental" or "Informational" RFCs; see Section 6.2.
 
    In addition, not all RFCs are standards track documents, and not all
    standards track documents reach the level of Internet Standard.  In
@@ -553,18 +548,12 @@ Table of Contents
    "Informational," or "Historic."  The documents bearing these labels
    are not Internet Standards in any sense.
 
-   Alternate streams [RFC8729], Section 5.1 may also use the maturity
-   levels described here.
-
 6.2.1.  Experimental
 
    The "Experimental" designation typically denotes a specification that
    is part of some research or development effort.  Such a specification
    is published for the general information of the Internet technical
-   community and as an archival record of the work.  An Experimental
-   specification may be the output of an organized Internet research
-   effort (e.g., a Research Group of the Internet Research Task Force),
-   an IETF Working Group, or it may be an individual contribution.
+   community and as an archival record of the work.
 
 6.2.2.  Informational
 
@@ -579,7 +568,7 @@ Table of Contents
    be published using the process and workflow described here.
    Documents proposed for Experimental and Informational RFCs by IETF
    Working Groups [_2418bis] go through IESG review.  The review is
-   initiated using the process described in Section 8.1.1.
+   initiated using the process described in Section 8.1.
 
    The final assignment of maturity level, as with Internet Standards
    Track Documents, is determined by the IESG.
@@ -625,7 +614,7 @@ Table of Contents
    immediate instantiation.
 
    The BCP process is similar to that for proposed standards.  The BCP
-   is submitted to the IESG for review (see Section 8.1.1), and the
+   is submitted to the IESG for review (see Section 8.1), and the
    existing review process applies, including a Last-Call on the IETF
    Announce mailing list.  However, once the IESG has approved the
    document, the process ends and the document is published.  The
@@ -633,9 +622,9 @@ Table of Contents
    IETF.
 
    Specifically, a document to be considered for the status of BCP must
-   undergo the procedures outlined in Section 8.1, and Section 8.4 of
-   this document.  The BCP process may be appealed according to the
-   procedures in Section 8.5.
+   undergo the procedures outlined in Section 8, and Section 8.6 of this
+   document.  The BCP process may be appealed according to the
+   procedures in Section 8.7.
 
    Because BCPs are meant to express community consensus but are arrived
    at more quickly than standards, BCPs require particular care.
@@ -646,7 +635,11 @@ Table of Contents
    A specification, or group of specifications, that has, or have been
    approved as a BCP is assigned a number in the BCP subseries.
 
-8.  The Internet Standards Process
+8.  Standards Actions
+
+   A "standards action" -- entering a particular specification into,
+   advancing it within, or removing it from, the standards track -- must
+   be approved by the IESG.
 
    The mechanics of the Internet Standards Process involve decisions of
    the IESG concerning the elevation of a specification onto the
@@ -661,13 +654,7 @@ Table of Contents
    elevation to or advancement in the standards track is an essential
    component of the decision-making process.
 
-8.1.  Standards Actions
-
-   A "standards action" -- entering a particular specification into,
-   advancing it within, or removing it from, the standards track -- must
-   be approved by the IESG.
-
-8.1.1.  Initiation of Action
+8.1.  Initiation of Action
 
    A specification that is intended to enter or advance in the Internet
    standards track shall first be posted as an Internet-Draft (see
@@ -702,13 +689,13 @@ Table of Contents
        set of implementations must demonstrate at least two independent,
        separate and successful uses of the licensing process.
 
-8.1.2.  IESG Review and Approval
+8.2.  IESG Review and Approval
 
    The IESG shall determine whether or not a specification submitted to
-   it according to Section 8.1.1 satisfies the applicable criteria for
-   the recommended action (see Section 6.1 and Section 6.2), and shall
-   in addition determine whether or not the technical quality and
-   clarity of the specification is consistent with that expected for the
+   it according to Section 8.1 satisfies the applicable criteria for the
+   recommended action (see Section 6.1 and Section 6.2), and shall in
+   addition determine whether or not the technical quality and clarity
+   of the specification is consistent with that expected for the
    maturity level to which the specification is recommended.
 
    In order to obtain all of the information necessary to make these
@@ -763,21 +750,20 @@ Table of Contents
    decide to refer the document back to the Working Group, the authors,
    or hold the document for the creation of a new Working Group.
 
+8.3.  Publication
+
    In no event shall a document be published on the IETF Stream without
    IETF consensus.
-
-8.1.3.  Publication
 
    If a standards action is approved, notification is sent to the RFC
    Editor and copied to the IETF with instructions to publish the
    specification as an RFC.  The specification shall at that point be
    removed from the Internet-Drafts directory.
 
-8.2.  Advancing in the Standards Track
+8.4.  Advancing in the Standards Track
 
-   The procedure described in Section 8.1 is followed for each action
-   that attends the advancement of a specification along the standards
-   track.
+   The procedure described in Section 8 is followed for each action that
+   attends the advancement of a specification along the standards track.
 
    A specification shall remain at the Proposed Standard level for at
    least six months.  This minimum period is intended to ensure adequate
@@ -811,7 +797,7 @@ Table of Contents
    number) with corrections, and this will not reset the minimum time-
    at-level clock.
 
-8.3.  Revising a Standard
+8.5.  Revising a Standard
 
    A new version of an established Internet Standard must progress
    through the full Internet standardization process as if it were a
@@ -824,7 +810,7 @@ Table of Contents
    text of the new version or in another appropriate document (e.g., an
    Applicability Statement; see Section 5.2).
 
-8.4.  Retiring a Standard
+8.6.  Retiring a Standard
 
    As the technology changes and matures, it is possible for a new
    Standard specification to be so clearly superior technically that one
@@ -838,7 +824,7 @@ Table of Contents
    originate from a Working Group, an Area Director or some other
    interested party.
 
-8.5.  Conflict Resolution and Appeals
+8.7.  Conflict Resolution and Appeals
 
    Disputes are possible at various stages during the IETF process.  As
    much as possible the process is designed so that compromises can be
@@ -851,7 +837,7 @@ Table of Contents
    normal processes whereby IETF Working Groups and other Internet
    Standards Process participants ordinarily reach consensus.
 
-8.5.1.  Working Group Disputes
+8.7.1.  Working Group Disputes
 
    An individual (whether a participant in the relevant Working Group or
    not) may disagree with a Working Group recommendation based on his or
@@ -888,7 +874,7 @@ Table of Contents
    not the Internet Standards Processes have been followed and with
    respect to all questions of technical merit.
 
-8.5.2.  Process Failures
+8.7.2.  Process Failures
 
    This document sets forward procedures required to be followed to
    ensure openness and fairness of the Internet Standards Process, and
@@ -921,7 +907,7 @@ Table of Contents
    The IAB decision is final with respect to the question of whether or
    not the Internet Standards Processes have been followed.
 
-8.5.3.  Questions of Applicable Procedure
+8.7.3.  Questions of Applicable Procedure
 
    Further recourse is available only in cases in which the procedures
    themselves (i.e., the procedures described in this document) are
@@ -937,7 +923,7 @@ Table of Contents
    The Trustees' decision upon completion of their review shall be final
    with respect to all aspects of the dispute.
 
-8.5.4.  Appeals Procedure
+8.7.4.  Appeals Procedure
 
    All appeals must include a detailed and specific description of the
    facts of the dispute.
@@ -986,7 +972,7 @@ Table of Contents
 
    *  Other Specifications: Other proprietary specifications that have
       come to be widely used in the Internet may be treated by the
-      Internet community as if they were a "standards".  Such a
+      Internet community as if they were a "standard."  Such a
       specification is not generally developed in an open fashion, is
       typically proprietary, and is controlled by the vendor, vendors,
       or organization that produced it.
@@ -1005,10 +991,10 @@ Table of Contents
 
    An Internet Standard TS or AS may incorporate an open external
    standard by reference.  For example, many Internet Standards
-   incorporate by reference the ANSI standard character set "US-ASCII"
-   [US-ASCII].  Whenever possible, the referenced specification shall be
-   available without restriction or undue fee using standard Internet
-   applications such as the WWW.
+   incorporate by reference the Unicode encoding scheme [UNICODE].
+   Whenever possible, the referenced specification shall be available
+   without restriction or undue fee using standard Internet applications
+   such as the WWW.
 
 9.1.2.  Incorporation of Other Specifications
 
@@ -1140,7 +1126,7 @@ Table of Contents
    to this document shall be accomplished through the normal BCP
    process.
 
-   The appeals process in Section 8.5 applies to this process.
+   The appeals process in Section 8.7 applies to this process.
 
 11.2.  Exclusions
 
@@ -1150,8 +1136,8 @@ Table of Contents
    and mailing list discussions.
 
    Specifically, the following sections of this document must not be
-   subject of a variance: Section 7.1, Section 8.1, Section 8.1.1 (first
-   paragraph), Section 8.1.2, Section 8.3 (first sentence), Section 8.5
+   subject of a variance: Section 7.1, Section 8, Section 8.1 (first
+   paragraph), Section 8.2, Section 8.5 (first sentence), Section 8.7
    and Section 11.
 
 12.  Security Considerations
@@ -1213,6 +1199,17 @@ Table of Contents
 
    *  Draft 9: Remove some changes that were decided to be out of scope
       as identified by Dan Bernstein and confirmed by Roman.
+
+   *  Draft 10: Use Unicode instead of ASCII as external standard
+      example (editorial).  Add references to RFC 8712 and RFC 9920;
+      mention other online fora per RFC 9945 (editorial).  Move "IETF
+      stream needs rough consensus" to the RFC section (4.1)
+      (editorial).  Remove mention of other streams from Experimental
+      (editorial).  All inf/exp drafts get IETSG review (implied by 2026
+      and 8789).  Remove "directly" from inf/exp publication as its a
+      holdover from when the RFC Editor (sic) could publish them w/o
+      IESG (editorial).  Edit section headings and move text to avoid
+      re-using the draft title as a section header (editorial).
 
 14.2.  Individual draft
 
@@ -1315,6 +1312,10 @@ Table of Contents
               DOI 10.17487/RFC7322, September 2014,
               <https://www.rfc-editor.org/rfc/rfc7322>.
 
+   [RFC8712]  Camarillo, G. and J. Livingood, "The IETF-ISOC
+              Relationship", RFC 8712, DOI 10.17487/RFC8712, February
+              2020, <https://www.rfc-editor.org/rfc/rfc8712>.
+
    [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
               Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
@@ -1355,21 +1356,17 @@ Table of Contents
               BCP 92, RFC 5742, DOI 10.17487/RFC5742, December 2009,
               <https://www.rfc-editor.org/rfc/rfc5742>.
 
-   [RFC8729]  Housley, R., Ed. and L. Daigle, Ed., "The RFC Series and
-              RFC Editor", RFC 8729, DOI 10.17487/RFC8729, February
-              2020, <https://www.rfc-editor.org/rfc/rfc8729>.
-
-   [RFC9280]  Saint-Andre, P., Ed., "RFC Editor Model (Version 3)",
-              RFC 9280, DOI 10.17487/RFC9280, June 2022,
-              <https://www.rfc-editor.org/rfc/rfc9280>.
+   [RFC9920]  Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)",
+              RFC 9920, DOI 10.17487/RFC9920, February 2026,
+              <https://www.rfc-editor.org/rfc/rfc9920>.
 
    [RFCPAGE]  "About RFCs", n.d., <https://www.ietf.org/process/rfcs/>.
 
    [RFCXML]   "RFCXML overview and background", n.d.,
               <https://authors.ietf.org/rfcxml-overview>.
 
-   [US-ASCII] ANSI, "Coded Character Set -- 7-Bit American Standard Code
-              for Information Interchange", March 1986.  ANSI X3.4-1986
+   [UNICODE]  Unicode Technical Committee, "The Unicode Standard",
+              September 2025.  Unicode 17.0.0
 
    [_2418bis] Salz, R., Schinazi, D., and S. O. Bradner, "IETF Working
               Group Guidelines and Procedures", Work in Progress,
@@ -1389,8 +1386,8 @@ Acknowledgments
    cooperation during the process of creating this document.
 
    We thank Dr. Daniel J.  Bernstein for pointing out places where
-   clarifications in this document were needed; we hope to address those
-   in the future.
+   clarifications in this document were needed, and we hope a future
+   revision will address them.
 
 Authors' Addresses
 
