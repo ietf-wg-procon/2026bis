@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 7475 (if approved)                                 18 June 2026
+Updates: 7475 (if approved)                                 22 June 2026
 Intended status: Best Current Practice                                  
-Expires: 20 December 2026
+Expires: 24 December 2026
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 December 2026.
+   This Internet-Draft will expire on 24 December 2026.
 
 Copyright Notice
 
@@ -132,7 +132,7 @@ Table of Contents
    This memo documents the process currently used by the Internet
    community for the standardization of protocols and procedures.  The
    Internet Standards process is organized and managed by the IETF, an
-   entity of the Internet Society (ISOC).
+   entity of the Internet Society (ISOC); see [RFC8712].
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -201,9 +201,9 @@ Table of Contents
       Standards.  They provide ample opportunity for participation and
       comment by all interested parties.  At each stage of the
       standardization process, a specification is repeatedly discussed
-      and its merits debated in open meetings and/or public electronic
-      mailing lists, and it is made available for review via world-wide
-      on-line directories.
+      and its merits debated in open meetings, public public electronic
+      mail lists, and/or other electronic fora, and it is made available
+      for review via world-wide on-line directories.
 
    *  These procedures are explicitly aimed at recognizing and adopting
       generally-accepted practices.  Thus, a candidate specification
@@ -269,7 +269,7 @@ Table of Contents
 
    RFCs cover a wide range of topics in addition to Internet Standards,
    from early discussion of new research concepts to status memos about
-   the Internet.  For information about RFC publication, see [RFC9280].
+   the Internet.  For information about RFC publication, see [RFC9920].
 
    The style guide for writing an RFC is [RFC7322].  The default input
    format is [RFCXML], RFCs are available in multiple formats as
@@ -293,15 +293,16 @@ Table of Contents
    should or will become Internet Standards or BCPs.  Such non-standards
    track specifications are not subject to the rules for Internet
    standardization.  Non-standards track specifications may be published
-   directly as "Experimental" or "Informational" RFCs at the discretion
-   of the RFC Production Center (RPC) in consultation with the IESG (see
-   Section 6.2).
+   as "Experimental" or "Informational" RFCs; see Section 6.2.
 
    In addition, not all RFCs are standards track documents, and not all
    standards track documents reach the level of Internet Standard.  In
    the same way, not all RFCs which describe current practices have been
    given the review and approval to become BCPs.  See [RFC1796] for
    further information.
+
+   In no event shall a document be published on the IETF Stream without
+   IETF rough consensus.
 
    The full list of all RFCs, including the subseries, and lists
    organized by status, can be found at https://www.rfc-editor.org
@@ -561,10 +562,7 @@ Table of Contents
    The "Experimental" designation typically denotes a specification that
    is part of some research or development effort.  Such a specification
    is published for the general information of the Internet technical
-   community and as an archival record of the work.  An Experimental
-   specification may be the output of an organized Internet research
-   effort (e.g., a Research Group of the Internet Research Task Force),
-   an IETF Working Group, or it may be an individual contribution.
+   community and as an archival record of the work.
 
 6.2.2.  Informational
 
@@ -762,9 +760,6 @@ Table of Contents
    significant controvery in response to the Last-Call, The IESG may
    decide to refer the document back to the Working Group, the authors,
    or hold the document for the creation of a new Working Group.
-
-   In no event shall a document be published on the IETF Stream without
-   IETF consensus.
 
 8.1.3.  Publication
 
@@ -986,7 +981,7 @@ Table of Contents
 
    *  Other Specifications: Other proprietary specifications that have
       come to be widely used in the Internet may be treated by the
-      Internet community as if they were a "standards".  Such a
+      Internet community as if they were a "standard."  Such a
       specification is not generally developed in an open fashion, is
       typically proprietary, and is controlled by the vendor, vendors,
       or organization that produced it.
@@ -1005,10 +1000,10 @@ Table of Contents
 
    An Internet Standard TS or AS may incorporate an open external
    standard by reference.  For example, many Internet Standards
-   incorporate by reference the ANSI standard character set "US-ASCII"
-   [US-ASCII].  Whenever possible, the referenced specification shall be
-   available without restriction or undue fee using standard Internet
-   applications such as the WWW.
+   incorporate by reference the Unicode encoding scheme [UNICODE].
+   Whenever possible, the referenced specification shall be available
+   without restriction or undue fee using standard Internet applications
+   such as the WWW.
 
 9.1.2.  Incorporation of Other Specifications
 
@@ -1214,6 +1209,16 @@ Table of Contents
    *  Draft 9: Remove some changes that were decided to be out of scope
       as identified by Dan Bernstein and confirmed by Roman.
 
+   *  Draft 10: Use Unicode instead of ASCII as external standard
+      example (editorial).  Add references to RFC 8712 and RFC 9920;
+      mention other online fora per RFC 9945 (editorial).  Move "IETF
+      stream needs rough consensus" to the RFC section (4.1)
+      (editorial).  Remove mention of other streams from Experimental
+      (editorial).  All inf/exp drafts get IETSG review (implied by 2026
+      and 8789).  Remove "directly" from inf/exp publication as its a
+      holdover from when the RFC Editor (sic) could publish them w/o
+      IESG (editorial).
+
 14.2.  Individual draft
 
    *  Draft 0: Translated the nroff source of RFC 2026 into markdown.
@@ -1315,6 +1320,10 @@ Table of Contents
               DOI 10.17487/RFC7322, September 2014,
               <https://www.rfc-editor.org/rfc/rfc7322>.
 
+   [RFC8712]  Camarillo, G. and J. Livingood, "The IETF-ISOC
+              Relationship", RFC 8712, DOI 10.17487/RFC8712, February
+              2020, <https://www.rfc-editor.org/rfc/rfc8712>.
+
    [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
               Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
@@ -1359,17 +1368,17 @@ Table of Contents
               RFC Editor", RFC 8729, DOI 10.17487/RFC8729, February
               2020, <https://www.rfc-editor.org/rfc/rfc8729>.
 
-   [RFC9280]  Saint-Andre, P., Ed., "RFC Editor Model (Version 3)",
-              RFC 9280, DOI 10.17487/RFC9280, June 2022,
-              <https://www.rfc-editor.org/rfc/rfc9280>.
+   [RFC9920]  Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)",
+              RFC 9920, DOI 10.17487/RFC9920, February 2026,
+              <https://www.rfc-editor.org/rfc/rfc9920>.
 
    [RFCPAGE]  "About RFCs", n.d., <https://www.ietf.org/process/rfcs/>.
 
    [RFCXML]   "RFCXML overview and background", n.d.,
               <https://authors.ietf.org/rfcxml-overview>.
 
-   [US-ASCII] ANSI, "Coded Character Set -- 7-Bit American Standard Code
-              for Information Interchange", March 1986.  ANSI X3.4-1986
+   [UNICODE]  Unicode Technical Committee, "The Unicode Standard",
+              September 2025.  Unicode 17.0.0
 
    [_2418bis] Salz, R., Schinazi, D., and S. O. Bradner, "IETF Working
               Group Guidelines and Procedures", Work in Progress,
