@@ -298,9 +298,6 @@ Table of Contents
    given the review and approval to become BCPs.  See [RFC1796] for
    further information.
 
-   In no event shall a document be published on the IETF Stream without
-   IETF rough consensus.
-
    The full list of all RFCs, including the subseries, and lists
    organized by status, can be found at https://www.rfc-editor.org
    (https://www.rfc-editor.org).
@@ -550,9 +547,6 @@ Table of Contents
    one of three "off-track" maturity levels: "Experimental,"
    "Informational," or "Historic."  The documents bearing these labels
    are not Internet Standards in any sense.
-
-   Alternate streams [RFC8729], Section 5.1 may also use the maturity
-   levels described here.
 
 6.2.1.  Experimental
 
@@ -1361,10 +1355,6 @@ Table of Contents
               Handling of Independent and IRTF Stream Submissions",
               BCP 92, RFC 5742, DOI 10.17487/RFC5742, December 2009,
               <https://www.rfc-editor.org/rfc/rfc5742>.
-
-   [RFC8729]  Housley, R., Ed. and L. Daigle, Ed., "The RFC Series and
-              RFC Editor", RFC 8729, DOI 10.17487/RFC8729, February
-              2020, <https://www.rfc-editor.org/rfc/rfc8729>.
 
    [RFC9920]  Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)",
               RFC 9920, DOI 10.17487/RFC9920, February 2026,
