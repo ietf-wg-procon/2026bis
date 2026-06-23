@@ -1209,7 +1209,8 @@ Table of Contents
       and 8789).  Remove "directly" from inf/exp publication as its a
       holdover from when the RFC Editor (sic) could publish them w/o
       IESG (editorial).  Edit section headings and move text to avoid
-      re-using the draft title as a section header (editorial).
+      re-using the draft title as a section header (editorial).  Add WG
+      folks to acknowledgements (editorial).
 
 14.2.  Individual draft
 
