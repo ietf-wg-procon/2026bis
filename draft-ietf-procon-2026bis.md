@@ -23,7 +23,7 @@ author:
  -
     ins: S. Bradner
     name: Scott Bradner
-    organization: SOBCO
+    organization: Harvard University (retired)
     email: sob@sobco.com
 
 venue:
@@ -1182,6 +1182,7 @@ Remove "directly" from inf/exp publication as its a holdover from
 when the RFC Editor (sic) could publish them w/o IESG (editorial).
 Edit section headings and move text to avoid re-using the draft
 title as a section header (editorial).
+Add WG folks to acknowledgements (editorial).
 
 ## Individual draft
 
@@ -1245,3 +1246,7 @@ particular, we thank the authors of all the documents that updated
 We also thank Sandy Ginoza of the Secretariat for sending all the original
 RFC sources, and John Klensin for his support and cooperation during the
 process of creating this document.
+
+Finally, we thank the members and Chairs of the Working Group for their
+suggestions and comments.  In particular, Jari Arkko, Brian Carpenter, Pete
+Resnick Rob Sayre, and David Schinazi made notable contributions.
