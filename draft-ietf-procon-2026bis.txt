@@ -1385,6 +1385,11 @@ Acknowledgments
    original RFC sources, and John Klensin for his support and
    cooperation during the process of creating this document.
 
+   Finally, we thank the members and Chairs of the Working Group for
+   their suggestions and comments.  In particular, Jari Arkko, Brian
+   Carpenter, Pete Resnick Rob Sayre, and David Schinazi made notable
+   contributions.
+
 Authors' Addresses
 
    Rich Salz
