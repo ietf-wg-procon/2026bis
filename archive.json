@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-06-23T02:09:27.184514+00:00",
+  "timestamp": "2026-06-25T02:11:02.925213+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1248,7 +1248,7 @@
       ],
       "body": "Arguably the IESG determines if there is IETF consensus to publish an RFC on the IETF stream, but 9798 doesn't say that and 2026bis doesn't clarify.",
       "createdAt": "2026-05-27T16:04:25Z",
-      "updatedAt": "2026-06-16T13:27:53Z",
+      "updatedAt": "2026-06-24T17:13:09Z",
       "closedAt": null,
       "comments": [
         {
@@ -1306,6 +1306,13 @@
           "body": "Since it was one of the \"showstoppers\" in my WGLC review, I agree, but maybe we need to wait until the next draft is posted?",
           "createdAt": "2026-06-01T20:22:26Z",
           "updatedAt": "2026-06-01T20:22:26Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "There are no existing words that say who determines IETF consensus, therefore this issue is on hold for re-chartering.",
+          "createdAt": "2026-06-24T17:13:09Z",
+          "updatedAt": "2026-06-24T17:13:09Z"
         }
       ]
     },
@@ -1332,6 +1339,62 @@
           "updatedAt": "2026-06-17T14:07:16Z"
         }
       ]
+    },
+    {
+      "number": 82,
+      "id": "I_kwDOMZ1wVs8AAAABGeXEsA",
+      "title": "Use \"inactive\" not \"expired\" for drafts?",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/82",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "hold",
+        "discuss"
+      ],
+      "body": "From Brian's WGLC comments and subsequent threads:\n\n\"the datatracker that introduced the use of \"inactive\" plus the ability to switch a draft between active and inactive. As a practical matter, that seems more fit for purpose than the rigid \"6 months and you're gone\" laid down by RFC 2026. But I have to admit, it's not clearly editorial to s/expired/inactive/.\"\n\nAlso, there have been at least one attempt to say \"drafts never expire\" which didn't go anywhere, so we might want to keep the term as-is to avoid confusion with that issue.\n\nSo do we need active/inactive/expire clarification?",
+      "createdAt": "2026-06-23T20:51:25Z",
+      "updatedAt": "2026-06-23T20:51:25Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 83,
+      "id": "I_kwDOMZ1wVs8AAAABGear6A",
+      "title": "Incorporate 1311",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/83",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial",
+        "hold"
+      ],
+      "body": "RFC 1311 has text that does not appear in 2026bis. From email by Brian:\n\n\"This isn't as easy as it might seem. For example, 1311 says:\n\n       The general rule is that a separate STD number is used when the\n       specification is logically separable.  That is, logically\n       separable options are assigned distinct STD numbers while\n       amendments and non-optional extensions use the same STD number as\n       the base specification.\n\nSo to be honest I think there is work to be done before obsoleting 1311,\nand that work might be a distraction from getting 2026bis finalised.\"",
+      "createdAt": "2026-06-23T21:01:34Z",
+      "updatedAt": "2026-06-23T21:01:34Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 84,
+      "id": "I_kwDOMZ1wVs8AAAABGl7GXQ",
+      "title": "Ack DJB",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/84",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "He did have an impact.",
+      "createdAt": "2026-06-24T18:26:13Z",
+      "updatedAt": "2026-06-24T18:26:23Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -3153,21 +3216,21 @@
       "id": "PR_kwDOMZ1wVs7hbO5h",
       "title": "Add DJB to acknowledgements",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/79",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2026-06-01T15:35:08Z",
-      "updatedAt": "2026-06-22T22:15:21Z",
+      "updatedAt": "2026-06-23T16:57:43Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "0efb677c3d0b45d9e45581d2f86e1127951d97ba",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "thanks-djb",
       "headRefOid": "71974cbac08f65321ba3a75f5599440fb4d9e35a",
-      "closedAt": null,
+      "closedAt": "2026-06-23T16:57:36Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
