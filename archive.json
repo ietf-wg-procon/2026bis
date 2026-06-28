@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-06-25T02:11:02.925213+00:00",
+  "timestamp": "2026-06-28T02:29:41.903877+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1393,6 +1393,24 @@
       "body": "He did have an impact.",
       "createdAt": "2026-06-24T18:26:13Z",
       "updatedAt": "2026-06-24T18:26:23Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 85,
+      "id": "I_kwDOMZ1wVs8AAAABG0K8wg",
+      "title": "Better definition of deprecated, obsoleted-by",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/85",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [
+        "hold"
+      ],
+      "body": "From an email exchange https://mailarchive.ietf.org/arch/msg/procon/g66x82sl8q4kcw2_cSXHQyX3tyY/\n\nScott:\n\"Obsoleted by\" meant just that and no more\nHistoric meant - do not use (hopefully with a reason)  (e.g. RIPv1 - do not use because it did not support classless addressing)\n\nBrian:\nThat really isn't very clear in RFC 2026, and I don't think it's been used consistently in that sense. From time to time, people suggest that we need a formal definition of \"Deprecated\" too.\n\nScott:\nagreed - it is not as clear as it should have been\nand, thus, has not been  used consistently",
+      "createdAt": "2026-06-26T13:23:18Z",
+      "updatedAt": "2026-06-26T13:23:44Z",
       "closedAt": null,
       "comments": []
     }
