@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)               Harvard University (retired)
-Updates: 7475 (if approved)                                 23 June 2026
+Updates: 7475 (if approved)                                  1 July 2026
 Intended status: Best Current Practice                                  
-Expires: 25 December 2026
+Expires: 2 January 2027
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 December 2026.
+   This Internet-Draft will expire on 2 January 2027.
 
 Copyright Notice
 
@@ -407,11 +407,11 @@ Table of Contents
       protocol should be implemented by all systems that would benefit
       from remote access.
 
-   *  Elective: Implementation of the referenced TS is optional within
-      the domain of applicability of the AS; that is, the AS creates no
-      explicit necessity to apply the TS.  However, a particular vendor
-      may decide to implement it, or a particular user may decide that
-      it is a necessity in a specific environment.
+   *  Elective or Optional: Implementation of the referenced TS is not
+      mandatory within the domain of applicability of the AS; that is,
+      the AS creates no explicit necessity to apply the TS.  However, a
+      particular vendor may decide to implement it, or a particular user
+      may decide that it is a necessity in a specific environment.
 
    As noted in Section 6.1, there are TSs that are not in the standards
    track or that have been retired from the standards track, and are
@@ -546,7 +546,8 @@ Table of Contents
    Specifications that are not on the standards track are labeled with
    one of three "off-track" maturity levels: "Experimental,"
    "Informational," or "Historic."  The documents bearing these labels
-   are not Internet Standards in any sense.
+   are not Internet Standards in any sense, but they must also be
+   approved by the IESG.
 
 6.2.1.  Experimental
 
@@ -1212,6 +1213,10 @@ Table of Contents
       re-using the draft title as a section header (editorial).  Add WG
       folks to acknowledgements (editorial).
 
+   *  Draft 11: Revise wording to say non-standard-track maturity also
+      follow the process defined in Sec 8 (editorial).  A TS can use
+      elective or optional (editorial).
+
 14.2.  Individual draft
 
    *  Draft 0: Translated the nroff source of RFC 2026 into markdown.
@@ -1388,8 +1393,8 @@ Acknowledgments
 
    Finally, we thank the members and Chairs of the Working Group for
    their suggestions and comments.  In particular, Jari Arkko, Brian
-   Carpenter, Pete Resnick Rob Sayre, and David Schinazi made notable
-   contributions.
+   Carpenter, Pete Resnick, Rob Sayre, and David Schinazi made notable
+   contributions.  We also thank Dan Bernstein for his feedback.
 
 Authors' Addresses
 
