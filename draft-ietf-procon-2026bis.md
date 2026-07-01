@@ -354,7 +354,8 @@ justified by some special circumstance. For example, the TELNET
 protocol should be implemented by all systems that would benefit
 from remote access.
 
-- Elective: Implementation of the referenced TS is optional
+- Elective or Optional: Implementation of the referenced TS is not
+mandatory
 within the domain of applicability of the AS; that is, the AS
 creates no explicit necessity to apply the TS. However, a
 particular vendor may decide to implement it, or a particular user
@@ -495,7 +496,8 @@ Internet Standard, or have otherwise fallen into disuse or disfavor.
 Specifications that are not on the standards track are labeled with
 one of three "off-track" maturity levels: "Experimental,"
 "Informational," or "Historic." The documents bearing these labels
-are not Internet Standards in any sense.
+are not Internet Standards in any sense, but they must also be
+approved by the IESG.
 
 ### Experimental
 
@@ -1184,6 +1186,11 @@ Edit section headings and move text to avoid re-using the draft
 title as a section header (editorial).
 Add WG folks to acknowledgements (editorial).
 
+- Draft 11:
+Revise wording to say non-standard-track maturity also follow the process
+defined in Sec 8 (editorial).
+A TS can use elective or optional (editorial).
+
 ## Individual draft
 
 - Draft 0: Translated the nroff source of RFC 2026 into markdown.
@@ -1249,4 +1256,5 @@ process of creating this document.
 
 Finally, we thank the members and Chairs of the Working Group for their
 suggestions and comments.  In particular, Jari Arkko, Brian Carpenter, Pete
-Resnick Rob Sayre, and David Schinazi made notable contributions.
+Resnick, Rob Sayre, and David Schinazi made notable contributions. We
+also thank Dan Bernstein for his feedback.
