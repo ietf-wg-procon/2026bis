@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-06-28T02:29:41.903877+00:00",
+  "timestamp": "2026-07-02T02:10:04.822429+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1383,7 +1383,7 @@
       "id": "I_kwDOMZ1wVs8AAAABGl7GXQ",
       "title": "Ack DJB",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/84",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -1392,9 +1392,17 @@
       ],
       "body": "He did have an impact.",
       "createdAt": "2026-06-24T18:26:13Z",
-      "updatedAt": "2026-06-24T18:26:23Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2026-07-01T19:29:05Z",
+      "closedAt": "2026-07-01T19:29:05Z",
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Done in draft-11",
+          "createdAt": "2026-07-01T19:29:05Z",
+          "updatedAt": "2026-07-01T19:29:05Z"
+        }
+      ]
     },
     {
       "number": 85,
@@ -3289,6 +3297,34 @@
           "updatedAt": "2026-06-16T18:43:00Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 86,
+      "id": "PR_kwDOMZ1wVs7s00w5",
+      "title": "Hopefully final set of WGLC changes",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/86",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "approved by scott.",
+      "createdAt": "2026-07-01T19:10:45Z",
+      "updatedAt": "2026-07-01T19:14:57Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "2897fb9e3b6dcdce395724f0a422377753b0ad21",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "wglc-3",
+      "headRefOid": "af4d8be3779f5ec7293907701a3a3fe6a511fb68",
+      "closedAt": "2026-07-01T19:11:12Z",
+      "mergedAt": "2026-07-01T19:11:12Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "2afe1d1d8bc022aee8d5ada86f26e352b9dffd82"
+      },
+      "comments": [],
       "reviews": []
     }
   ]
