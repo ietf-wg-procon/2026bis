@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-09-22T02:20:18.251908+00:00",
+  "timestamp": "2026-09-27T02:25:43.538825+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1456,9 +1456,17 @@
       ],
       "body": "From https://datatracker.ietf.org/doc/statement-iesg-statement-on-the-conflict-resolution-and-appeals-processes/:\n\n  The subsections of Section 6.5 of [RFC2026](https://datatracker.ietf.org/doc/rfc2026/) use different terms (\u201cconflict\u201d, \u201cdispute\u201d, \u201ccomplaint\u201d, and \u201cappeal\u201d) interchangeably for the same conflict review and appeals processes.",
       "createdAt": "2026-09-21T00:23:58Z",
-      "updatedAt": "2026-09-21T00:23:58Z",
+      "updatedAt": "2026-09-26T10:33:11Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "timogerke",
+          "authorAssociation": "NONE",
+          "body": "The term Dispute SHOULD only be applied to Section 8.7.1 (former 6.5.1). The term Appeal SHOULD be used in the sectiond 8.7.2-4 (former 6.5.2-4) and in their references. The other tems should be replaced by them. \n\nTerminological separation of Section 8.7.1 seems to be useful, because regularly it represents a procedural consensus-building stage within the Working Group.",
+          "createdAt": "2026-09-26T10:31:17Z",
+          "updatedAt": "2026-09-26T10:33:11Z"
+        }
+      ]
     }
   ],
   "pulls": [
