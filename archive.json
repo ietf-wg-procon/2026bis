@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-09-27T02:25:43.538825+00:00",
+  "timestamp": "2026-09-29T03:12:34.672609+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1467,6 +1467,22 @@
           "updatedAt": "2026-09-26T10:33:11Z"
         }
       ]
+    },
+    {
+      "number": 90,
+      "id": "I_kwDOMZ1wVs8AAAABTwv4uw",
+      "title": "When can you initiate an appeal",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/90",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Currently the text in Section 8.7.4 says this about when an appeal can be initiated:\n\n    All appeals must be initiated within two months of the public\n    knowledge of the action or decision to be challenged.\n\nDepending on the months in question, two months could be 59, 60, 61, or 62 days. To make it really clear, can we settle on 60 calendar days?",
+      "createdAt": "2026-09-28T20:59:19Z",
+      "updatedAt": "2026-09-28T20:59:19Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
