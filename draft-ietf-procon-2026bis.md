@@ -206,8 +206,7 @@ RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
 For information about the input format, style guide, and
-supported output formats see
-[https://www.rfc-editor.org](https://www.rfc-editor.org).
+supported output formats see {{RFCED}}.
 
 Some RFCs document an "Internet Standard." These RFCs form the "STD"
 subseries of the RFC series {{?RFC1311}}. When a specification has been
@@ -697,7 +696,7 @@ of a new Working Group.
 ## Publication
 
 In no event shall a document be published on the IETF Stream
-without IETF consensus.
+without IETF consensus, as determined by the IESG.
 
 If a standards action is approved, notification is sent to the RFC
 Editor and copied to the IETF with instructions to publish the
@@ -1183,11 +1182,11 @@ A TS can use elective or optional (editorial).
 
 - Draft 12:
 Change wording about IETF last call (editorial).
-Remove missed "need not be public" sentence from draft 9 (see above)
 Use Ethernet not Unicode as a sample reference (JohnK at IETF 126).
 Avoid most uses of links into specific pages (Jean at IETF 126)
 Restore text about private discussions removed in Draft 9 (rechartering).
 Take Jari's wording (from issue #47) on ADs can delegate (Jari).
+IESG determines IETF consensus (rechartering).
 
 ## Individual draft
 
