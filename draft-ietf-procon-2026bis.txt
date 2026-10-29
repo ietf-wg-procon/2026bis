@@ -267,8 +267,7 @@ Table of Contents
    RFCs cover a wide range of topics in addition to Internet Standards,
    from early discussion of new research concepts to status memos about
    the Internet.  For information about the input format, style guide,
-   and supported output formats see https://www.rfc-editor.org
-   (https://www.rfc-editor.org).
+   and supported output formats see [RFCED].
 
    Some RFCs document an "Internet Standard."  These RFCs form the "STD"
    subseries of the RFC series [RFC1311].  When a specification has been
