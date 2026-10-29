@@ -777,7 +777,8 @@ much as possible the process is designed so that compromises can be
 made, and genuine consensus achieved, however there are times when
 even the most reasonable and knowledgeable people are unable to
 agree. To achieve the goals of openness and fairness, such conflicts
-must be resolved by a process of open review and discussion. This
+must be resolved by a process of open review and, where appropriate,
+open discussion. This
 section specifies the procedures that shall be followed to deal with
 Internet Standards Process issues that cannot be resolved through the normal
 processes whereby IETF Working Groups and other Internet Standards
@@ -801,10 +802,12 @@ always first discuss the matter with the Working Group's chair(s),
 who may involve other members of the Working Group (or the Working
 Group as a whole) in the discussion.
 
-If the disagreement cannot be resolved in this way, any of the
-parties involved may bring it to the attention of the Area
-Director(s) for the area in which the Working Group is chartered.
-The Area Director(s) shall attempt to resolve the dispute.
+If the disagreement cannot be resolved in this way, any of the parties
+involved may bring it to the attention of the Area Director(s) for the
+area in which the Working Group is chartered. The treatment of any
+particular disagreement may also be delegated to other Area Director(s)
+in this or other areas where necessary. The Area Director(s) shall
+attempt to resolve the dispute.
 
 If the disagreement cannot be resolved by the Area Director(s) any of
 the parties involved may then appeal to the IESG as a whole. The
@@ -882,6 +885,8 @@ At all stages of the appeals process, the individuals or bodies
 responsible for making the decisions have the discretion to define
 the specific procedures they will follow in the process of making
 their decision.
+Note that this does not require that all discussion be held in public
+forums.
 
 In all cases a decision concerning the disposition of the dispute,
 and the communication of that decision to the parties involved, must
@@ -1181,6 +1186,8 @@ Change wording about IETF last call (editorial).
 Remove missed "need not be public" sentence from draft 9 (see above)
 Use Ethernet not Unicode as a sample reference (JohnK at IETF 126).
 Avoid most uses of links into specific pages (Jean at IETF 126)
+Restore text about private discussions removed in Draft 9 (rechartering).
+Take Jari's wording (from issue #47) on ADs can delegate (Jari).
 
 ## Individual draft
 
