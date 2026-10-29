@@ -877,7 +877,7 @@ with respect to all aspects of the dispute.
 All appeals must include a detailed and specific description of the
 facts of the dispute.
 
-All appeals must be initiated within two months of the public
+All appeals must be initiated within 60 calendar days of the public
 knowledge of the action or decision to be challenged.
 
 At all stages of the appeals process, the individuals or bodies
@@ -1187,6 +1187,7 @@ Avoid most uses of links into specific pages (Jean at IETF 126)
 Restore text about private discussions removed in Draft 9 (rechartering).
 Take Jari's wording (from issue #47) on ADs can delegate (Jari).
 IESG determines IETF consensus (rechartering).
+Change appeal deadline to 60 days (isue #90) (Sean).
 
 ## Individual draft
 
