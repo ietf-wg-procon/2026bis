@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-10-15T02:17:11.918915+00:00",
+  "timestamp": "2026-11-01T03:07:05.205485+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -34,7 +34,7 @@
       "color": "ffffff"
     },
     {
-      "name": "policy change",
+      "name": "hold for recharter",
       "description": "A change in the current operating policy/procedures.",
       "color": "6e2030"
     }
@@ -200,18 +200,17 @@
       "id": "I_kwDOMZ1wVs7ITSPo",
       "title": "record keeping and appeals",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/24",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "hold",
         "reality"
       ],
       "body": "sec 8 says keep public records.  appeals typically have private discussions.  See https://mailarchive.ietf.org/arch/msg/mod-discuss/1yLv1NKGr7hcmOLOQmd6XLCNcWo/\n",
       "createdAt": "2025-08-27T18:47:26Z",
-      "updatedAt": "2026-06-16T13:29:50Z",
-      "closedAt": null,
+      "updatedAt": "2026-10-29T18:01:54Z",
+      "closedAt": "2026-10-29T18:01:54Z",
       "comments": [
         {
           "author": "richsalz",
@@ -254,6 +253,13 @@
           "body": "On hold for re-chartering.",
           "createdAt": "2026-06-16T13:29:50Z",
           "updatedAt": "2026-06-16T13:29:50Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed in draft 12, closing.\n",
+          "createdAt": "2026-10-29T18:01:54Z",
+          "updatedAt": "2026-10-29T18:01:54Z"
         }
       ]
     },
@@ -868,18 +874,17 @@
       "id": "I_kwDOMZ1wVs7Tp2rX",
       "title": "8.5.1: appeals; ADs can divide/delegate",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/47",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "hold",
         "reality"
       ],
       "body": "Working groups typically have a responsible AD.  Appeals are first handled by that AD, right?  Then the IESG",
       "createdAt": "2025-10-24T20:45:26Z",
-      "updatedAt": "2026-06-16T13:27:34Z",
-      "closedAt": null,
+      "updatedAt": "2026-10-29T17:12:42Z",
+      "closedAt": "2026-10-29T17:12:42Z",
       "comments": [
         {
           "author": "richsalz",
@@ -1238,18 +1243,17 @@
       "id": "I_kwDOMZ1wVs8AAAABDjzGAg",
       "title": "Who determines IETF consensus?",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/77",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "hold",
         "reality"
       ],
       "body": "Arguably the IESG determines if there is IETF consensus to publish an RFC on the IETF stream, but 9798 doesn't say that and 2026bis doesn't clarify.",
       "createdAt": "2026-05-27T16:04:25Z",
-      "updatedAt": "2026-06-24T17:13:09Z",
-      "closedAt": null,
+      "updatedAt": "2026-10-29T17:12:44Z",
+      "closedAt": "2026-10-29T17:12:44Z",
       "comments": [
         {
           "author": "becarpenter",
@@ -1350,12 +1354,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "hold",
         "discuss"
       ],
       "body": "From Brian's WGLC comments and subsequent threads:\n\n\"the datatracker that introduced the use of \"inactive\" plus the ability to switch a draft between active and inactive. As a practical matter, that seems more fit for purpose than the rigid \"6 months and you're gone\" laid down by RFC 2026. But I have to admit, it's not clearly editorial to s/expired/inactive/.\"\n\nAlso, there have been at least one attempt to say \"drafts never expire\" which didn't go anywhere, so we might want to keep the term as-is to avoid confusion with that issue.\n\nSo do we need active/inactive/expire clarification?",
       "createdAt": "2026-06-23T20:51:25Z",
-      "updatedAt": "2026-06-23T20:51:25Z",
+      "updatedAt": "2026-10-29T18:38:36Z",
       "closedAt": null,
       "comments": []
     },
@@ -1369,12 +1372,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "editorial",
-        "hold"
+        "editorial"
       ],
       "body": "RFC 1311 has text that does not appear in 2026bis. From email by Brian:\n\n\"This isn't as easy as it might seem. For example, 1311 says:\n\n       The general rule is that a separate STD number is used when the\n       specification is logically separable.  That is, logically\n       separable options are assigned distinct STD numbers while\n       amendments and non-optional extensions use the same STD number as\n       the base specification.\n\nSo to be honest I think there is work to be done before obsoleting 1311,\nand that work might be a distraction from getting 2026bis finalised.\"",
       "createdAt": "2026-06-23T21:01:34Z",
-      "updatedAt": "2026-06-23T21:01:34Z",
+      "updatedAt": "2026-10-29T18:42:38Z",
       "closedAt": null,
       "comments": []
     },
@@ -1414,11 +1416,11 @@
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [
-        "hold"
+        "discuss"
       ],
       "body": "From an email exchange https://mailarchive.ietf.org/arch/msg/procon/g66x82sl8q4kcw2_cSXHQyX3tyY/\n\nScott:\n\"Obsoleted by\" meant just that and no more\nHistoric meant - do not use (hopefully with a reason)  (e.g. RIPv1 - do not use because it did not support classless addressing)\n\nBrian:\nThat really isn't very clear in RFC 2026, and I don't think it's been used consistently in that sense. From time to time, people suggest that we need a formal definition of \"Deprecated\" too.\n\nScott:\nagreed - it is not as clear as it should have been\nand, thus, has not been  used consistently",
       "createdAt": "2026-06-26T13:23:18Z",
-      "updatedAt": "2026-06-26T13:23:44Z",
+      "updatedAt": "2026-10-29T13:40:59Z",
       "closedAt": null,
       "comments": []
     },
@@ -1432,12 +1434,12 @@
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [
-        "discuss",
-        "policy change"
+        "hold",
+        "hold for recharter"
       ],
       "body": "## Problem \nThe current _DISCUSS_ mechanism allows individual Area Directors to block \nthe Standards Track indefinitely based on non-technical, philosophical, \nor political prose.\n\n## Suggested Solution \nKeep the existing _DISCUSS_ state but structurally mandate substantial and\nverifiable technical justification. \n\nThe Datatracker backend **MUST** automatically reject or clear any _DISCUSS_ \nposition unless the objecting Area Director provides a concrete technical proof \ndemonstrating at least one of the following criteria:\n\n1. Direct protocol degradation on architectural levels.\n2. Violation of core security/operational guardrails.\n3. Fatal disruption of backward compatibility.\n\nObjections failing this validation check **MUST** be ignored by the core \npipeline, clearing the document for immediate publication.",
       "createdAt": "2026-07-16T14:41:04Z",
-      "updatedAt": "2026-10-14T09:22:31Z",
+      "updatedAt": "2026-10-29T18:38:08Z",
       "closedAt": null,
       "comments": [
         {
@@ -1488,15 +1490,15 @@
       "id": "I_kwDOMZ1wVs8AAAABTwv4uw",
       "title": "When can you initiate an appeal",
       "url": "https://github.com/ietf-wg-procon/2026bis/issues/90",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "seanturner",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "Currently the text in Section 8.7.4 says this about when an appeal can be initiated:\n\n    All appeals must be initiated within two months of the public\n    knowledge of the action or decision to be challenged.\n\nDepending on the months in question, two months could be 59, 60, 61, or 62 days. To make it really clear, can we settle on 60 calendar days?",
       "createdAt": "2026-09-28T20:59:19Z",
-      "updatedAt": "2026-09-28T20:59:19Z",
-      "closedAt": null,
+      "updatedAt": "2026-10-29T18:03:47Z",
+      "closedAt": "2026-10-29T18:03:47Z",
       "comments": []
     }
   ],
