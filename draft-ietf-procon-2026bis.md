@@ -700,8 +700,7 @@ without IETF consensus, as determined by the IESG.
 
 If a standards action is approved, notification is sent to the RFC
 Editor and copied to the IETF with instructions to publish the
-specification as an RFC. The specification shall at that point be
-removed from the Internet-Drafts directory.
+specification as an RFC.
 
 ## Advancing in the Standards Track
 
@@ -1188,6 +1187,9 @@ Restore text about private discussions removed in Draft 9 (rechartering).
 Take Jari's wording (from issue #47) on ADs can delegate (Jari).
 IESG determines IETF consensus (rechartering).
 Change appeal deadline to 60 days (isue #90) (Sean).
+
+- Draft 13:
+Published RFCs do not remove the draft (C. M. Heard)
 
 ## Individual draft
 
