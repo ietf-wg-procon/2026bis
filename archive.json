@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-10T05:08:11.740503+00:00",
+  "timestamp": "2026-11-15T03:43:40.166075+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1358,9 +1358,17 @@
       ],
       "body": "From Brian's WGLC comments and subsequent threads:\n\n\"the datatracker that introduced the use of \"inactive\" plus the ability to switch a draft between active and inactive. As a practical matter, that seems more fit for purpose than the rigid \"6 months and you're gone\" laid down by RFC 2026. But I have to admit, it's not clearly editorial to s/expired/inactive/.\"\n\nAlso, there have been at least one attempt to say \"drafts never expire\" which didn't go anywhere, so we might want to keep the term as-is to avoid confusion with that issue.\n\nSo do we need active/inactive/expire clarification?",
       "createdAt": "2026-06-23T20:51:25Z",
-      "updatedAt": "2026-10-29T18:38:36Z",
+      "updatedAt": "2026-11-12T16:06:58Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I'm not sure the data tracker has switched to use of active/inactive. I haven't talked to the people who have defined the behavior about this, but I'll observe the following:\n\n- Drafts that are not updated after longer than 6 months are actually marked as expired in the draft page or on the authors' pages. See for instance https://datatracker.ietf.org/person/jari.arkko@gmail.com\n\n- Drafts that have been replaced by something (e.g., a WG draft) are marked in their draft page in one part of the page as \"expired and archived\" and in another place on the same page as \"no longer active\". See for instance \"https://datatracker.ietf.org/doc/draft-eggert-procon-chair-delegate/\n\nPersonal proposal: let's not change the terminology.\n",
+          "createdAt": "2026-11-12T16:06:46Z",
+          "updatedAt": "2026-11-12T16:06:58Z"
+        }
+      ]
     },
     {
       "number": 83,
@@ -1376,9 +1384,17 @@
       ],
       "body": "RFC 1311 has text that does not appear in 2026bis. From email by Brian:\n\n\"This isn't as easy as it might seem. For example, 1311 says:\n\n       The general rule is that a separate STD number is used when the\n       specification is logically separable.  That is, logically\n       separable options are assigned distinct STD numbers while\n       amendments and non-optional extensions use the same STD number as\n       the base specification.\n\nSo to be honest I think there is work to be done before obsoleting 1311,\nand that work might be a distraction from getting 2026bis finalised.\"",
       "createdAt": "2026-06-23T21:01:34Z",
-      "updatedAt": "2026-10-29T18:42:38Z",
+      "updatedAt": "2026-11-12T15:58:29Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I reviewed current 2026bis text, the issue, and RFC 1311. \n\nI concur with Brian that there'd be work to be done before simply obsoleting 1311. There's in fact several categories of things to handle: \n\n1/ Text that should stay; there's many parts of 1311 that are in this category and are not yet in 2026bis: the logical separation piece, the updated protocol retaining same STD number, STD+RFC number identifying a version, ...\n2/ Text that isn't absolutely necessary, e.g., the DNS STD examples, or the concept-status distinction. Or text that clearly isn't needed, e.g., the arguments why it makes sense to do this with RFC series, or the formatting requirements on status of the memo, distribution, and security considerations.\n3/ Text that doesn't hold any more, e.g., IAB deciding STDs or requesting announcements by sending mail to RFC-REQUEST@NIC.DDN.MIL.\n4/ Deciding between 1 , 2 and 3, in case the answer isn't always obvious.\n5/ Is there still a need to refer to 1311 for some information, e.g., the list of grandfathered STDs for the sake of retaining the history?\n\nOverall, this seems a fair amount of work. While there isn't an obvious disagreement in any of the above, it also isn't something that is necessarily trivial to get right without some additional rounds of discussion.\n\nI'm not entirely sure it is worth the effort.\n\nFWIW, still if we keep the reference text as is, we're pointing to an RFC that says things that are currently not true.\n",
+          "createdAt": "2026-11-12T15:58:29Z",
+          "updatedAt": "2026-11-12T15:58:29Z"
+        }
+      ]
     },
     {
       "number": 84,
@@ -1473,7 +1489,7 @@
       ],
       "body": "From https://datatracker.ietf.org/doc/statement-iesg-statement-on-the-conflict-resolution-and-appeals-processes/:\n\n  The subsections of Section 6.5 of [RFC2026](https://datatracker.ietf.org/doc/rfc2026/) use different terms (\u201cconflict\u201d, \u201cdispute\u201d, \u201ccomplaint\u201d, and \u201cappeal\u201d) interchangeably for the same conflict review and appeals processes.",
       "createdAt": "2026-09-21T00:23:58Z",
-      "updatedAt": "2026-09-26T10:33:11Z",
+      "updatedAt": "2026-11-12T07:51:20Z",
       "closedAt": null,
       "comments": [
         {
@@ -1482,6 +1498,13 @@
           "body": "The term Dispute SHOULD only be applied to Section 8.7.1 (former 6.5.1). The term Appeal SHOULD be used in the sectiond 8.7.2-4 (former 6.5.2-4) and in their references. The other tems should be replaced by them. \n\nTerminological separation of Section 8.7.1 seems to be useful, because regularly it represents a procedural consensus-building stage within the Working Group.",
           "createdAt": "2026-09-26T10:31:17Z",
           "updatedAt": "2026-09-26T10:33:11Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Rich, I agree with the alignment need.\n\nTimo, isn't there a distinction still in that an appeal is something which can be followed by a dispute and could potentially resolve either a dispute or a process failure... how would one say \"All appeals must include a detailed and specific description of the facts of the dispute\" (S 8.7.3) for instance unless one was able to use both the terms appeal and dispute?",
+          "createdAt": "2026-11-12T07:51:19Z",
+          "updatedAt": "2026-11-12T07:51:19Z"
         }
       ]
     },
@@ -1500,6 +1523,30 @@
       "updatedAt": "2026-10-29T18:03:47Z",
       "closedAt": "2026-10-29T18:03:47Z",
       "comments": []
+    },
+    {
+      "number": 92,
+      "id": "I_kwDOMZ1wVs8AAAABerlGjQ",
+      "title": "Section 4.2 page reference seems quite a specific URL",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/92",
+      "state": "OPEN",
+      "author": "jariarkko",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The URL is https://authors.ietf.org/en/required-content\t\n\nWill this URL continue to exist at this location? Is there a better pointer?\n\n\n",
+      "createdAt": "2026-11-12T16:10:21Z",
+      "updatedAt": "2026-11-14T18:56:03Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "ajeanmahoney",
+          "authorAssociation": "NONE",
+          "body": "The authors.ietf.org wiki is where author-specific information has moved. www.rfc-editor.org holds some style guide info (https://www.rfc-editor.org/authors/rfc-style-guide/), but the details are on authors.ietf.org now. \n\nNote that the [RFCED] link also needs adjustment; all of that info can be found at authors.ietf.org. The boilerplate details live at https://www.rfc-editor.org/authors/rfc-style-guide/#rfc-headers-and-boilerplate, but how to invoke the boilerplate can be found on authors.ietf.org:\n>The format of an Internet-Draft is mostly the same as for an RFC. Full details, including the naming conventions and required contents, can be found at [[RFCED](https://www.ietf.org/archive/id/draft-ietf-procon-2026bis-12.html#RFCED)]. Of particular importance is the legal boilerplate and copyright as described in the \"Copyright Notice\" section of https://authors.ietf.org/en/required-content.\n\nWe can assume that https://authors.ietf.org/en/required-content is stable enough. If the content moves, there should be a redirect put in place. A more stable link would be https://authors.ietf.org/",
+          "createdAt": "2026-11-14T18:56:03Z",
+          "updatedAt": "2026-11-14T18:56:03Z"
+        }
+      ]
     }
   ],
   "pulls": [
