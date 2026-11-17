@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-15T03:43:40.166075+00:00",
+  "timestamp": "2026-11-17T05:39:35.490344+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1384,7 +1384,7 @@
       ],
       "body": "RFC 1311 has text that does not appear in 2026bis. From email by Brian:\n\n\"This isn't as easy as it might seem. For example, 1311 says:\n\n       The general rule is that a separate STD number is used when the\n       specification is logically separable.  That is, logically\n       separable options are assigned distinct STD numbers while\n       amendments and non-optional extensions use the same STD number as\n       the base specification.\n\nSo to be honest I think there is work to be done before obsoleting 1311,\nand that work might be a distraction from getting 2026bis finalised.\"",
       "createdAt": "2026-06-23T21:01:34Z",
-      "updatedAt": "2026-11-12T15:58:29Z",
+      "updatedAt": "2026-11-15T04:03:34Z",
       "closedAt": null,
       "comments": [
         {
@@ -1393,6 +1393,13 @@
           "body": "I reviewed current 2026bis text, the issue, and RFC 1311. \n\nI concur with Brian that there'd be work to be done before simply obsoleting 1311. There's in fact several categories of things to handle: \n\n1/ Text that should stay; there's many parts of 1311 that are in this category and are not yet in 2026bis: the logical separation piece, the updated protocol retaining same STD number, STD+RFC number identifying a version, ...\n2/ Text that isn't absolutely necessary, e.g., the DNS STD examples, or the concept-status distinction. Or text that clearly isn't needed, e.g., the arguments why it makes sense to do this with RFC series, or the formatting requirements on status of the memo, distribution, and security considerations.\n3/ Text that doesn't hold any more, e.g., IAB deciding STDs or requesting announcements by sending mail to RFC-REQUEST@NIC.DDN.MIL.\n4/ Deciding between 1 , 2 and 3, in case the answer isn't always obvious.\n5/ Is there still a need to refer to 1311 for some information, e.g., the list of grandfathered STDs for the sake of retaining the history?\n\nOverall, this seems a fair amount of work. While there isn't an obvious disagreement in any of the above, it also isn't something that is necessarily trivial to get right without some additional rounds of discussion.\n\nI'm not entirely sure it is worth the effort.\n\nFWIW, still if we keep the reference text as is, we're pointing to an RFC that says things that are currently not true.\n",
           "createdAt": "2026-11-12T15:58:29Z",
           "updatedAt": "2026-11-12T15:58:29Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "> FWIW, still if we keep the reference text as is, we're pointing to an RFC that says things that are currently not true.\n\nTrue, but it's the only definition of the STD series that we have. I just submitted an erratum to act as a hint for future readers.",
+          "createdAt": "2026-11-15T04:03:34Z",
+          "updatedAt": "2026-11-15T04:03:34Z"
         }
       ]
     },
