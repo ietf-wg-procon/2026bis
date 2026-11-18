@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)               Harvard University (retired)
-Updates: 7475 (if approved)                              29 October 2026
+Updates: 7475 (if approved)                             18 November 2026
 Intended status: Best Current Practice                                  
-Expires: 2 May 2027
+Expires: 22 May 2027
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 May 2027.
+   This Internet-Draft will expire on 22 May 2027.
 
 Copyright Notice
 
@@ -755,8 +755,7 @@ Table of Contents
 
    If a standards action is approved, notification is sent to the RFC
    Editor and copied to the IETF with instructions to publish the
-   specification as an RFC.  The specification shall at that point be
-   removed from the Internet-Drafts directory.
+   specification as an RFC.
 
 8.4.  Advancing in the Standards Track
 
@@ -1224,6 +1223,8 @@ Table of Contents
       (rechartering).  Take Jari's wording (from issue #47) on ADs can
       delegate (Jari).  IESG determines IETF consensus (rechartering).
       Change appeal deadline to 60 days (isue #90) (Sean).
+
+   *  Draft 13: Published RFCs do not remove the draft (C.  M.  Heard)
 
 14.2.  Individual draft
 
